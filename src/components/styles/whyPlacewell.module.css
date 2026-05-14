@@ -98,7 +98,7 @@
   height: 24px;
   
   border-radius: 50%;
-  color: #4caf50;
+  color: #104675;
 }
 
 .item h4 {
@@ -115,11 +115,11 @@
 .titleHead {
     font-size: 32px;
     margin-bottom: 10px;
-    color: #448153;
+    color: #104675;
   }
 
 .iconStat{
-  color: #448153;
+  color: #CC121B;
   font-size: 30px;
   margin-bottom: 10px;
 }
@@ -129,11 +129,11 @@
   background: 
   linear-gradient(
     90deg,
-    rgba(68, 129, 83, 0.95) 0%,
-    rgba(68, 129, 83, 0.75) 30%,
-    rgba(68, 129, 83, 0.45) 60%,
-    rgba(68, 129, 83, 0.2) 80%,
-    rgba(68, 129, 83, 0) 100%
+    rgba(13, 0, 100, 0.95) 0%,
+    rgba(13, 0, 100, 0.75) 30%,
+    rgba(13, 0, 100, 0.45) 60%,
+    rgba(13, 0, 100, 0.2) 80%,
+    rgba(13, 0, 100, 0) 100%
   ),
   url("/img/img2.jpg");
 

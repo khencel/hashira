@@ -6,7 +6,10 @@
   display: flex;
   align-items: center;
   padding: 0 8%;
-  color: #448153;
+  color: #104675;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .heroRight {
@@ -18,7 +21,7 @@
   align-items: center;
   justify-content: flex-end;
   padding: 0 8%;
-  color: #448153;
+  color: #104675;
 }
 
 /* content */
@@ -40,7 +43,7 @@
 .content p {
   font-size: 1.1rem;
   margin-bottom: 25px;
-  color: #8F6843;
+  color: black;
 }
 
 /* BUTTONS */
@@ -51,7 +54,7 @@
 }
 
 .btnprimary {
-  background: #709C6B;
+  background: #104675;
   border: none;
   padding: 12px 24px;
   color: white;
@@ -61,7 +64,7 @@
 }
 
 .btnprimary:hover {
-  background: #8F6843;
+  background: #CFA711;
 }
 
 .btnoutline {
@@ -70,12 +73,12 @@
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  border: 1px solid #709C6B;
-  color: #709C6B;
+  border: 1px solid #104675;
+  color: #104675;
 }
 
 .btnoutline:hover {
-  background: #709C6B;
+  background: #CFA711;
   color: white;
 }
 

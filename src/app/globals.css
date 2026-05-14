@@ -18,7 +18,7 @@
 }
 
 .logo img {
-  height: 80px;
+  height: 90px;
 }
 
 /* BURGER */
@@ -46,13 +46,13 @@
 
 .nav-menu li a {
   text-decoration: none;
-  color: #448153;
+  color: #104675;
   font-size: 16px;
   font-weight: 600;
 }
 
 .nav-menu li a:hover {
-  color: #8F6843;
+  color: #CC121B;
 }
 
 .for-mobile{
@@ -198,7 +198,7 @@
 
 
 .brand-stripe {
-  background: #448153;
+  background: #104675;
   height: 16px;
   display: flex;
 }
@@ -213,15 +213,15 @@
 }
 
 .bg-accent {
-    background-color: #8F6843 !important;
+    background-color: #CC121B !important;
 }
 .bg-alt {
-    background-color: #709C6B !important;
+    background-color: #CFA711 !important;
 }
 
 .social-icon{
     font-size: 30px;
-    color: #448153;
+    color: #104675;
 }
 
 .mega-wrapper {
@@ -432,7 +432,7 @@
 }
 
 .btnprimary {
-  background: #709C6B;
+  background: #104675;
   border: none;
   padding: 12px 24px;
   color: white;
@@ -451,11 +451,11 @@
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  border: 1px solid #709C6B;
+  border: 1px solid #104675;
   color: #709C6B;
 }
 
 .btnoutline:hover {
-  background: #709C6B;
+  background: #104675;
   color: white;
 }

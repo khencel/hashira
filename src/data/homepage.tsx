@@ -2,28 +2,65 @@ export function getRollingData() {
     return [
         {
             image: "img/why_placewell/branches-400x267.jpg",
-            title: "20 branches nationwide",
-            description: "With 20+ branch offices strategically placed in main component cities all over the Philippines, Placewell International is able to recruit workers and conduct interviews nationwide.",
+            title: "COMPANY CULTURE",
+            description: `Our students live wi th
+            their teachers under a campus wi th a Japanlike environment . They intent ionally use
+            the Japanese
+            language, pract ice the
+            Japanese cul ture and even pract ice their skills under a
+            Japanese system.`,
         },
         {
             image: "img/why_placewell/Executive-Conference-Room-400x267.jpg",
-            title: "One-stop shop",
-            description: "From our strict recruitment, screening, and interview process to personalized skills and language training, we assist your company from A to Z so that you pick the Filipino workers who fit best with your company’s needs.",
+            title: "PROFICIENT SYSTEM",
+            description: `We screen our students well before
+            accept ing them into
+            our school. . Af ter properly orient ing the
+            candidates who pass our screening process, we thoroughly
+            interview them in order to judge their viabili ty for work in
+            Japan.
+`
         },
         {
             image: "img/why_placewell/Facade-400x267.jpg",
-            title: "A trusted company with history",
-            description: "With over 45+ years of experience in the Philippine Manpower industry, Placewell Industry has a proven track record of providing quality and efficient service to both its Filipino workers and foreign clients.",
+            title: "PROVEN TEACHING METHODOLOGY",
+            description: `Our school operates under a system that makes our students
+                st rive for excellence. We give our students monthly writ ten and oral exams, rewarding
+                top students and
+                penalizing
+                underperforming
+                students..`
         },
         {
             image: "img/why_placewell/govt-400x267.jpg",
-            title: "Good relations with philippine government agencies",
-            description: "Given Placewell International’s good reputation in the Philippine Manpower industry, the Philippine government is open to helping our company in recruiting workers and speeding up the deployment process.",
+            title: "MANNER AND SKILLS TRAINING",
+            description: `Our students learn
+                not only the
+                Japanese language, but they also
+                practice Japanese
+                cul ture and manners
+                such as proper
+                “Aisatsu” and the
+                impor tance of always being on time. Moreover, our students also get
+                to develop their skills by undertaking skills
+                t raining under a
+                Japanese system.
+`
         },
         {
             image: "img/why_placewell/groupchat-400x267.jpg",
-            title: "Fast and systematic group chat system",
-            description: "Our company takes communication with our partners and clients very seriously. We make sure to correspond promptly and efficiently by using group chat systems on WhatsApp and Line, providing the best service to our employers.",
+            title: "PASSIONATE TEACHERS AND STAFF",
+            description: `All of our teachers have worked in Japan for at
+                least 3 years under the
+                TITP and are JLPT
+                (Minimum N3) and JFT Prometric passers. They t ruly love the
+                company and it can be
+                seen in the way they
+                interact with students, clients and one
+                another. Our teachers
+                are empathet ic, honest and passionate, making
+                them the Hashiras of Hashira.
+`
         },
     ]
 }

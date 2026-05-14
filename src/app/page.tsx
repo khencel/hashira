@@ -39,11 +39,11 @@ export default function Home() {
   title: {
     fontSize: "32px",
     marginBottom: "10px",
-    color: "#448153",
+    color: "#104675",
   },
 
   subtitle: {
-    color: "#94a3b8",
+    color: "black",
   },
 
   videoCard: {
@@ -78,7 +78,7 @@ export default function Home() {
     width: "100%",
     height: "60%",
 
-    background: "linear-gradient(to bottom, transparent, #709C6B)",
+    background: "linear-gradient(to bottom, transparent, #104675)",
     zIndex: 0,
     pointerEvents: "none",
   },
@@ -90,7 +90,7 @@ export default function Home() {
         slidesPerView={1}
         loop={true}
         modules={[Autoplay]}
-        autoplay={{ delay: 2000 }}
+        // autoplay={{ delay: 2000 }}
         speed={800}
       >
         <SwiperSlide>

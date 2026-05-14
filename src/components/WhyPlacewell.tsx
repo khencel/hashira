@@ -49,10 +49,27 @@ export default function WhyPlacewell() {
 
             {/* RIGHT SIDE */}
             <div className={s.right}>
-            <span className={s.titleHead}>Why Placewell</span>
-            <p className={s.desc}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi excepturi odit deleniti, maxime, natus quibusdam unde accusantium aperiam aut esse reprehenderit tempora! Eos ducimus ut adipisci animi velit facilis perferendis?
-            </p>
+            <span className={s.titleHead}>Why Hashira?</span>
+            <br />
+            <span className={s.desc}>
+                Hashira 柱 is a Japanese language inst i tution that is dedicated to
+                helping Filipinos achieve their dream of working in Japan by providing
+                them wi th high-quali ty
+                Japanese language, cul ture and skills t raining.
+                Hashira 柱 is the Japanese word for “Pillar” or “Foundation”.
+                Our school was named Hashira 柱 for 2 reasons:
+                <ul>
+                    <li>
+                        “People are the Stones of a Castle” is a Japanese saying that emphasizes the
+                        impor tance of good workers as the foundat ion of a successful company. Our school is
+                        commi t ted to molding workers who will be valuable to any Japanese company.
+                    </li>
+                    <li>
+                        The Filipino workers who graduate from our school and eventually star t working in Japan will be the Pillars of their families. The hard work of these “Pillars” will set their families
+                        for generat ions to come.
+                    </li>
+                </ul>
+            </span>
 
             <div className={s.list}>
                 {rollingData.map((item, i) => (
