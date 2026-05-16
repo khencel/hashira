@@ -27,4 +27,166 @@
     
 }
 
+.longParagraph {
+  line-height: 1.8;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 16px;
+  text-align: justify;
+
+  /* para hindi sobrang haba tingnan */
+  max-width: 800px;
+
+  /* auto spacing */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+
+.presidentImageWrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    min-height: 500px;
+}
+
+.blueBg{
+    position: absolute;
+    bottom: 0;
+
+    width: 75%;
+    height: 85%;
+
+    background: linear-gradient(
+        135deg,
+        #0b2e63 0%,
+        #144d99 100%
+    );
+
+    border-radius: 40px;
+
+    clip-path: polygon(
+        12% 0,
+        100% 0,
+        88% 100%,
+        0 100%
+    );
+
+    overflow: hidden;
+
+    z-index: 1;
+}
+
+.blueBg::before{
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    top: 0;
+
+    width: 18px;
+    height: 100%;
+
+    background: rgb(207,167,17);
+
+    border-radius: 40px 0 0 40px;
+}
+
+/* Optional soft glow */
+.blueBg::after{
+    content: "";
+
+    position: absolute;
+
+    top: -50px;
+    right: -50px;
+
+    width: 180px;
+    height: 180px;
+
+    background: rgba(255,255,255,0.08);
+
+    border-radius: 50%;
+}
+
+.presidentImage{
+    position: relative;
+    width: 70%;
+    z-index: 2;
+
+    filter: drop-shadow(
+        0 20px 30px rgba(0,0,0,0.2)
+    );
+}
+
+.dotPattern{
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    width: 120px;
+    height: 120px;
+    background-image: radial-gradient(
+        #77a5f5 1.5px,
+        transparent 1.5px
+    );
+    background-size: 12px 12px;
+    z-index: 0;
+}
+
+.rightSlideDiv{
+    position: relative;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* slanted effect (desktop) */
+.rightSlideDiv::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -40px;
+    width: 80px;
+    height: 100%;
+    background: white;
+    transform: skewX(-15deg);
+    z-index: 2;
+}
+
+.leftSlideDiv{
+    position: relative;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.leftSlideDiv::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -40px; /* changed from left */
+    width: 80px;
+    height: 100%;
+    background: white;
+    transform: skewX(15deg); /* opposite direction */
+    z-index: 2;
+}
+
+/* 📱 mobile fix */
+@media (max-width: 768px){
+    .rightSlideDiv{
+        height: 220px;
+    }
+
+    .rightSlideDiv::before{
+        display: none; /* alisin slant sa mobile */
+    }
+}
+
 

@@ -69,28 +69,56 @@ export function getWhyHireFilipino() {
     return [
         {
             image: "img/why_hire/Bartender-400x267.jpg",
-            title: "Low average age",
-            description: "The average in the Philippines is around 25 years old, which means that there is a lot of youthful energy available for work.",
+            title: "WELL-KNOWN AS PEOPLE WHO WORK ABROAD",
+            description: `There are Filipinos all over the world from
+                the Uni ted States to
+                the Middle-East and Europe and all across Asia. Filipino workers have been known to be
+                hard-working, bright ,
+                friendly and loyal to
+                their employers.`,
         },
         {
             image: "img/why_hire/Caregiver-400x267.jpg",
-            title: "Cost-effective high quality labor",
-            description: "Although it may cost less to hire Filipino workers than locals, there will be no sacrifice in the quality of work. In fact, Filipinos who work abroad tend to work even harder than locals because of their feelings of gratitude and urgency to perform.",
+            title: "ENGLISH SPEAKING",
+            description: `Japan is moving
+                towards Globalizat ion
+                and the demand for
+                the English language
+                is growing across the
+                count ry. Almost all Filipinos are proficient
+                in English and are
+                happy to share their`,
         },
         {
             image: "img/why_hire/deliver-support-1.jpg",
-            title: "Low minimum wage",
-            description: "The minimum wage in the Philippines is around $200 USD/month. This fact has driven Filipinos to find employment in foreign countries. They work extremely hard because they feel blessed to be earning higher wages abroad.",
+            title: "LOW AVERAGE AGE",
+            description: `The average age in the Philippines is around 25 years old, which means that there is a
+                lot of youthful energy available for work in
+                an aging Japan.`,
         },
         {
             image: "img/why_hire/Engineer-400x267.jpg",
-            title: "Well-known as People who work abroad",
-            description: "There are Filipinos all over the world from Europe to the Middle East, North America, and all across Asia. Filipino workers have been known to be hard-working, friendly, and loyal to their employers.",
+            title: "LOW MINIMUM WAGE",
+            description: `The minimum wage in
+                the Philippines is
+                around 1,000yen/day. This has driven
+                Filipinos to find employment in
+                foreign countries, wi th Japan being the
+                top choice
+                for many Filipinos.`,
         },
         {
             image: "img/why_hire/Light-Driver-400x267.jpg",
-            title: "English Speaking",
-            description: "The demand for workers who are competent in the English language is growing with the rise of Globalization. The English language is especially important in the hotel and restaurant industry. Almost all Filipinos are proficient in English and are happy to share and utilize their skills.",
+            title: "FILIPINOS LOVE JAPAN",
+            description: `Filipinos are t ruly enchanted by Japan
+                and its people. We
+                love to watch Anime, sing Karaoke and eat Ramen and Sushi. You probably won’t
+                find a Filipino who
+                doesn’t know what
+                “Arigato” means!
+                Japan is really the
+                dream count ry of many Filipinos.
+                `,
         },
     ]
 }

@@ -10,7 +10,9 @@ const cards = [
           stroke="#709C6B" strokeWidth="1.5" strokeLinejoin="round"/>
       </svg>
     ),
-    text: 'To be the most trusted, most reliable Philippine manpower services company in the world, recognized for readily available efficient services to our clients; for loyalty to our employees; for fidelity to our stockholders; and for social responsibility to our community.',
+    text: `To create an inspiring learning environment for students where the
+      Japanese language and culture are practiced daily, leading to their personal development, growth and future success. We hope that the
+      success of our students will lead to more opportunities for Filipinos to work in Japan.`,
   },
   {
     title: 'Vision',
@@ -25,7 +27,8 @@ const cards = [
         <line x1="19" y1="12" x2="22" y2="12" stroke="#8F6843" strokeWidth="1.5" strokeLinecap="round"/>
       </svg>
     ),
-    text: 'A Philippine manpower services company, born of excellence, nurtured by expertise, and committed to leading in meeting the needs of global employers for highly competent, professional, and skilled Filipino workers.',
+    text: `To make the Filipino the top choice for Japanese companies that need
+        foreign labor. We aim to make our institution one of the prime spots for Filipinos who are looking to find work in Japan.`,
   },
   {
     title: 'Corporate Philosophy',
