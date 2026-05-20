@@ -2,17 +2,17 @@
 import { useState } from "react";
 import { FaHospital, FaUserDoctor, FaSyringe } from "react-icons/fa6";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+// import { useTranslations } from "next-intl";
 
 export default function NavForDesktop() {
     const [megaOpen, setMegaOpen] = useState(false);
     const [megaOpen2, setMegaOpen2] = useState(false);
     const [megaOpen3, setMegaOpen3] = useState(false);
-    const t = useTranslations();
+    // const t = useTranslations();
 
     return (
         <>
-            <li className="d-none d-md-block"><Link href="/">{t("home")}</Link></li>
+            <li className="d-none d-md-block"><Link href="/">Home</Link></li>
             <li
                 className="mega-wrapper d-none d-md-block"
                 onMouseEnter={() => setMegaOpen(true)}
@@ -41,7 +41,7 @@ export default function NavForDesktop() {
                             <FaUserDoctor className="social-icon" />
                             <div>
                                 <Link href="/about">
-                                    <h4>Our Services</h4>
+                                    <h4>What is Hashira</h4>
                                 </Link>
                                 <p>
                                     From Skills and Language <span>Training</span> to Trade Testing – we do it all!

@@ -34,10 +34,10 @@
   margin-bottom: 16px;
   text-align: justify;
 
-  /* para hindi sobrang haba tingnan */
+  
   max-width: 800px;
 
-  /* auto spacing */
+  
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
