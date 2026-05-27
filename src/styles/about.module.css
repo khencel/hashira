@@ -2,3 +2,38 @@
     width:7%;
     position:absolute;
 }
+
+.jobCard{
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    height: 100%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* IMAGE EFFECT */
+.jobCard img{
+    transition: transform 0.4s ease;
+}
+
+/* HOVER */
+.jobCard:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* ZOOM IMAGE */
+.jobCard:hover img{
+    transform: scale(1.08);
+}
+
+/* TITLE COLOR EFFECT */
+.jobCard h5{
+    transition: color 0.3s ease;
+}
+
+.jobCard:hover h5{
+    color: #CC121B;
+}

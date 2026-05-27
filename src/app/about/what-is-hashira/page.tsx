@@ -1,10 +1,4 @@
 import Banner from "@/components/Banner";
-import s from "./about.module.css";
-import Myra from "./myra";
-import CustomHR from "@/components/CustomHR";
-import FacebookMarketing from "./facebook";
-import WhatsApp from "./whatsApp";
-
 
 export default function About() {
     return (
@@ -19,10 +13,7 @@ export default function About() {
         <section className="mt-5 mb-5">
           <div className="row m-0 justify-content-center">
             <div className="col-md-10">
-              <div className="header">
-                <h2 className="title">What is Hashira?</h2>
-                <p className="subtitle">Filipino workers as the foundation of a Japan in need of labor</p>
-              </div>
+              
               <div className="row">
                 <div className="col-md-6">
                   <span className="title" style={{fontSize:"20px",fontWeight:"600"}}>Hashira Skills</span>

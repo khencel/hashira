@@ -14,8 +14,11 @@ export default function About() {
           backgroundImage="/img/banner/japan1.jpg"
           title="About Us"
           subtitle="Corporate Identity"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis id odit quibusdam, labore quod, distinctio aliquam vero harum cum quisquam voluptatem tempora! Sit delectus est amet dolorum molestias sed unde!"
+          description="Know all about one of the Philippines’ leading Japanese Schools"
         />
+
+        
+
         <section className="mb-5">
             <div className="header">
               <h2 className="title">Board of Directors</h2>

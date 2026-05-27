@@ -96,8 +96,8 @@ export default function Home() {
         <SwiperSlide>
           <div className={s.hero}>
               <div className={s.content}>
-                <h1 className={s.bannerTitle}>The World's Most Trusted Filipino Manpower Company</h1>
-                <p>Inspiring customers & supporting through experience</p>
+                <h1 className={s.bannerTitle}>Building Global Careers Through Japanese Education</h1>
+                <p>Trusted Japanese language training for aspiring professionals and future international workers.</p>
                 
                 <div className={s.buttons}>
                   <button className={s.btnprimary}>Contact Us</button>

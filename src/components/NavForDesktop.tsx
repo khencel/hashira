@@ -33,27 +33,27 @@ export default function NavForDesktop() {
                             <FaHospital className="social-icon" />
                             <div>
                             <h4>Corporate Identity</h4>
-                            <p>Know all about one of the Philippines’ leading manpower agencies</p>
+                            <p>Know all about one of the Philippines’ leading Japanese Schools</p>
                             </div>
                         </Link>
 
-                        <div className="mega-item">
+                        <Link href="/about/what-is-hashira" className="mega-item">
                             <FaUserDoctor className="social-icon" />
                             <div>
-                                <Link href="/about">
-                                    <h4>What is Hashira</h4>
-                                </Link>
+                                
+                                <h4>What is Hashira</h4>
+                                
                                 <p>
-                                    From Skills and Language <span>Training</span> to Trade Testing – we do it all!
+                                    Filipino workers as the foundation of a Japan in need of labor
                                 </p>
                             </div>
-                        </div>
+                        </Link>
 
-                        <Link href="/about/branches" className="mega-item">
+                        <Link href="/about/industries" className="mega-item">
                             <FaSyringe className="social-icon" />
                             <div>
-                            <h4>Branch Offices</h4>
-                            <p>We have nationwide presence and recruit workers from all over the Philippines </p>
+                            <h4>Industries</h4>
+                            <p>Over 2,000 Filipino workers deployed all across Japan </p>
                             </div>
                         </Link>
                         <Link href="/worldwide-careers" className="mega-item">
