@@ -92,7 +92,7 @@ export default function NavForDesktop() {
                             </div>
                         </Link>
 
-                        <Link href="/testimonials/OFW-testimonials" className="mega-item">
+                        <Link href="/system/special-rules" className="mega-item">
                             <FaUserDoctor className="social-icon" />
                             <div>
                             <h4>Special Rules</h4>
