@@ -11,7 +11,7 @@ export default function About() {
     return (
       <>
         <Banner
-          backgroundImage="/img/banner/japan1.jpg"
+          backgroundImage="/img/banner/corporate-identity.jpg"
           title="About Us"
           subtitle="Corporate Identity"
           description="Know all about one of the Philippines’ leading Japanese Schools"

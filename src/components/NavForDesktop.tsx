@@ -8,6 +8,7 @@ export default function NavForDesktop() {
     const [megaOpen, setMegaOpen] = useState(false);
     const [megaOpen2, setMegaOpen2] = useState(false);
     const [megaOpen3, setMegaOpen3] = useState(false);
+    const [megaOpen4, setMegaOpen4] = useState(false);
     // const t = useTranslations();
 
     return (
@@ -56,13 +57,65 @@ export default function NavForDesktop() {
                             <p>Over 2,000 Filipino workers deployed all across Japan </p>
                             </div>
                         </Link>
-                        <Link href="/worldwide-careers" className="mega-item">
+                        {/* <Link href="/worldwide-careers" className="mega-item">
                             <FaSyringe className="social-icon" />
                             <div>
-                            <h4>Worldwide Careers</h4>
-                            <p>Over 200,000 Filipinos deployed to more than 30 different countries </p>
+                            <h4>Overall</h4>
+                            <p>Our system ensures that we provide our clients with the best possible Filipino Workers </p>
+                            </div>
+                        </Link> */}
+                    </div>
+                </div>
+            </li>
+
+            <li
+                className="mega-wrapper d-none d-md-block"
+                onMouseEnter={() => setMegaOpen4(true)}
+                onMouseLeave={() => setMegaOpen4(false)}
+                >
+                <a href="#" className="nav-link active">
+                    System
+                </a>
+
+                <div className={`mega-menu ${megaOpen4 ? "show" : ""}`}>
+
+                    {/* arrow */}
+                    <div className="mega-arrow"></div>
+
+                    <div className="mega-grid">
+                        <strong>System</strong>
+                        <Link href="/system/overall" className="mega-item">
+                            <FaHospital className="social-icon" />
+                            <div>
+                            <h4>Overall</h4>
+                            <p>Our system ensures that we provide our clients with the best possible Filipino Workers</p>
                             </div>
                         </Link>
+
+                        <Link href="/testimonials/OFW-testimonials" className="mega-item">
+                            <FaUserDoctor className="social-icon" />
+                            <div>
+                            <h4>Special Rules</h4>
+                            <p>We implement these rules to encourage a disciplined and competitive environment</p>
+                            </div>
+                        </Link>
+
+                        <Link href="/testimonials/OFW-testimonials" className="mega-item">
+                            <FaUserDoctor className="social-icon" />
+                            <div>
+                            <h4>Achievements</h4>
+                            <p>See what Hashira has achieved since its establishment in 2020</p>
+                            </div>
+                        </Link>
+
+                        <Link href="/testimonials/OFW-testimonials" className="mega-item">
+                            <FaUserDoctor className="social-icon" />
+                            <div>
+                            <h4>Japanese Culture and Manners</h4>
+                            <p>just as important as Japanese language</p>
+                            </div>
+                        </Link>
+
                     </div>
                 </div>
             </li>
@@ -172,6 +225,8 @@ export default function NavForDesktop() {
                     </div>
                 </div>
             </li>
+
+            
 
             <li className="d-none d-md-block"><Link href="/gallery">Gallery</Link></li>
             <li className="d-none d-md-block">

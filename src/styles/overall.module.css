@@ -1,0 +1,102 @@
+.systemSection {
+  padding: 25px 0;
+  background: #f9fafb;
+}
+
+/* ROW - now looks like a “card line item” */
+.stepRow {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 18px;
+
+  padding: 12px 14px;
+  border-radius: 10px;
+  background: #fff;
+
+  border-left: 4px solid #e5e7eb;
+  transition: all 0.2s ease;
+}
+
+.stepRow:hover {
+  border-left-color: #104675;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+  transform: translateY(-1px);
+}
+
+.stepRow:last-child {
+  margin-bottom: 0;
+}
+
+.stepRow.reverse {
+  flex-direction: row-reverse;
+}
+
+/* IMAGE */
+.stepImage {
+  flex: 0.9;
+}
+
+.imageWrapper {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  transition: transform 0.25s ease;
+}
+
+.imageWrapper:hover img {
+  transform: scale(1.03);
+}
+
+/* TEXT */
+.stepContent {
+  flex: 1.1;
+  padding: 2px 4px;
+}
+
+/* TITLE WITH BADGE STYLE */
+.stepContent h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  color: #104675;
+  position: relative;
+}
+
+/* small accent dot */
+.stepContent h3::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: #CFA711;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+  transform: translateY(-1px);
+}
+
+/* TEXT */
+.stepContent p {
+  font-size: 12.5px;
+  color: #666;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .stepRow,
+  .stepRow.reverse {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .imageWrapper img {
+    height: 160px;
+  }
+}
