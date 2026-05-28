@@ -23,13 +23,13 @@ export function getAllIndustriesFirstRow(){
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
         },
         {
-            "image":"/img/industries/57234.jpg",
+            "image":"/img/default.png",
             "title":"Caregivers",
             "description":"lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
         },
         {
-            "image":"/img/industries/57234.jpg",
+            "image":"/img/default.png",
             "title":"Restaurant Workers",
             "description":"lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
@@ -40,19 +40,19 @@ export function getAllIndustriesFirstRow(){
 export function getAllIndustriesSecondRow(){
     return [
         {
-            "image":"/img/banner/57234.jpg",
+            "image":"/img/default.png",
             "title":"Factory Workers",
             "description":"Over 2,000 Filipino workers deployed all across Japan",
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
         },
         {
-            "image":"/img/banner/57234.jpg",
+            "image":"/img/default.png",
             "title":"Farmers",
             "description":"Over 2,000 Filipino workers deployed all across Japan",
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
         },
         {
-            "image":"/img/banner/57234.jpg",
+            "image":"/img/default.png",
             "title":"Hotel Workers",
             "description":"Over 2,000 Filipino workers deployed all across Japan",
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
