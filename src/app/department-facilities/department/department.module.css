@@ -19,7 +19,7 @@
 }
 
 .departmentContainer{
-  min-height: 500px;
+  /* min-height: 500px; */
   display: flex;
   background-color: white;
   border-radius: 16px;
@@ -45,6 +45,6 @@
 }
 
 .descriptioCont{
-  border-left: 3px solid #448153;
+  border-left: 3px solid #104675;
   padding-left: 15px;
 }

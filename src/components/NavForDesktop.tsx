@@ -100,7 +100,7 @@ export default function NavForDesktop() {
                             </div>
                         </Link>
 
-                        <Link href="/testimonials/OFW-testimonials" className="mega-item">
+                        <Link href="/system/achievements" className="mega-item">
                             <FaUserDoctor className="social-icon" />
                             <div>
                             <h4>Achievements</h4>
@@ -120,15 +120,13 @@ export default function NavForDesktop() {
                 </div>
             </li>
 
-            <li className="d-none d-md-block"><Link href="/engage-with-us">Engage with Us</Link></li>
-
             <li
                 className="mega-wrapper d-none d-md-block"
                 onMouseEnter={() => setMegaOpen2(true)}
                 onMouseLeave={() => setMegaOpen2(false)}
                 >
                 <a href="#" className="nav-link active">
-                    Departments and Facilities
+                    Skills Training
                 </a>
 
                 <div className={`mega-menu ${megaOpen2 ? "show" : ""}`}>
@@ -137,53 +135,20 @@ export default function NavForDesktop() {
                     <div className="mega-arrow"></div>
 
                     <div className="mega-grid">
-                        <strong>Departments and Facilities</strong>
-                        <Link href="/department-facilities/department" className="mega-item">
+                        <strong>Skills Training</strong>
+                        <Link href="/testimonials/client-testimonials" className="mega-item">
                             <FaHospital className="social-icon" />
                             <div>
-                            <h4>Departments</h4>
-                            <p>Discover how we deliver streamlined operations</p>
+                            <h4>Construction</h4>
+                            <p>See how we train our construction workers</p>
                             </div>
                         </Link>
-                        
 
-                        <Link href="/department-facilities/main-office" className="mega-item">
+                        <Link href="/testimonials/OFW-testimonials" className="mega-item">
                             <FaUserDoctor className="social-icon" />
                             <div>
-                            <h4>Main Office</h4>
-                            <p>Explore our five-storey headquarters in Makati </p>
-                            </div>
-                        </Link>
-
-                        <Link href="/department-facilities/branch-offices" className="mega-item">
-                            <FaSyringe className="social-icon" />
-                            <div>
-                            <h4>Branch Offices</h4>
-                            <p>Learn more about our nationwide locations </p>
-                            </div>
-                        </Link>
-
-                        <Link href="/department-facilities/dormitory" className="mega-item">
-                            <FaSyringe className="social-icon" />
-                            <div>
-                            <h4>Dormitory</h4>
-                            <p>View our well-maintained housing facilities for selected workers</p>
-                            </div>
-                        </Link>
-
-                        <div className="mega-item">
-                            <FaSyringe className="social-icon" />
-                            <div>
-                            <h4>Pro-Tech Skills</h4>
-                            <p>Our TESDA accredited Hospitality and Caregiving Training Center</p>
-                            </div>
-                        </div>
-
-                        <Link href="/department-facilities/hashira" className="mega-item">
-                            <FaSyringe className="social-icon" />
-                            <div>
-                            <h4>Hashira Skills</h4>
-                            <p>Our TESDA accredited Japanese Language and Construction Training Center</p>
+                            <h4>Hospitality</h4>
+                            <p>Enhancing the heart of the Filipino</p>
                             </div>
                         </Link>
                     </div>
@@ -217,7 +182,15 @@ export default function NavForDesktop() {
                         <Link href="/testimonials/OFW-testimonials" className="mega-item">
                             <FaUserDoctor className="social-icon" />
                             <div>
-                            <h4>OFW Testimonials</h4>
+                            <h4>Student Testimonials</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </Link>
+
+                        <Link href="/testimonials/OFW-testimonials" className="mega-item">
+                            <FaUserDoctor className="social-icon" />
+                            <div>
+                            <h4>Teacher Testimonials</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </div>
                         </Link>
