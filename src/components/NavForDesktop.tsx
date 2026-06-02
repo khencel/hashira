@@ -136,7 +136,7 @@ export default function NavForDesktop() {
 
                     <div className="mega-grid">
                         <strong>Skills Training</strong>
-                        <Link href="/testimonials/client-testimonials" className="mega-item">
+                        <Link href="/skill-training/construction" className="mega-item">
                             <FaHospital className="social-icon" />
                             <div>
                             <h4>Construction</h4>
@@ -144,7 +144,7 @@ export default function NavForDesktop() {
                             </div>
                         </Link>
 
-                        <Link href="/testimonials/OFW-testimonials" className="mega-item">
+                        <Link href="/skill-training/hospitality" className="mega-item">
                             <FaUserDoctor className="social-icon" />
                             <div>
                             <h4>Hospitality</h4>
@@ -179,7 +179,7 @@ export default function NavForDesktop() {
                             </div>
                         </Link>
 
-                        <Link href="/testimonials/OFW-testimonials" className="mega-item">
+                        <Link href="/testimonials/student-testimonials" className="mega-item">
                             <FaUserDoctor className="social-icon" />
                             <div>
                             <h4>Student Testimonials</h4>
@@ -187,7 +187,7 @@ export default function NavForDesktop() {
                             </div>
                         </Link>
 
-                        <Link href="/testimonials/OFW-testimonials" className="mega-item">
+                        <Link href="/testimonials/teacher-testimonials" className="mega-item">
                             <FaUserDoctor className="social-icon" />
                             <div>
                             <h4>Teacher Testimonials</h4>

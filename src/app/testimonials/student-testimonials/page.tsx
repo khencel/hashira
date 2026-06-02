@@ -5,21 +5,21 @@ import YouTube from "react-youtube";
 import TestimonialCard from "@/components/TestimonialsCard";
 import s from "../../../styles/testimonials.module.css"
 
-export default function ClientTestimonial() {
+export default function StudentTestimonial() {
     return (
         <>
             <Banner
                 backgroundImage="/img/banner/57234.jpg"
                 title="Testimonials"
-                subtitle="OFW Testimonials"
-                description="With over 15 branches nationwide, Placewell has a strong presence in the Philippines and recruits workers from all over the country. Our branch offices are located in key cities and provinces, allowing us to connect with a wide pool of talented Filipino workers and provide them with the support they need throughout the recruitment and deployment process."
+                subtitle="Student Testimonials"
+                description="With over 15 branches nationwide, Placewell has a strong presence in the Philippines and recruits workers from all over the country. "
             />
 
             <section className="mt-5">
                 <div className="row m-0 justify-content-center">
                     <div className="col-md-10">
                         <div className="header">
-                            <h2 className="title">Our OFW Testimonials</h2>
+                            <h2 className="title">Our Student Testimonials</h2>
                             <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptate ratione</p>
                         </div>
                         <div className="row">

@@ -5,13 +5,13 @@ import YouTube from "react-youtube";
 import TestimonialCard from "@/components/TestimonialsCard";
 import s from "../../../styles/testimonials.module.css"
 
-export default function ClientTestimonial() {
+export default function TeacherTestimonial() {
     return (
         <>
             <Banner
-                backgroundImage="/img/banner/testimonials.jpg"
+                backgroundImage="/img/banner/57234.jpg"
                 title="Testimonials"
-                subtitle="Client Testimonials"
+                subtitle="Teacher Testimonials"
                 description="With over 15 branches nationwide, Placewell has a strong presence in the Philippines and recruits workers from all over the country."
             />
 
@@ -19,7 +19,7 @@ export default function ClientTestimonial() {
                 <div className="row m-0 justify-content-center">
                     <div className="col-md-10">
                         <div className="header">
-                            <h2 className="title">Our Client Testimonials</h2>
+                            <h2 className="title">Our Teacher Testimonials</h2>
                             <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptate ratione</p>
                         </div>
                         <div className="row">
@@ -101,7 +101,7 @@ export default function ClientTestimonial() {
                     <div className="row m-0 justify-content-center">
                         <div className="col-md-10">
                             <div className="header">
-                                <h2 className="title">What Our Clients Says</h2>
+                                <h2 className="title">What Our OFW Says</h2>
                                 <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptate ratione</p>
                             </div>
                             <div className="row">
