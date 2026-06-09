@@ -1,0 +1,24 @@
+.container{
+    height:600px;
+}
+
+.rightDiv{
+    height: 550px;
+    background-color: #d0dfed;
+}
+
+
+.imgRight{
+    width:200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.imgCenter{
+    width:230px;
+    height: 230px;
+    object-fit: cover;
+    position: absolute;
+    bottom: -200px;
+    left: -50px;
+}
