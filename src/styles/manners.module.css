@@ -22,3 +22,52 @@
     bottom: -200px;
     left: -50px;
 }
+
+
+.parallax {
+  height: 300px;
+  /* background-image: url("/img/banner/31383.jpg"); */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  height: 1000px;
+  padding: 50px;
+}
+
+@media (max-width: 768px){
+
+    .container{
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .rightDiv{
+        height: auto;
+        min-height: 400px;
+        padding: 20px 0;
+    }
+
+    .imgCenter{
+        position: static;
+        width: 140px;
+        height: 140px;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .imgRight{
+        width: 100%;
+        height: 180px;
+        margin-top: 20px;
+    }
+
+    .mobileTitle{
+        position: static !important;
+        transform: none !important;
+        margin-bottom: 20px;
+    }
+}
