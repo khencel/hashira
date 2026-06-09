@@ -2,25 +2,25 @@
 import { useState } from "react";
 import { FaHospital, FaUserDoctor, FaSyringe } from "react-icons/fa6";
 import Link from "next/link";
-// import { useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 
 export default function NavForDesktop() {
     const [megaOpen, setMegaOpen] = useState(false);
     const [megaOpen2, setMegaOpen2] = useState(false);
     const [megaOpen3, setMegaOpen3] = useState(false);
     const [megaOpen4, setMegaOpen4] = useState(false);
-    // const t = useTranslations();
+    const t = useTranslations("nav");
 
     return (
         <>
-            <li className="d-none d-md-block"><Link href="/">Home</Link></li>
+            <li className="d-none d-md-block"><Link href="/">{t('home')}</Link></li>
             <li
                 className="mega-wrapper d-none d-md-block"
                 onMouseEnter={() => setMegaOpen(true)}
                 onMouseLeave={() => setMegaOpen(false)}
                 >
                 <a href="#" className="nav-link active">
-                    About Us
+                    {t('about')}
                 </a>
 
                 <div className={`mega-menu ${megaOpen ? "show" : ""}`}>
@@ -29,7 +29,7 @@ export default function NavForDesktop() {
                     <div className="mega-arrow"></div>
 
                     <div className="mega-grid">
-                        <strong>About Us</strong>
+                        <strong>{t('about')}</strong>
                         <Link href="/about/corporate-identity" className="mega-item">
                             <FaHospital className="social-icon" />
                             <div>
@@ -74,7 +74,7 @@ export default function NavForDesktop() {
                 onMouseLeave={() => setMegaOpen4(false)}
                 >
                 <a href="#" className="nav-link active">
-                    System
+                    {t('system')}
                 </a>
 
                 <div className={`mega-menu ${megaOpen4 ? "show" : ""}`}>
@@ -83,7 +83,7 @@ export default function NavForDesktop() {
                     <div className="mega-arrow"></div>
 
                     <div className="mega-grid">
-                        <strong>System</strong>
+                        <strong>{t('system')}</strong>
                         <Link href="/system/overall" className="mega-item">
                             <FaHospital className="social-icon" />
                             <div>
@@ -126,7 +126,7 @@ export default function NavForDesktop() {
                 onMouseLeave={() => setMegaOpen2(false)}
                 >
                 <a href="#" className="nav-link active">
-                    Skills Training
+                    {t('skill')}
                 </a>
 
                 <div className={`mega-menu ${megaOpen2 ? "show" : ""}`}>
@@ -135,7 +135,7 @@ export default function NavForDesktop() {
                     <div className="mega-arrow"></div>
 
                     <div className="mega-grid">
-                        <strong>Skills Training</strong>
+                        <strong>{t('skill')}</strong>
                         <Link href="/skill-training/construction" className="mega-item">
                             <FaHospital className="social-icon" />
                             <div>
@@ -161,7 +161,7 @@ export default function NavForDesktop() {
                 onMouseLeave={() => setMegaOpen3(false)}
                 >
                 <a href="#" className="nav-link active">
-                    Testimonials
+                    {t('testimonials')}
                 </a>
 
                 <div className={`mega-menu ${megaOpen3 ? "show" : ""}`}>
@@ -170,7 +170,7 @@ export default function NavForDesktop() {
                     <div className="mega-arrow"></div>
 
                     <div className="mega-grid">
-                        <strong>Testimonials</strong>
+                        <strong>{t('testimonials')}</strong>
                         <Link href="/testimonials/client-testimonials" className="mega-item">
                             <FaHospital className="social-icon" />
                             <div>
@@ -201,9 +201,9 @@ export default function NavForDesktop() {
 
             
 
-            <li className="d-none d-md-block"><Link href="/gallery">Gallery</Link></li>
+            <li className="d-none d-md-block"><Link href="/gallery">{t('gallery')}</Link></li>
             <li className="d-none d-md-block">
-                <Link href="/contact-us">Contact Us</Link>
+                <Link href="/contact-us">{t('contact')}</Link>
             </li>
         </>
     )

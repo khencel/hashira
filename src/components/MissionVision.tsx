@@ -29,29 +29,7 @@ const cards = [
     ),
     text: `To make the Filipino the top choice for Japanese companies that need
         foreign labor. We aim to make our institution one of the prime spots for Filipinos who are looking to find work in Japan.`,
-  },
-  {
-    title: 'Corporate Philosophy',
-    icon: (
-      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="#448153" strokeWidth="1.5" strokeLinecap="round"/>
-        <circle cx="9" cy="7" r="4" stroke="#448153" strokeWidth="1.5"/>
-        <path d="M23 21v-2a4 4 0 0 0-3-3.87" stroke="#448153" strokeWidth="1.5" strokeLinecap="round"/>
-        <path d="M16 3.13a4 4 0 0 1 0 7.75" stroke="#448153" strokeWidth="1.5" strokeLinecap="round"/>
-      </svg>
-    ),
-    text: `<strong>We are a people company that builds lasting relationships.</strong> <br> We care for people because they are:
-      <ol style="text-align:left">
-        <li>Individuals with dignity to be respected and rights to be protected.</li>
-        <li>Employers who generate economic value.</li>
-        <li>Workers who need to be treated and rewarded fairly.</li>
-      </ol>
-      <strong>Clients count first.</strong>
-      <br> We exist for our clients and, thus, work to provide them with on-time job-ready, and competent workers as required, by employing only ethical and modern recruitment practices and strategies that conform to international standards.
-        <br><strong>We take our corporate social responsibility seriously.</strong><br>We share the rewards of business with the communities where we operate, believing that by giving freely, you shall receive tenfold.
-      `,
-    isHtml: true,
-  },
+  }
 ];
 
 export default function MissionVision() {
@@ -69,12 +47,7 @@ export default function MissionVision() {
                 {card.icon}
                 </div>
                 <h3 className={s.cardTitle}>{card.title}</h3>
-
-                {card.isHtml ? (
-                <div className={s.cardText} dangerouslySetInnerHTML={{ __html: card.text }} />
-                ) : (
                 <p className={s.cardText}>{card.text}</p>
-                )}
             </div>
             ))}
       </div>

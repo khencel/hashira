@@ -27,9 +27,9 @@ export default function WhyHire() {
                     <div className={s.stats}>
                         <div className="row">
                             <div className="col text-white">
-                                <h4>Your trusted partner</h4>
+                                {/* <h4>Your trusted partner</h4> */}
                                 <small>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. */}
                                 </small>
                             </div>
                         </div>
@@ -41,7 +41,7 @@ export default function WhyHire() {
                 <div className={s.right}>
                 <span className={s.titleHead} style={{color:"white"}}>Why Hire Filipino Workers</span>
                 <p className={s.desc} style={{color:"white"}}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. */}
                 </p>
 
                 <div className={s.list}>

@@ -5,12 +5,15 @@
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: center;
     gap: 16px;
+    flex-wrap: wrap;
 }
 
 .card {
+    width: 100%;
+    max-width: 500px;
     background: #ffffff;
     border: 0.5px solid #e0e0e0;
     border-bottom: 3px solid #639922;

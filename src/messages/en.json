@@ -1,3 +1,21 @@
 {
-    "home":"Home"
+    "nav":{
+        "home":"Home",
+        "about":"About Us",
+        "corporate":"Corporate Identity",
+        "what":"What is Hashira",
+        "industries":"Industries",
+        "system":"System",
+        "overall":"Overall",
+        "special":"Special Rules",
+        "achievement":"Achievements",
+        "japanese":"Japanese Culture and Manners",
+        "skill":"Skills Training",
+        "testimonials":"Testimonials",
+        "client":"Client Testimonials",
+        "student":"Student Testimonials",
+        "teacher":"Teacher Testimonials",
+        "gallery":"Gallery",
+        "contact":"Contact Us"
+    }
 }

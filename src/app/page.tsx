@@ -101,7 +101,7 @@ export default function Home() {
                 
                 <div className={s.buttons}>
                   <button className={s.btnprimary}>Contact Us</button>
-                  <button className={s.btnoutline}>Learn More</button>
+                  
                 </div>
               </div>
           </div>
@@ -115,7 +115,7 @@ export default function Home() {
                 
                 <div className={s.buttons}>
                   <button className={s.btnprimary}>Contact Us</button>
-                  <button className={s.btnoutline}>Learn More</button>
+                
                 </div>
               </div>
           </div>
@@ -127,7 +127,7 @@ export default function Home() {
         <div style={styles.header}>
           <h2 style={styles.title}>Featured Video</h2>
           <p style={styles.subtitle}>
-            Watch our latest highlight and updates
+            {/* Watch our latest highlight and updates */}
           </p>
         </div>
 
@@ -163,7 +163,7 @@ export default function Home() {
       <div style={styles.header}>
           <h2 style={styles.title}>Gallery</h2>
           <p style={styles.subtitle}>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            {/* Lorem ipsum dolor sit amet consectetur, adipisicing elit. */}
           </p>
         </div>
         
@@ -181,7 +181,7 @@ export default function Home() {
       <div style={styles.header}>
           <h2 style={styles.title}>Our Clients</h2>
           <p style={styles.subtitle}>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            {/* Lorem ipsum dolor sit amet consectetur, adipisicing elit. */}
           </p>
         </div>
         

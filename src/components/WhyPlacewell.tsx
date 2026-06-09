@@ -24,7 +24,7 @@ export default function WhyPlacewell() {
             </div>
 
             {/* STATS */}
-                <div className={s.stats}>
+                {/* <div className={s.stats}>
                     <div className={s.stat}>
                         
                         <MdGroups className={s.iconStat} />
@@ -44,7 +44,7 @@ export default function WhyPlacewell() {
                         <h3>50 Years</h3>
                         <p>Experience</p>
                     </div>
-                </div>
+                </div> */}
             </div>
 
             {/* RIGHT SIDE */}

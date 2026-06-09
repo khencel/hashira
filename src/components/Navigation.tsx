@@ -24,7 +24,7 @@ export default function Navigation() {
         {/* TOP BAR */}
         <div className="nav-top">
           <div className="logo">
-            <img src="/logo2.jpg" alt="logo" />
+            <img src="/logo3.jpg" alt="logo" />
           </div>
 
           {/* BURGER */}
