@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Banner from "@/components/Banner";
+import { useTranslations } from "next-intl";
 
 const data = [
   {
@@ -250,6 +251,7 @@ function AchievementCard({
 }
 
 export default function Achievements() {
+  const t = useTranslations("achievement");
   return (
     <>
       <style>{`
@@ -258,9 +260,9 @@ export default function Achievements() {
       `}</style>
         <Banner
             backgroundImage="/img/banner/144829.jpg"
-            title="System"
-            subtitle="Achievements"
-            description="See what Hashira has achieved since its establishment in 2020"
+            title={t('title')}
+            subtitle={t('subtitle')}
+            description={t('desc')}
         />
       <section
         className="ach-section"

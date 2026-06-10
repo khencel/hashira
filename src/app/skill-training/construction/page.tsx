@@ -4,16 +4,18 @@ import TradeTestItem from "./tradeTestItem";
 import {getData} from "./data";
 import YouTube from "react-youtube";
 import s from "@/styles/SkillTraining.module.css"
+import { useTranslations } from "next-intl";
 
 export default function Construction() {
+    const t = useTranslations("construction");
     const data = getData();
     return (
         <>
             <Banner
                 backgroundImage="/img/banner/144829.jpg"
-                title="Skills Training"
-                subtitle="Construction"
-                description="See how we train our construction workers"
+                title={t('title')}
+                subtitle={t('subtitle')}
+                description={t('desc')}
             />
 
             <div className="row justify-content-center m-0">
@@ -35,10 +37,10 @@ export default function Construction() {
                         <div className={`row ${s.sectionStyle}`}>
                             <div className="col-md-3 p-3">
                                 <span className="title" style={{fontWeight:"600", fontSize:"20px"}}>
-                                    Safety First
+                                    {t('Safety')}
                                 </span>
                                 <p className="subtitle" style={{fontSize:"14px"}}>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas quo quos suscipit similique reprehenderit, magnam, ipsam repellendus placeat libero ipsum. Soluta, modi sunt unde sint nesciunt error illo molestiae?
+                                    {t('SafetyDesc')}
                                 </p>
                             </div>
                             <div className="col-md-5" style={{paddingTop:"10px"}}>
@@ -71,10 +73,10 @@ export default function Construction() {
                         <div className={`row ${s.sectionStyle}`}>
                             <div className="col-md-3 p-3">
                                 <span className="title" style={{fontWeight:"600", fontSize:"20px"}}>
-                                    Technical Terms
+                                    {t('Technical')}
                                 </span>
                                 <p className="subtitle" style={{fontSize:"14px"}}>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas quo quos suscipit similique reprehenderit, magnam, ipsam repellendus placeat libero ipsum. Soluta, modi sunt unde sint nesciunt error illo molestiae?
+                                    {t('TechnicalDesc')}
                                 </p>
                             </div>
                             <div className="col-md-5" style={{paddingTop:"10px"}}>
@@ -107,10 +109,10 @@ export default function Construction() {
                         <div className={`row ${s.sectionStyle}`}>
                             <div className="col-md-3 p-3">
                                 <span className="title" style={{fontWeight:"600", fontSize:"20px"}}>
-                                    Emphasis on Understanding Commands
+                                    {t('Emphasis')}
                                 </span>
                                 <p className="subtitle" style={{fontSize:"14px"}}>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas quo quos suscipit similique reprehenderit, magnam, ipsam repellendus placeat libero ipsum. Soluta, modi sunt unde sint nesciunt error illo molestiae?
+                                    {t('EmphasisDesc')}
                                 </p>
                             </div>
                             <div className="col-md-5" style={{paddingTop:"10px"}}>

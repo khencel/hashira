@@ -4,8 +4,10 @@ import { FaCircleCheck } from "react-icons/fa6";
 import { getRollingData } from "@/data/homepage";
 import { MdGroups } from "react-icons/md";
 import { FaGlobe, FaCalendar  } from "react-icons/fa6";
+import { useTranslations } from "next-intl";
 
 export default function WhyPlacewell() {
+    const t = useTranslations("home");
     const rollingData = getRollingData();
     return (
         <section className={s.section}>
@@ -49,27 +51,7 @@ export default function WhyPlacewell() {
 
             {/* RIGHT SIDE */}
             <div className={s.right}>
-            <span className={s.titleHead}>Why Hashira?</span>
-            <br />
-            <span className={s.desc}>
-                Hashira 柱 is a Japanese language inst i tution that is dedicated to
-                helping Filipinos achieve their dream of working in Japan by providing
-                them wi th high-quali ty
-                Japanese language, cul ture and skills t raining.
-                Hashira 柱 is the Japanese word for “Pillar” or “Foundation”.
-                Our school was named Hashira 柱 for 2 reasons:
-                <ul>
-                    <li>
-                        “People are the Stones of a Castle” is a Japanese saying that emphasizes the
-                        impor tance of good workers as the foundat ion of a successful company. Our school is
-                        commi t ted to molding workers who will be valuable to any Japanese company.
-                    </li>
-                    <li>
-                        The Filipino workers who graduate from our school and eventually star t working in Japan will be the Pillars of their families. The hard work of these “Pillars” will set their families
-                        for generat ions to come.
-                    </li>
-                </ul>
-            </span>
+            <span className={s.titleHead}>{t('why')}?</span>
 
             <div className={s.list}>
                 {rollingData.map((item, i) => (
@@ -78,9 +60,9 @@ export default function WhyPlacewell() {
                         <FaCircleCheck className={s.icon}/>
                     </div>
                     <div>
-                        <h4>{item.title}</h4>
+                        <h4>{t(item.title)}</h4>
                         <p>
-                            {item.description}
+                            {t(item.description)}
                         </p>
                     </div>
                 </div>

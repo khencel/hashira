@@ -162,5 +162,32 @@
         "WeekendDesc":"Students are allowed to go home for the weekend if their cumulative average for the said week is above 70%.",
         "Rebatching":"Re-batching System",
         "RebatchingDesc":"We give chances to failing students who have a good attitude and work hard. Instead of kicking them out, we transfer them to a lower batch in hopes they give an improved performance."
+    },
+    "achievement":{
+        "title":"System",
+        "subtitle":"Achievements",
+        "desc":"See what Hashira has achieved since its establishment in 2020"
+    },
+    "construction":{
+        "title":"Skills Training",
+        "subtitle":"Construction",
+        "desc":"See how we train our construction workers",
+        "Welding":"Welding",
+        "WeldingDesc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+        "Carpentry":"Carpentry",
+        "CarpentryDesc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+        "Scaffolding":"Scaffolding",
+        "ScaffoldingDesc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+        "Masonry":"Masonry",
+        "MasonryDesc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+        "Painting":"Painting",
+        "PaintingDesc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+        "Other":"Other",
+        "Safety":"Safety First",
+        "SafetyDesc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+        "Technical":"Technical",
+        "TechnicalDesc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+        "Emphasis":"Emphasis",
+        "EmphasisDesc":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas quo quos suscipit similique reprehenderit, magnam, ipsam repellendus placeat libero ipsum. Soluta, modi sunt unde sint nesciunt error illo molestiae?"
     }
 }

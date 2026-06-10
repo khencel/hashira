@@ -162,5 +162,32 @@
         "WeekendDesc":"生徒の学習意欲向上を目的として、週間平均点が一定の基準を満たした生徒には、週末の外出・帰宅を認めています。",
         "Rebatching":"再学習支援制度",
         "RebatchingDesc":"学習面で課題がある場合でも、意欲的に取り組む生徒には再挑戦の機会を提供しています。必要に応じて適切なクラスへ再配置し、一人ひとりの成長を継続的に支援しています。"
+    },
+    "achievement":{
+        "title":"人材育成",
+        "subtitle":"実績紹介",
+        "desc":"2020年の設立以来、人材育成を通じて積み重ねてきた取り組みと実績をご紹介します。"
+    },
+    "construction":{
+        "title":"技能訓練",
+        "subtitle":"建設分野",
+        "desc":"日本の建設現場で求められる知識と技能を習得するための訓練を実施しています。",
+        "Welding":"溶接",
+        "WeldingDesc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+        "Carpentry":"大工",
+        "CarpentryDesc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+        "Scaffolding":"足場工事",
+        "ScaffoldingDesc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+        "Masonry":"左官",
+        "MasonryDesc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+        "Painting":"塗装",
+        "PaintingDesc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+        "Other":"Other",
+        "Safety":"安全第一",
+        "SafetyDesc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+        "Technical":"専門用語の習得",
+        "TechnicalDesc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+        "Emphasis":"現場指示の理解",
+        "EmphasisDesc":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas quo quos suscipit similique reprehenderit, magnam, ipsam repellendus placeat libero ipsum. Soluta, modi sunt unde sint nesciunt error illo molestiae?"
     }
 }

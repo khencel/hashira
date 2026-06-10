@@ -2,10 +2,10 @@ import Image from "next/image";
 import s from "../components/styles/whyPlacewell.module.css"
 import { FaCircleCheck } from "react-icons/fa6";
 import { getRollingData, getWhyHireFilipino  } from "@/data/homepage";
-
-
+import { useTranslations } from "next-intl";
 
 export default function WhyHire() {
+    const t = useTranslations("home");
     const whyHire = getWhyHireFilipino()
     return (
         <section className={`${s.section} ${s.banner}`}>
@@ -39,7 +39,7 @@ export default function WhyHire() {
 
                 {/* RIGHT SIDE */}
                 <div className={s.right}>
-                <span className={s.titleHead} style={{color:"white"}}>Why Hire Filipino Workers</span>
+                <span className={s.titleHead} style={{color:"white"}}>{t('whyFilipino')}</span>
                 <p className={s.desc} style={{color:"white"}}>
                     {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. */}
                 </p>
@@ -51,9 +51,9 @@ export default function WhyHire() {
                             <FaCircleCheck className={s.icon}/>
                         </div>
                         <div>
-                            <h4>{item.title}</h4>
+                            <h4>{t(item.title)}</h4>
                             <p>
-                                {item.description}
+                                {t(item.description)}
                             </p>
                         </div>
                     </div>

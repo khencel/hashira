@@ -172,7 +172,7 @@ export default function Home() {
         
         <div className="row justify-content-center m-0">
           <div className="col-md-10">
-              {/* <Rolling data={whyHireFilipino}  /> */}
+              <Rolling data={whyHireFilipino}  />
               
               <CustomHR />
           </div>

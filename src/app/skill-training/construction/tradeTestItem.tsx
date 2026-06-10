@@ -2,6 +2,7 @@
 
 import YouTube from "react-youtube";
 import s from "@/styles/tradeTest.module.css";
+import { useTranslations } from "next-intl";
 
 interface TradeTestItemProps {
     number: number;
@@ -13,7 +14,7 @@ interface TradeTestItemProps {
 }
 
 export default function TradeTestItem({ number, title, description, videoId, image1, image2 }: TradeTestItemProps){
-
+    const t = useTranslations("construction");
     return (
         <>
             <div className="row">
@@ -24,9 +25,10 @@ export default function TradeTestItem({ number, title, description, videoId, ima
                         </div>
                         <div style={{width:"85%"}}>
                             <div>
-                                <span className="title" style={{fontSize:"20px",fontWeight:"600"}}>{title}</span>
+                                <span className="title" style={{fontSize:"20px",fontWeight:"600"}}>{t(title)}</span>
                                 <p className="subtitle" style={{fontSize:"14px"}}>
-                                    {description}
+                                    {/* {t(description)} */}
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quaerat ea quia odio natus perferendis iure error, dolor expedita praesentium unde aspernatur asperiores laudantium voluptatibus libero cum similique fugiat nesciunt!
                                 </p>
                             </div>
                         </div>
