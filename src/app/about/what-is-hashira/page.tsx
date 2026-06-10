@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner";
+import s from "@/styles/hashira.module.css"
 
 export default function About() {
     return (
@@ -30,12 +31,73 @@ export default function About() {
                   </p>
                 </div>
                 <div className="col-md-6 text-center">
-                  <img src="/img/default.png" alt="" />
+                  <img src="/logo3.jpg" style={{width:"70%"}} alt="" />
                 </div>
               </div>
+
+              <div className="position-relative">
+                <div className="row">
+                  <div className={`col-md-8 ${s.heroDescription}`} >
+                    <span className="title">WHAT IS HASHIRA? 柱</span>
+                    <p className="subtitle longParagraph mt-1">
+                        Hashira 柱 is a Japanese language inst i tution that is dedicated to
+                        helping Filipinos achieve their dream of working in Japan by providing
+                        them wi th high-quali ty
+                        Japanese language, cul ture and skills t raining.
+                    </p>
+                    <p className="subtitle longParagraph mt-2">
+                        Hashira 柱 is the Japanese word for “Pillar” or “Foundation”.
+                        Our school was named Hashira 柱 for 2 reasons:
+                    </p>
+
+                    <ol className="subtitle longParagraph" >
+                        <li> 
+                          “People are the Stones of a Castle” is a Japanese saying that emphasizes the
+                          impor tance of good workers as the foundat ion of a successful company. Our school is
+                          commi t ted to molding workers who will be valuable to any Japanese company.
+                        </li>
+
+                        <li>
+                          The Filipino workers who graduate from our school and eventually star t working in Japan will be the Pillars of their families. The hard work of these “Pillars” will set their families
+                          for generat ions to come.
+                        </li>
+                    </ol>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className={`col-md-6 p-0 ${s.hero}`}>
+                    <img src="/eloisa.png" style={{width:"60%"}} alt="" />
+                  </div>
+                  <div className="col-md-6">
+
+                  </div>
+                </div>
+              </div>
+
+              <div className="position-relative mt-5">
+                <div className="row">
+                  <div className={`col-md-8 ${s.heroDescriptionV2}`} >
+                    <div className="dotPattern"></div>
+                    <span className="title">OUR METHODOLOGY</span>
+                    
+                  </div>
+                </div>
+                <div className="row">
+                  
+                  <div className="col-md-6">
+
+                  </div>
+                  <div className={`col-md-6 p-0 text-end ${s.hero}`}>
+                    <img src="/img/identity/joelo.png" style={{width:"60%"}} alt="" />
+                  </div>
+                </div>
+              </div>
+
+              
             </div>
           </div>
         </section>
+        
       </>
     );
 }

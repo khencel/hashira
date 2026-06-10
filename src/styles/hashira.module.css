@@ -1,0 +1,23 @@
+.hero {
+  background: linear-gradient(
+    to bottom,
+    #ffffff 50%,
+    #104675 50%
+  );
+}
+
+.heroDescription{
+    background: #fcf3af;
+    position: absolute;
+    right:0;
+    height: 400px;
+    padding: 3%;
+}
+
+.heroDescriptionV2{
+    background: #fbd8da;
+    position: absolute;
+    left:0;
+    height: 400px;
+    padding: 3%;
+}
