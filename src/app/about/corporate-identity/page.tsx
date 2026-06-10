@@ -6,23 +6,25 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import s from "./style.module.css"
 import MissionVision from "@/components/MissionVision";
+import { useTranslations } from "next-intl";
 
 export default function About() {
+    const t = useTranslations("corporate");
     return (
       <>
         <Banner
           backgroundImage="/img/banner/corporate-identity.jpg"
-          title="About Us"
-          subtitle="Corporate Identity"
-          description="Know all about one of the Philippines’ leading Japanese Schools"
+          title={t('about')}
+          subtitle={t('corporate')}
+          description={t('corporateDesc')}
         />
 
         
 
         <section className="mb-5">
             <div className="header">
-              <h2 className="title">Board of Directors</h2>
-              <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h2 className="title">{t('board')}</h2>
+              {/* <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> */}
             </div>
 
             
@@ -33,9 +35,9 @@ export default function About() {
                   <div className="col"><ImageStyle image="/img/identity/family-lifestyle-night.jpg"/></div>
                   <div className="col d-flex align-items-center">
                       <div className="position-relative">
-                        <h5 className="title" style={{fontSize:"24px"}} >Kawamichi Nobuaki </h5>
+                        <h5 className="title" style={{fontSize:"24px"}} >{t('kawamichi')} </h5>
                         <small>
-                            <strong>Vice President for Operations</strong>
+                            <strong>{t('vice')}</strong>
                         </small>
                         <div className={s.dotPattern}></div>
                         <p className="mt-3 cardText">
@@ -54,14 +56,13 @@ export default function About() {
                     
                     <div className="col d-flex align-items-center">
                       <div className="position-relative">
-                        <h5 className="title" style={{fontSize:"24px"}} >Jose Lorenzo Escueta Beech  (Joelo)</h5>
+                        <h5 className="title" style={{fontSize:"24px"}} >{t('jose')}</h5>
                         <small>
-                            <strong>President</strong>
+                            <strong>{t('president')}</strong>
                         </small>
                         <div className={s.dotPattern}></div>
                         <p className="mt-3 cardText">
-                          Joelo is a licensed attorney and a JLPT N1 passer. He obtained his degree in International Business from Pepperdine University and his Juris Doctor from Ateneo De Manila School of Law. He is also the President of Hashira Skills and Language Academy and Pro-Tech Skills Development Center Corporation. He has been with Placewell since 2018.
-                            
+                          {t('presidentDesc')}
                         </p>
                       </div>
                       
@@ -91,13 +92,9 @@ export default function About() {
             <div className="col-md-10">
               <div className="row">
                 <div className="col-md-4">
-                  <span className="title" style={{fontSize:"18px", fontWeight:"600"}}>OUR PROMISE TO EMPLOYERS</span>
+                  <span className="title" style={{fontSize:"18px", fontWeight:"600"}}>{t('our')}</span>
                   <p className="subtitle">
-                      We promise that the students that you hire from our school will be ready
-                      for work in Japan. They will flourish as workers and be liked as people
-                      because of their knowledge of the Japanese Language and respect for the
-                      Japanese Cul ture. We assure you that your Filipino workers will be a great
-                      help to you and your company.
+                      {t('ourDesc')}
                   </p>
                 </div>
                 <div className={`${s.rightSlideDiv} col-md-8`} style={{backgroundImage:`url(/img/165.jpg)`}}>
@@ -116,11 +113,9 @@ export default function About() {
                   
                 </div>
                 <div className="col-md-4">
-                  <span className="title" style={{fontSize:"18px", fontWeight:"600"}}>OUR PROMISE TO STUDENTS</span>
+                  <span className="title" style={{fontSize:"18px", fontWeight:"600"}}>{t('ourStudent')}</span>
                   <p className="subtitle">
-                      We promise that you will not only gain new and useful knowledge about the
-                      Japanese language and cul ture, but you will also grow as people during your t ime wi th us. We will serve you wi th all our hear t because i t will be our pleasure to see
-                      you fulfill your dreams and succeed in Japan.
+                      {t('ourStudentDesc')}
                   </p>
                 </div>
                 
@@ -133,27 +128,13 @@ export default function About() {
           <div className="row m-0 justify-content-center">
             <div className="col-md-10">
               <div className="header">
-                <h2 className="title">Message from the President</h2>
-                <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h2 className="title">{t('message')}</h2>
+                {/* <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> */}
               </div>
               <div className="row">
                 <div className="col-md-6">
                   <p className={`${s.longParagraph}`}>
-                    My name is Jose Lorenzo Escueta Beech, but you
-                    can call me Joelo! While studying in Japan as an exchange student, I
-                    learned a lot of things about the Japanese culture
-                    that we don’t practice consistently in the Philippines. These include: Compassion, Courtesy, Humility, Trust and Responsibility - practices that are natural to Japanese people, but may not be to my Filipino countrymen and myself.
-                    For this reason, I established Hashira Skills with
-                    the goal of spreading the Japanese Language and Culture throughout the Philippines so that more Filipinos can find work and succeed in Japan.
-                    I love the students who have trusted their future in
-                    our school.
-                    I love my teachers who have dedicated themselves
-                    to growing and improving our company. And I am so thankful to all of the companies who have given this wonderful, life-changing
-                    opportunity to all of our students and team
-                    members. Our company values the connection that we have developed with both companies and students alike, as we build a cross-culture bridge between
-                    two nations that need each other’s help. Hashira hopes to continue helping hundreds of Filipinos make their dreams come true as we strive
-                    to develop young and diligent workers who will surely be a great help to a Japan that is aging and
-                    in need of competent foreign workforce. Hashira Skills is always at your service!
+                    {t('messageDesc')}
                   </p>
                   
                 </div>

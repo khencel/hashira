@@ -1,21 +1,25 @@
 import s from '../components/styles/MissionVision.module.css'
+import { useTranslations } from "next-intl";
 
-const cards = [
+
+
+export default function MissionVision() {
+  const t = useTranslations("corporate");
+
+  const cards = [
   
   {
-    title: 'Mission',
+    title: t('mission'),
     icon: (
       <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
           stroke="#709C6B" strokeWidth="1.5" strokeLinejoin="round"/>
       </svg>
     ),
-    text: `To create an inspiring learning environment for students where the
-      Japanese language and culture are practiced daily, leading to their personal development, growth and future success. We hope that the
-      success of our students will lead to more opportunities for Filipinos to work in Japan.`,
+    text: t('missionDesc')
   },
   {
-    title: 'Vision',
+    title: t('vision'),
     icon: (
       <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <circle cx="12" cy="12" r="10" stroke="#8F6843" strokeWidth="1.5"/>
@@ -27,17 +31,15 @@ const cards = [
         <line x1="19" y1="12" x2="22" y2="12" stroke="#8F6843" strokeWidth="1.5" strokeLinecap="round"/>
       </svg>
     ),
-    text: `To make the Filipino the top choice for Japanese companies that need
-        foreign labor. We aim to make our institution one of the prime spots for Filipinos who are looking to find work in Japan.`,
+    text: t('visionDesc'),
   }
 ];
 
-export default function MissionVision() {
   return (
     <section className={s.section}>
       <div className="header">
-        <h2 className="title">Mission Vision</h2>
-        <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <h2 className="title">{t('misionVision')}</h2>
+        {/* <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> */}
       </div>
 
       <div className={s.grid}>

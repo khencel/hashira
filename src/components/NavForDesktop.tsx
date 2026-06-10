@@ -9,19 +9,19 @@ export default function NavForDesktop() {
     const [megaOpen2, setMegaOpen2] = useState(false);
     const [megaOpen3, setMegaOpen3] = useState(false);
     const [megaOpen4, setMegaOpen4] = useState(false);
-    const t = useTranslations("nav");
+   
     const t1 = useTranslations("navDrop");
 
     return (
         <>
-            <li className="d-none d-md-block"><Link href="/">{t('home')}</Link></li>
+            <li className="d-none d-md-block"><Link href="/">{t1('home')}</Link></li>
             <li
                 className="mega-wrapper d-none d-md-block"
                 onMouseEnter={() => setMegaOpen(true)}
                 onMouseLeave={() => setMegaOpen(false)}
                 >
                 <a href="#" className="nav-link active">
-                    {t('about')}
+                    {t1('aboutNav')}
                 </a>
 
                 <div className={`mega-menu ${megaOpen ? "show" : ""}`}>
@@ -75,7 +75,7 @@ export default function NavForDesktop() {
                 onMouseLeave={() => setMegaOpen4(false)}
                 >
                 <a href="#" className="nav-link active">
-                    {t('system')}
+                    {t1('systemNav')}
                 </a>
 
                 <div className={`mega-menu ${megaOpen4 ? "show" : ""}`}>
@@ -127,7 +127,7 @@ export default function NavForDesktop() {
                 onMouseLeave={() => setMegaOpen2(false)}
                 >
                 <a href="#" className="nav-link active">
-                    {t('skill')}
+                    {t1('skillNav')}
                 </a>
 
                 <div className={`mega-menu ${megaOpen2 ? "show" : ""}`}>
@@ -162,7 +162,7 @@ export default function NavForDesktop() {
                 onMouseLeave={() => setMegaOpen3(false)}
                 >
                 <a href="#" className="nav-link active">
-                    {t('testimonials')}
+                    {t1('testimonialsNav')}
                 </a>
 
                 <div className={`mega-menu ${megaOpen3 ? "show" : ""}`}>
@@ -202,9 +202,9 @@ export default function NavForDesktop() {
 
             
 
-            <li className="d-none d-md-block"><Link href="/gallery">{t('gallery')}</Link></li>
+            <li className="d-none d-md-block"><Link href="/gallery">{t1('gallery')}</Link></li>
             <li className="d-none d-md-block">
-                <Link href="/contact-us">{t('contact')}</Link>
+                <Link href="/contact-us">{t1('contact')}</Link>
             </li>
         </>
     )

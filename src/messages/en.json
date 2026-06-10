@@ -1,24 +1,12 @@
 {
-    "nav":{
-        "home":"Home",
-        "about":"About Us",
-        "corporate":"Corporate Identity",
-        "what":"What is Hashira",
-        "industries":"Industries",
-        "system":"System",
-        "overall":"Overall",
-        "special":"Special Rules",
-        "achievement":"Achievements",
-        "japanese":"Japanese Culture and Manners",
-        "skill":"Skills Training",
-        "testimonials":"Testimonials",
-        "client":"Client Testimonials",
-        "student":"Student Testimonials",
-        "teacher":"Teacher Testimonials",
-        "gallery":"Gallery",
-        "contact":"Contact Us"
-    },
     "navDrop":{
+        "home":"Home",
+        "aboutNav":"About Us",
+        "systemNav":"System",
+        "skillNav":"Skills Training",
+        "testimonialsNav":"Testimonials",
+        "gallery":"Gallery",
+        "contact":"Contact Us",
         "about":{
             "about":"About Us",
             "corporate":"Corporate Identity",
@@ -55,7 +43,59 @@
             "teacher":"Teacher Testimonials",
             "teacherDesc":"Learn about our educational approach and student development from the perspective of our instructors."
         }
-            
-
+    },
+    "home":{
+        "build":"Building Global Careers Through Japanese Education",
+        "trusted":"Trusted Japanese language training for aspiring professionals and future international workers.",
+        "contact":"Contact Us",
+        "feature":"Featured Video",
+        "why":"Why Hashira?",
+        "company":"COMPANY CULTURE",
+        "companyDesc":"Our students live wi th their teachers under a campus wi th a Japanlike environment . They intentionally use the Japanese language, pract ice the Japanese cul ture and even pract ice their skills under a Japanese system",
+        "proficient":"PROFICIENT SYSTEM",
+        "proficientDesc":"We screen our students well before accept ing them into our school. . Af ter properly orient ing the candidates who pass our screening process, we thoroughly interview them in order to judge their viabili ty for work in Japan",
+        "proven":"PROVEN TEACHING METHODOLOGY",
+        "provenDesc":"Our school operates under a system that makes our students st rive for excellence. We give our students monthly writ ten and oral exams, rewarding top students and penalizing underperforming students..",
+        "manner":"MANNER AND SKILLS TRAINING",
+        "mannerDesc":"Our students learn not only the Japanese language, but they also practice Japanese cul ture and manners such as proper “Aisatsu” and the importance of always being on time. Moreover, our students also get to develop their skills by undertaking skills t raining under a Japanese system.",
+        "passionate":"PASSIONATE TEACHERS AND STAFF",
+        "passionateDesc":"All of our teachers have worked in Japan for at least 3 years under the TITP and are JLPT (Minimum N3) and JFT Prometric passers. They t ruly love the company and it can be seen in the way they interact with students, clients and one another. Our teachers are empathet ic, honest and passionate, making them the Hashiras of Hashira.",
+        "whyFilipino":"Why Hire Filipino Workers",
+        "well":"WELL-KNOWN AS PEOPLE WHO WORK ABROAD",
+        "wellDesc":"There are Filipinos all over the world from the United States to the Middle-East and Europe and all across Asia. Filipino workers have been known to be hard-working, bright , friendly and loyal to their employers.",
+        "english":"ENGLISH SPEAKING",
+        "englishDesc":"Japan is moving towards Globalizat ion and the demand for the English language is growing across the count ry. Almost all Filipinos are proficient in English and are happy to share their",
+        "lowAge":"LOW AVERAGE AGE",
+        "lowAgeDesc":"The average age in the Philippines is around 25 years old, which means that there is a lot of youthful energy available for work in an aging Japan",
+        "lowWage":"LOW MINIMUM WAGE",
+        "lowWageDesc":"The minimum wage in the Philippines is around 1,000yen/day. This has driven Filipinos to find employment in foreign countries, wi th Japan being the top choice for many Filipinos.",
+        "filipinoLove":"FILIPINOS LOVE JAPAN",
+        "filipinoLoveDesc":"Filipinos are t ruly enchanted by Japan and its people. We love to watch Anime, sing Karaoke and eat Ramen and Sushi. You probably won’t find a Filipino who doesn’t know what “Arigato” means! Japan is really the dream count ry of many Filipinos.",
+        "gallery":"Gallery",
+        "ourClient":"Our Clients"
+    },
+    "corporate":{
+        "about":"About Us",
+        "corporate":"Corporate Identity",
+        "corporateDesc":"Know all about one of the Philippines’ leading Japanese Schools",
+        "board":"Board of Directors",
+        "kawamichi":"Kawamichi Nobuaki",
+        "vice":"Vice President for Operations",
+        "jose":"Jose Lorenzo Escueta Beech (Joelo)",
+        "president":"President",
+        "presidentDesc":"Joelo is a licensed attorney and a JLPT N1 passer. He obtained his degree in International Business from Pepperdine University and his Juris Doctor from Ateneo De Manila School of Law. He is also the President of Hashira Skills and Language Academy and Pro-Tech Skills Development Center Corporation. He has been with Placewell since 2018.",
+        "misionVision":"Mission & Vision",
+        "mission":"Mission",
+        "missionDesc":"To create an inspiring learning environment for students where the Japanese language and culture are practiced daily, leading to their personal development, growth and future success. We hope that the success of our students will lead to more opportunities for Filipinos to work in Japan.",
+        "vision":"Vision",
+        "visionDesc":"To make the Filipino the top choice for Japanese companies that need foreign labor. We aim to make our institution one of the prime spots for Filipinos who are looking to find work in Japan.",
+        "our":"OUR PROMISE TO EMPLOYERS",
+        "ourDesc":"We promise that the students that you hire from our school will be ready for work in Japan. They will flourish as workers and be liked as people because of their knowledge of the Japanese Language and respect for the Japanese Cul ture. We assure you that your Filipino workers will be a great help to you and your company.",
+        "ourStudent":"OUR PROMISE TO STUDENTS",
+        "ourStudentDesc":"We promise that you will not only gain new and useful knowledge about the Japanese language and cul ture, but you will also grow as people during your t ime wi th us. We will serve you wi th all our hear t because i t will be our pleasure to see you fulfill your dreams and succeed in Japan.",
+        "message":"Message from the President",
+        "messageDesc":"My name is Jose Lorenzo Escueta Beech, but you can call me Joelo! While studying in Japan as an exchange student, I learned a lot of things about the Japanese culture that we don’t practice consistently in the Philippines. These include: Compassion, Courtesy, Humility, Trust and Responsibility - practices that are natural to Japanese people, but may not be to my Filipino countrymen and myself. For this reason, I established Hashira Skills with the goal of spreading the Japanese Language and Culture throughout the Philippines so that more Filipinos can find work and succeed in Japan. I love the students who have trusted their future in our school. I love my teachers who have dedicated themselves to growing and improving our company. And I am so thankful to all of the companies who have given this wonderful, life-changing opportunity to all of our students and team members. Our company values the connection that we have developed with both companies and students alike, as we build a cross-culture bridge between two nations that need each other’s help. Hashira hopes to continue helping hundreds of Filipinos make their dreams come true as we strive to develop young and diligent workers who will surely be a great help to a Japan that is aging and in need of competent foreign workforce. Hashira Skills is always at your service!"
+        
+        
     }
 }

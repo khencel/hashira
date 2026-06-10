@@ -10,12 +10,15 @@ import Rolling from "@/components/Rolling";
 import { getRollingData, getWhyHireFilipino, getAllClient } from "@/data/homepage";
 import WhyPlacewell from "@/components/WhyPlacewell";
 import WhyHire from "@/components/WhyHire";
+import { useTranslations } from "next-intl";
 
 
 export default function Home() {
+  const t = useTranslations("home");
   const rollingData = getRollingData();
   const whyHireFilipino = getWhyHireFilipino();
   const allClient = getAllClient();
+  
   const styles: { section: CSSProperties; header: CSSProperties; title: CSSProperties; subtitle: CSSProperties; videoCard: CSSProperties; videoWrapper: CSSProperties; youtube: CSSProperties; gradientBg: CSSProperties } = {
   section: {
     padding: "60px 20px",
@@ -96,11 +99,11 @@ export default function Home() {
         <SwiperSlide>
           <div className={s.hero}>
               <div className={s.content}>
-                <h1 className={s.bannerTitle}>Building Global Careers Through Japanese Education</h1>
-                <p>Trusted Japanese language training for aspiring professionals and future international workers.</p>
+                <h1 className={s.bannerTitle}>{t('build')}</h1>
+                <p>{t('trusted')}</p>
                 
                 <div className={s.buttons}>
-                  <button className={s.btnprimary}>Contact Us</button>
+                  <button className={s.btnprimary}>{t('contact')}</button>
                   
                 </div>
               </div>
@@ -125,7 +128,7 @@ export default function Home() {
       <section style={styles.section}>
         <div style={styles.gradientBg}></div>
         <div style={styles.header}>
-          <h2 style={styles.title}>Featured Video</h2>
+          <h2 style={styles.title}>{t('feature')}</h2>
           <p style={styles.subtitle}>
             {/* Watch our latest highlight and updates */}
           </p>
@@ -161,7 +164,7 @@ export default function Home() {
 
     <section className="mt-5 mb-5">
       <div style={styles.header}>
-          <h2 style={styles.title}>Gallery</h2>
+          <h2 style={styles.title}>{t('gallery')}</h2>
           <p style={styles.subtitle}>
             {/* Lorem ipsum dolor sit amet consectetur, adipisicing elit. */}
           </p>
@@ -169,7 +172,7 @@ export default function Home() {
         
         <div className="row justify-content-center m-0">
           <div className="col-md-10">
-              <Rolling data={whyHireFilipino}  />
+              {/* <Rolling data={whyHireFilipino}  /> */}
               
               <CustomHR />
           </div>
@@ -179,7 +182,7 @@ export default function Home() {
 
     <section className="mt-5 mb-5">
       <div style={styles.header}>
-          <h2 style={styles.title}>Our Clients</h2>
+          <h2 style={styles.title}>{t('ourClient')}</h2>
           <p style={styles.subtitle}>
             {/* Lorem ipsum dolor sit amet consectetur, adipisicing elit. */}
           </p>
