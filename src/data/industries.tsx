@@ -6,32 +6,32 @@ export function getAllIndustriesFirstRow(){
     return [
         {
             "image":"/img/industries/2151230014.jpg",
-            "title":"Construction Workers",
-            "description":"lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "title":"construction",
+            "description":"constructionDesc",
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
         },
         {
             "image":"/img/industries/195.jpg",
-            "title":"Shipyard Workers",
-            "description":"lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "title":"shipyard",
+            "description":"shipyardDesc",
             "icon":<GiShipBow style={{fontSize:"25px",color:"white"}} />
         },
         {
             "image":"/img/industries/24324.jpg",
-            "title":"Heavy Equipment Operators",
-            "description":"lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "title":"heavy",
+            "description":"heavyDesc",
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
         },
         {
             "image":"/img/default.png",
-            "title":"Caregivers",
-            "description":"lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "title":"caregiver",
+            "description":"caregiverDesc",
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
         },
         {
             "image":"/img/default.png",
-            "title":"Restaurant Workers",
-            "description":"lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "title":"resto",
+            "description":"restoDesc",
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
         }
     ]
@@ -41,20 +41,20 @@ export function getAllIndustriesSecondRow(){
     return [
         {
             "image":"/img/default.png",
-            "title":"Factory Workers",
-            "description":"Over 2,000 Filipino workers deployed all across Japan",
+            "title":"factory",
+            "description":"factoryDesc",
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
         },
         {
             "image":"/img/default.png",
-            "title":"Farmers",
-            "description":"Over 2,000 Filipino workers deployed all across Japan",
+            "title":"farmer",
+            "description":"farmerDesc",
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
         },
         {
             "image":"/img/default.png",
-            "title":"Hotel Workers",
-            "description":"Over 2,000 Filipino workers deployed all across Japan",
+            "title":"hotel",
+            "description":"hotelDesc",
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
         }
     ]

@@ -1,36 +1,40 @@
+"use client"
 import Banner from "@/components/Banner"
 import BranchLocator from "./branches"
 import JobCard from "./card"
 import { FaHardHat } from "react-icons/fa";
 import { getAllIndustriesFirstRow, getAllIndustriesSecondRow } from "@/data/industries"
 import { FaGlobe } from "react-icons/fa";
+import { useTranslations } from "next-intl";
 
 export default function AboutBranches() {
+    const t = useTranslations("industries");
+    const getFirstRow = getAllIndustriesFirstRow()
     return (
         <>
             <Banner
                 backgroundImage="/img/banner/philippines.jpg"
-                title="About Us"
-                subtitle="Industries"
-                description="Over 2,000 Filipino workers deployed all across Japan"
+                title={t('title')}
+                subtitle={t('subtitle')}
+                description={t('desc')}
             />
 
             {/* <BranchLocator /> */}
             <section className="mt-5 mb-5">
                 <div className="header">
-                    <h2 className="title">Our Industries</h2>
-                    <p className="subtitle">We provide skilled and dependable Filipino workers to support Japan's growing industries.</p>
+                    <h2 className="title">{t('our')}</h2>
+                    <p className="subtitle">{t('ourDesc')}</p>
                 </div>
                 <div className="row m-0 justify-content-center">
                     <div className="col-md-12">
                         <div className="row justify-content-center">
                             {
-                                getAllIndustriesFirstRow().map((item,index) => (
+                                getFirstRow.map((item,index) => (
                                     <div className="col-md-2" key={index}>
                                         <JobCard 
                                             image={item.image}
-                                            title={item.title}
-                                            description={item.description}
+                                            title={t(item.title)}
+                                            description={t(item.description)}
                                             icon={item.icon}
                                         />
                                     </div>
@@ -45,8 +49,8 @@ export default function AboutBranches() {
                                     <div className="col-md-2" key={index}>
                                         <JobCard
                                             image={item.image}
-                                            title={item.title}
-                                            description={item.description}
+                                            title={t(item.title)}
+                                            description={t(item.description)}
                                             icon={item.icon}
                                         />
                                     </div>
@@ -65,10 +69,10 @@ export default function AboutBranches() {
                                 </div>
                                 <div style={{marginLeft:"20px"}}>
                                     <span className="title" style={{fontSize:"18px",fontWeight:"bold"}}>
-                                        Map of Japan & Deployment Areas
+                                        {t('map')}
                                     </span>
                                     <p className="subtitle" style={{fontSize:"14px",color:"#555"}}>
-                                        Explore our deployment areas across Japan and see where our Filipino workers are making a difference.
+                                        {t('explore')}
                                     </p>
                                 </div>
                             </div>

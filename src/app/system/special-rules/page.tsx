@@ -3,17 +3,19 @@ import Banner from "@/components/Banner";
 import {getDepartmentList, getAccount}  from "./data"
 import s from "../../department-facilities/department/department.module.css"
 import YouTube from "react-youtube";
+import { useTranslations } from "next-intl";
 
 export default function SpecialRules() {
+    const t = useTranslations("specialRules");
     const departments = getDepartmentList();
     const account = getAccount();
     return (
         <>
             <Banner
                 backgroundImage="/img/banner/144829.jpg"
-                title="System"
-                subtitle="Special Rules"
-                description="We implement these rules to encourage a disciplined and competitive environment"
+                title={t('title')}
+                subtitle={t('subtitle')}
+                description={t('desc')}
             />
 
             <section className="mb-3" style={{background:"#f4f3f3"}}>
@@ -31,13 +33,13 @@ export default function SpecialRules() {
                                                             <span className="badge p-3 rounded-circle" style={{background:"#104675"}}>{department.icon}</span>
                                                         </div>
                                                         <div className="mt-3" style={{width:"70%"}}>
-                                                            <span className="title" style={{fontSize:"18px",fontWeight:"600"}}>{department.title}</span>
+                                                            <span className="title" style={{fontSize:"18px",fontWeight:"600"}}>{t(department.title)}</span>
                                                         </div>
                                                     </div> 
                                                     <div className="p-3">
                                                         <div className={s.descriptioCont}>
                                                             <p className="subtitle">
-                                                                {department.description}
+                                                                {t(department.description)}
                                                             </p>
                                                         </div>
                                                     </div>
@@ -93,13 +95,13 @@ export default function SpecialRules() {
                                                 <span className="badge p-3 rounded-circle" style={{background:"#709C6B"}}>{account.icon}</span>
                                             </div>
                                             <div className="mt-3" style={{width:"70%"}}>
-                                                <span className="title" style={{fontSize:"18px",fontWeight:"600"}}>{account.title}</span>
+                                                <span className="title" style={{fontSize:"18px",fontWeight:"600"}}>{t(account.title)}</span>
                                             </div>
                                         </div> 
                                         <div className="p-3">
                                             <div className={s.descriptioCont}>
                                                 <p className="subtitle">
-                                                    {account.description}
+                                                    {t(account.description)}
                                                 </p>
                                             </div>
                                         </div>
@@ -129,13 +131,13 @@ export default function SpecialRules() {
                                                 <span className="badge p-3 rounded-circle" style={{background:"#104675"}}>{account.icon}</span>
                                             </div>
                                             <div className="mt-3" style={{width:"70%"}}>
-                                                <span className="title" style={{fontSize:"18px",fontWeight:"600"}}>{account.title}</span>
+                                                <span className="title" style={{fontSize:"18px",fontWeight:"600"}}>{t(account.title)}</span>
                                             </div>
                                         </div> 
                                         <div className="p-3">
                                             <div className={s.descriptioCont}>
                                                 <p className="subtitle">
-                                                    {account.description}
+                                                    {t(account.description)}
                                                 </p>
                                             </div>
                                         </div>

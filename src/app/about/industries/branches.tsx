@@ -2,6 +2,7 @@
 
 import { useState, useMemo, useEffect, useRef } from "react";
 import styles from "@/styles/BranchLocator.module.css";
+import { useTranslations } from "next-intl";
 
 type Region = "Luzon" | "Visayas" | "Mindanao";
 
@@ -49,6 +50,7 @@ function PinIcon({ color = "currentColor" }: { color?: string }) {
 function BranchCard({ branch, index, isActive, onViewMap }: {
   branch: Branch; index: number; isActive: boolean; onViewMap: (b: Branch) => void;
 }) {
+  const t = useTranslations("industries");
   const color = REGION_COLORS[branch.region];
   return (
     <div className={`${styles.card} ${isActive ? styles.cardActive : ""}`} onClick={() => onViewMap(branch)}>
