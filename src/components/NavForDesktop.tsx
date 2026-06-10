@@ -10,6 +10,7 @@ export default function NavForDesktop() {
     const [megaOpen3, setMegaOpen3] = useState(false);
     const [megaOpen4, setMegaOpen4] = useState(false);
     const t = useTranslations("nav");
+    const t1 = useTranslations("navDrop");
 
     return (
         <>
@@ -29,12 +30,12 @@ export default function NavForDesktop() {
                     <div className="mega-arrow"></div>
 
                     <div className="mega-grid">
-                        <strong>{t('about')}</strong>
+                        <strong>{t1('about.about')}</strong>
                         <Link href="/about/corporate-identity" className="mega-item">
                             <FaHospital className="social-icon" />
                             <div>
-                            <h4>Corporate Identity</h4>
-                            <p>Know all about one of the Philippines’ leading Japanese Schools</p>
+                            <h4>{t1('about.corporate')}</h4>
+                            <p>{t1('about.know')}</p>
                             </div>
                         </Link>
 
@@ -42,10 +43,10 @@ export default function NavForDesktop() {
                             <FaUserDoctor className="social-icon" />
                             <div>
                                 
-                                <h4>What is Hashira</h4>
+                                <h4>{t1('about.what')}</h4>
                                 
                                 <p>
-                                    Filipino workers as the foundation of a Japan in need of labor
+                                    {t1('about.filipino')}
                                 </p>
                             </div>
                         </Link>
@@ -53,8 +54,8 @@ export default function NavForDesktop() {
                         <Link href="/about/industries" className="mega-item">
                             <FaSyringe className="social-icon" />
                             <div>
-                            <h4>Industries</h4>
-                            <p>Over 2,000 Filipino workers deployed all across Japan </p>
+                            <h4>{t1('about.industries')}</h4>
+                            <p>{t1('about.system')} </p>
                             </div>
                         </Link>
                         {/* <Link href="/worldwide-careers" className="mega-item">
@@ -83,36 +84,36 @@ export default function NavForDesktop() {
                     <div className="mega-arrow"></div>
 
                     <div className="mega-grid">
-                        <strong>{t('system')}</strong>
+                        <strong>{t1('system.system')}</strong>
                         <Link href="/system/overall" className="mega-item">
                             <FaHospital className="social-icon" />
                             <div>
-                            <h4>Overall</h4>
-                            <p>Our system ensures that we provide our clients with the best possible Filipino Workers</p>
+                            <h4>{t1('system.overall')}</h4>
+                            <p>{t1('system.our')}</p>
                             </div>
                         </Link>
 
                         <Link href="/system/special-rules" className="mega-item">
                             <FaUserDoctor className="social-icon" />
                             <div>
-                            <h4>Special Rules</h4>
-                            <p>We implement these rules to encourage a disciplined and competitive environment</p>
+                            <h4>{t1('system.special')}</h4>
+                            <p>{t1('system.we')}</p>
                             </div>
                         </Link>
 
                         <Link href="/system/achievements" className="mega-item">
                             <FaUserDoctor className="social-icon" />
                             <div>
-                            <h4>Achievements</h4>
-                            <p>See what Hashira has achieved since its establishment in 2020</p>
+                            <h4>{t1('system.achievements')}</h4>
+                            <p>{t1('system.see')}</p>
                             </div>
                         </Link>
 
                         <Link href="/system/japanese-culture-manners" className="mega-item">
                             <FaUserDoctor className="social-icon" />
                             <div>
-                            <h4>Japanese Culture and Manners</h4>
-                            <p>just as important as Japanese language</p>
+                            <h4>{t1('system.japanese')}</h4>
+                            <p>{t1('system.just')}</p>
                             </div>
                         </Link>
 
@@ -135,20 +136,20 @@ export default function NavForDesktop() {
                     <div className="mega-arrow"></div>
 
                     <div className="mega-grid">
-                        <strong>{t('skill')}</strong>
+                        <strong>{t1('skillsTraining.skill')}</strong>
                         <Link href="/skill-training/construction" className="mega-item">
                             <FaHospital className="social-icon" />
                             <div>
-                            <h4>Construction</h4>
-                            <p>See how we train our construction workers</p>
+                            <h4>{t1('skillsTraining.construction')}</h4>
+                            <p>{t1('skillsTraining.see')}</p>
                             </div>
                         </Link>
 
                         <Link href="/skill-training/hospitality" className="mega-item">
                             <FaUserDoctor className="social-icon" />
                             <div>
-                            <h4>Hospitality</h4>
-                            <p>Enhancing the heart of the Filipino</p>
+                            <h4>{t1('skillsTraining.hospitality')}</h4>
+                            <p>{t1('skillsTraining.enhance')}</p>
                             </div>
                         </Link>
                     </div>
@@ -170,28 +171,28 @@ export default function NavForDesktop() {
                     <div className="mega-arrow"></div>
 
                     <div className="mega-grid">
-                        <strong>{t('testimonials')}</strong>
+                        <strong>{t1('testimonials.testimonials')}</strong>
                         <Link href="/testimonials/client-testimonials" className="mega-item">
                             <FaHospital className="social-icon" />
                             <div>
-                            <h4>Client Testimonials</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h4>{t1('testimonials.client')}</h4>
+                            <p>{t1('testimonials.clientDesc')}</p>
                             </div>
                         </Link>
 
                         <Link href="/testimonials/student-testimonials" className="mega-item">
                             <FaUserDoctor className="social-icon" />
                             <div>
-                            <h4>Student Testimonials</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h4>{t1('testimonials.student')}</h4>
+                            <p>{t1('testimonials.studentDesc')}</p>
                             </div>
                         </Link>
 
                         <Link href="/testimonials/teacher-testimonials" className="mega-item">
                             <FaUserDoctor className="social-icon" />
                             <div>
-                            <h4>Teacher Testimonials</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h4>{t1('testimonials.teacher')}</h4>
+                            <p>{t1('testimonials.teacherDesc')}</p>
                             </div>
                         </Link>
 

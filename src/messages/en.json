@@ -17,5 +17,45 @@
         "teacher":"Teacher Testimonials",
         "gallery":"Gallery",
         "contact":"Contact Us"
+    },
+    "navDrop":{
+        "about":{
+            "about":"About Us",
+            "corporate":"Corporate Identity",
+            "know":"Know all about one of the Philippines' leading Japanese Schools",
+            "what":"What is Hashira",
+            "filipino":"Filipino workers as the foundation of a Japan in need of labor",
+            "industries":"Industries",
+            "system":"Over 2,000 Filipino workers deployed all across Japan"
+        },
+        "system":{
+            "system":"System",
+            "overall":"Overall",
+            "our":"Our system ensures that we provide our clients with the best possible Filipino Workers",
+            "special":"Special Rules",
+            "we":"We implement these rules to encourage a disciplined and competitive environment",
+            "achievements":"Achievements",
+            "see":"See what Hashira has achieved since its establishment in 2020",
+            "japanese":"Japanese Culture and Manners",
+            "just":"Just as important as Japanese language"
+        },
+        "skillsTraining":{
+            "skill":"Skills Training",
+            "construction":"Construction",
+            "see":"See how we train our construction workers",
+            "hospitality":"Hospitality",
+            "enhance":"Enhancing the heart of the Filipino"
+        },
+        "testimonials":{
+            "testimonials":"Testimonials",
+            "client":"Client Testimonials",
+            "clientDesc":"Hear directly from our partner companies about their experience working with our graduates and services.",
+            "student":"Student Testimonials",
+            "studentDesc":"Discover the experiences and success stories of students who pursued their dreams through our programs.",
+            "teacher":"Teacher Testimonials",
+            "teacherDesc":"Learn about our educational approach and student development from the perspective of our instructors."
+        }
+            
+
     }
 }
