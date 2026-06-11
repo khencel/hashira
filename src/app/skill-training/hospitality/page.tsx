@@ -4,16 +4,18 @@ import TradeTestItem from "./tradeTestItem";
 import {getData} from "./data";
 import YouTube from "react-youtube";
 import s from "@/styles/SkillTraining.module.css"
+import { useTranslations } from "next-intl";
 
 export default function Construction() {
+    const t = useTranslations("hospitality");
     const data = getData();
     return (
         <>
             <Banner
                 backgroundImage="/img/banner/144829.jpg"
-                title="Skills Training"
-                subtitle="Hospitality"
-                description="Enhancing the heart of the Filipino"
+                title={t('title')}
+                subtitle={t('subtitle')}
+                description={t('desc')}
             />
 
             <div className="row justify-content-center m-0">
@@ -28,14 +30,14 @@ export default function Construction() {
                 <div className="row m-0 justify-content-center">
                     <div className="col-md-10">
                         <div className="header">
-                            <h2 className="title">Other</h2>
-                            <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h2 className="title">{t('Other')}</h2>
+                            {/* <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> */}
                         </div>
 
                         <div className={`row ${s.sectionStyle}`}>
                             <div className="col-md-3 p-3">
                                 <span className="title" style={{fontWeight:"600", fontSize:"20px"}}>
-                                    Japanese Hospitality (Omotenashi)
+                                    {t('Japanese')}
                                 </span>
                                 <p className="subtitle" style={{fontSize:"14px"}}>
                                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas quo quos suscipit similique reprehenderit, magnam, ipsam repellendus placeat libero ipsum. Soluta, modi sunt unde sint nesciunt error illo molestiae?
@@ -71,7 +73,7 @@ export default function Construction() {
                         <div className={`row ${s.sectionStyle}`}>
                             <div className="col-md-3 p-3">
                                 <span className="title" style={{fontWeight:"600", fontSize:"20px"}}>
-                                    Technical Terms
+                                    {t('Technical')}
                                 </span>
                                 <p className="subtitle" style={{fontSize:"14px"}}>
                                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas quo quos suscipit similique reprehenderit, magnam, ipsam repellendus placeat libero ipsum. Soluta, modi sunt unde sint nesciunt error illo molestiae?

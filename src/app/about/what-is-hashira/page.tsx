@@ -32,15 +32,17 @@ export default function About() {
               </div>
 
               <div className="position-relative">
+                <div className="dotPattern" style={{top:"-70px"}}></div>
                 <div className="row">
                   <div className={`col-md-8 ${s.heroDescription}`} >
+                    
                     <span className="title">{t('what')}</span>
                     {t('whatDesc')}
                   </div>
                 </div>
                 <div className="row">
                   <div className={`col-md-6 p-0 ${s.hero}`}>
-                    <img src="/eloisa.png" style={{width:"60%"}} alt="" />
+                    <img src="/img/identity/joelo.png" style={{width:"60%"}} alt="" />
                   </div>
                   <div className="col-md-6">
 

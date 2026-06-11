@@ -26,11 +26,11 @@ export default function AboutBranches() {
                     <p className="subtitle">{t('ourDesc')}</p>
                 </div>
                 <div className="row m-0 justify-content-center">
-                    <div className="col-md-12">
+                    <div className="col-md-10">
                         <div className="row justify-content-center">
                             {
                                 getFirstRow.map((item,index) => (
-                                    <div className="col-md-2" key={index}>
+                                    <div className="col-md-3" key={index}>
                                         <JobCard 
                                             image={item.image}
                                             title={t(item.title)}
@@ -46,7 +46,7 @@ export default function AboutBranches() {
                         <div className="row justify-content-center mt-3">
                             {
                                 getAllIndustriesSecondRow().map((item,index) => (
-                                    <div className="col-md-2" key={index}>
+                                    <div className="col-md-3" key={index}>
                                         <JobCard
                                             image={item.image}
                                             title={t(item.title)}
@@ -59,7 +59,7 @@ export default function AboutBranches() {
                             
 
                             {/* sakop 2 columns */}
-                            <div className="col-4">
+                        <div className="col-6 mt-4">
                                 
                             <div className="d-flex">
                                 <div >

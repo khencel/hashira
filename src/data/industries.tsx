@@ -27,18 +27,19 @@ export function getAllIndustriesFirstRow(){
             "title":"caregiver",
             "description":"caregiverDesc",
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
-        },
-        {
-            "image":"/img/default.png",
-            "title":"resto",
-            "description":"restoDesc",
-            "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
         }
+        
     ]
 }
 
 export function getAllIndustriesSecondRow(){
     return [
+        {
+            "image":"/img/default.png",
+            "title":"resto",
+            "description":"restoDesc",
+            "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
+        },
         {
             "image":"/img/default.png",
             "title":"factory",
