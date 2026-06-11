@@ -1,25 +1,29 @@
+"use client";
 import Banner from "@/components/Banner";
 import s from '@/styles/manners.module.css'
 import ItemSection from "./ItemSection";
+import { useTranslations } from "next-intl";
 
 
 export default function JapaneseCultureManners() {
+    const t = useTranslations("japaneseCulture");
     return (
         <>
             <Banner
                 backgroundImage="/img/banner/31383.jpg"
-                title="System"
-                subtitle="Japanese Culture and Manners"
+                title={t('title')}
+                subtitle={t('Japanese')}
                 description="just as important as Japanese language"
             />
             
             <ItemSection
                 headTitle={
                     <>
-                        <span className="text-white">Japanese</span> Cultural Manners
+                        {/* <span className="text-white">Japanese</span> Cultural Manners */}
+                        {t('Japanese')}
                     </>
                 }
-                description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea quos illo minus expedita aliquid id similique fugit eveniet nemo, debitis corrupti tenetur, alias quae eos saepe impedit obcaecati sapiente maxime?"
+                description={t('JapaneseDesc')}
                 imageLeft="/img/manners/noShoes.jpg"
                 imageRight="/img/manners/fuji.jpg"
                 imageCenter="/img/manners/noShoes2.jpg"
@@ -30,11 +34,12 @@ export default function JapaneseCultureManners() {
             <ItemSection
                 headTitle={
                     <>
-                        <span className="text-white">Japanese</span> Greetings
+                        {/* <span className="text-white">Japanese</span> Greetings */}
+                        {t('Greetings')}
                     </>
                 }
 
-                description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea quos illo minus expedita aliquid id similique fugit eveniet nemo, debitis corrupti tenetur, alias quae eos saepe impedit obcaecati sapiente maxime?"
+                description={t('GreetingsDesc')}
                 imageLeft="/img/manners/greet1.jpg"
                 imageRight="/img/manners/greet2.jpg"
                 imageCenter="/img/manners/greet3.jpg"
@@ -45,11 +50,12 @@ export default function JapaneseCultureManners() {
             <ItemSection
                 headTitle={
                     <>
-                        <span className="text-white">Sustainable</span> Recycling 
+                        {/* <span className="text-white">Sustainable</span> Recycling  */}
+                        {t('Recycling')}
                     </>
                 }
 
-                description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea quos illo minus expedita aliquid id similique fugit eveniet nemo, debitis corrupti tenetur, alias quae eos saepe impedit obcaecati sapiente maxime?"
+                description={t('RecyclingDesc')}
                 imageLeft="/img/manners/recycle2.jpg"
                 imageRight="/img/manners/recycle1.jpg"
                 imageCenter="/img/manners/recycle3.jpg"
@@ -60,11 +66,12 @@ export default function JapaneseCultureManners() {
             <ItemSection
                 headTitle={
                     <>
-                        <span className="text-white">Learning</span> from Ex Trainee Teachers 
+                        {/* <span className="text-white">Learning</span> from Ex Trainee Teachers  */}
+                        {t('Life')}
                     </>
                 }
 
-                description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea quos illo minus expedita aliquid id similique fugit eveniet nemo, debitis corrupti tenetur, alias quae eos saepe impedit obcaecati sapiente maxime?"
+                description={t('LifeDesc')}
                 imageLeft="/img/manners/mentor1.jpg"
                 imageRight="/img/manners/mentor2.jpg"
                 imageCenter="/img/manners/mentor3.jpg"
@@ -75,11 +82,12 @@ export default function JapaneseCultureManners() {
             <ItemSection
                 headTitle={
                     <>
-                        <span className="text-white">Japanese</span> Stay-in System 
+                        {/* <span className="text-white">Japanese</span> Stay-in System  */}
+                        {t('Stay')}
                     </>
                 }
 
-                description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea quos illo minus expedita aliquid id similique fugit eveniet nemo, debitis corrupti tenetur, alias quae eos saepe impedit obcaecati sapiente maxime?"
+                description={t('StayDesc')}
                 imageLeft="/img/manners/stay3.jpg"
                 imageRight="/img/manners/stay2.jpg"
                 imageCenter="/img/manners/stay1.jpg"

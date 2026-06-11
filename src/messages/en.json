@@ -173,22 +173,22 @@
         "subtitle":"Construction",
         "desc":"See how we train our construction workers",
         "Welding":"Welding",
-        "WeldingDesc":"We have our own dedicated facility for welding trade tests, equipped with 16 welding machines that can be used for MIG Welding and Stick Welding.",
+        "WeldingDesc":"Learn the fundamental knowledge, safety procedures, and practical skills required for welding work. Our training prepares students for manufacturing and construction workplaces in Japan.",
         "Carpentry":"Carpentry",
-        "CarpentryDesc":"Our facility is complete with all tools and equipment needed to conduct a thorough evaluation of a carpenter’s skills",
+        "CarpentryDesc":"Students learn basic construction techniques, tool handling, and workplace safety to develop the skills needed in Japan's building industry.",
         "Scaffolding":"Scaffolding",
-        "ScaffoldingDesc":"Our facility is complete with equipment and safety gear to conduct scaffolding trade tests of up to 25 meters.",
+        "ScaffoldingDesc":"Training focuses on scaffolding assembly, dismantling procedures, safety awareness, and teamwork required on Japanese construction sites.",
         "Masonry":"Masonry",
-        "MasonryDesc":"Our facility is adequate enough to handle a basic masonry/plastering trade test",
+        "MasonryDesc":"Students learn the fundamentals of plastering work, including material handling, finishing techniques, and quality control standards.",
         "Painting":"Painting",
-        "PaintingDesc":"We are able to conduct metal, drywall and cement wall at our trade test center.",
+        "PaintingDesc":"Our painting program covers surface preparation, painting techniques, and safety practices to help students succeed in Japanese workplaces.",
         "Other":"Other",
         "Safety":"Safety First",
-        "SafetyDesc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
-        "Technical":"Technical",
-        "TechnicalDesc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
-        "Emphasis":"Emphasis",
-        "EmphasisDesc":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas quo quos suscipit similique reprehenderit, magnam, ipsam repellendus placeat libero ipsum. Soluta, modi sunt unde sint nesciunt error illo molestiae?"
+        "SafetyDesc":"We believe that safety is the foundation of every successful worker. Through continuous guidance and practical training, we instill strong safety awareness and responsible workplace behavior in our students.",
+        "Technical":"Technical Terminology Training",
+        "TechnicalDesc":"Effective communication begins with understanding the language of the workplace. We provide industry-specific terminology training to help students communicate confidently and accurately in Japan.",
+        "Emphasis":"Understanding Workplace Instructions",
+        "EmphasisDesc":"Understanding instructions correctly is essential for success in the workplace. Our training focuses on developing listening, comprehension, and response skills needed in Japanese working environments."
     },
     "hospitality":{
         "title":"Skills Training",
@@ -251,6 +251,21 @@
         "connect":"CONNECT WITH US",
         "legal":"Legal & Compliance",
         "privacy":"Privacy Policy"
+    },
+    "japaneseCulture":{
+        "title":"System",
+        "subtitle":"Japanese Culture and Manners",
+        "desc":"Just as important as Japanese language",
+        "Japanese":"Japanese Cultural Manners",
+        "JapaneseDesc":"Students learn Japanese customs, workplace etiquette, daily manners, and social rules to help them adapt smoothly to life and work in Japan.",
+        "Greetings":"Japanese Greetings",
+        "GreetingsDesc":"Proper greetings are an essential part of Japanese society. We provide practical training to help students communicate respectfully and confidently.",
+        "Recycling":"Sustainable Recycling",
+        "RecyclingDesc":"Students learn the importance of waste separation, recycling practices, and environmental responsibility, which are essential parts of daily life in Japan.",
+        "Life":"Learning from Ex Trainee Teachers",
+        "LifeDesc":"Former trainees share their real-life experiences, challenges, and advice to help students better prepare for living and working in Japan.",
+        "Stay":"Japanese Stay-in System",
+        "StayDesc":"Through our stay-in system, students experience discipline, cooperation, cleanliness, and responsibility in a community environment similar to life in Japan."
     }
     
 }
