@@ -3,7 +3,7 @@ export function getData(){
         {
             number:1,
             title:"Welding",
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+            description:"WeldingDesc",
             videoId:"1vIU3R-BIDQ",
             image1:"/img/default.png",
             image2:"/img/default.png"
@@ -11,7 +11,7 @@ export function getData(){
         {
             number:2,
             title:"Carpentry",
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+            description:"CarpentryDesc",
             videoId:"1vIU3R-BIDQ",
             image1:"/img/default.png",
             image2:"/img/default.png"
@@ -19,7 +19,7 @@ export function getData(){
         {
             number:3,
             title:"Scaffolding",
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+            description:"ScaffoldingDesc",
             videoId:"1vIU3R-BIDQ",
             image1:"/img/default.png",
             image2:"/img/default.png"
@@ -27,7 +27,7 @@ export function getData(){
         {
             number:4,
             title:"Masonry",
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+            description:"MasonryDesc",
             videoId:"1vIU3R-BIDQ",
             image1:"/img/default.png",
             image2:"/img/default.png"
@@ -35,7 +35,7 @@ export function getData(){
         {
             number:5,
             title:"Painting",
-            description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque iure incidunt placeat a minima, cum consequuntur dolor quaerat corrupti pariatur nesciunt doloremque, vero tenetur sint! Corporis libero explicabo eos?",
+            description:"PaintingDesc",
             videoId:"1vIU3R-BIDQ",
             image1:"/img/default.png",
             image2:"/img/default.png"
