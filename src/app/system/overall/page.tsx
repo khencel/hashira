@@ -21,35 +21,35 @@ export default function Overall() {
           <Step
             title={t('Orientation')}
             text={t('OrientationDesc')}
-            image="/img/default.png"
+            image="/img/industries/orientation.JPG"
             reverse={false}
           />
 
           <Step
             title={t('Screening')}
             text={t('ScreeningDesc')}
-            image="/img/default.png"
+            image="/img/industries/screening.png"
             reverse={true}
           />
 
           <Step
             title={t('Study')}
             text={t('StudyDesc')}
-            image="/img/default.png"
+            image="/img/industries/study.JPG"
             reverse={false}
           />
 
           <Step
             title={t('Interview')}
             text={t('InterviewDesc')}
-            image="/img/default.png"
+            image="/img/industries/Interview.JPG"
             reverse={true}
           />
 
           <Step
             title={t('Monthly')}
             text={t('MonthlyDesc')}
-            image="/img/default.png"
+            image="/img/industries/monthly.JPG"
             reverse={false}
           />
 

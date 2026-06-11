@@ -26,7 +26,7 @@ export default function TradeTestItem({ number, title, description, videoId, ima
                             <div>
                                 <span className="title" style={{fontSize:"20px",fontWeight:"600"}}>{t(title)}</span>
                                 <p className="subtitle" style={{fontSize:"14px"}}>
-                                    {description}
+                                    {t(description)}
                                 </p>
                             </div>
                         </div>

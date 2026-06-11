@@ -195,10 +195,37 @@
         "subtitle":"Hospitality",
         "desc":"Enhancing the heart of the Filipino",
         "Caregiving":"Caregiving",
+        "CaregivingDesc":"We have our own dedicated facility for training and trade tests and modeled up to modern Japanese nursing home standards.",
         "Food":"Food Service",
+        "FoodDesc":"Our facility is complete with tools and equipment needed to conduct training and trade tests for cooking, proper serving and hygiene management.",
         "Housekeeping":"Housekeeping",
+        "HousekeepingDesc":"Our facility is complete with beds, dining tables, cooking tools and more – making it satisfactory for high-quality training and trade tests for domestic and hotel works.",
         "Other":"Other",
         "Japanese":"Japanese Hospitality (Omotenashi)",
-        "Technical":"Technical Terms"
+        "JapaneseDesc":"Japanese Hospitality (Omotenashi)",
+        "Technical":"Technical Terms",
+        "TechnicalDesc":"Technical Terms"
+    },
+    "clientTestimonial":{
+        "title":"Testimonials",
+        "subtitle":"Client Testimonials",
+        "desc":"With over 15 branches nationwide, Placewell has a strong presence in the Philippines and recruits workers from all over the country.",
+        "ourClient":"Our Client Testimonials",
+        "what":"What Our Clients Says"
+    },
+    "studentTestimonial":{
+        "title":"Testimonials",
+        "subtitle":"Student Testimonials",
+        "desc":"With over 15 branches nationwide, Placewell has a strong presence in the Philippines and recruits workers from all over the country.",
+        "our":"Our Student Testimonials",
+        "what":"What Our Student Says"
+    },
+    "teacherTestimonial":{
+        "title":"Testimonials",
+        "subtitle":"Teacher Testimonials",
+        "desc":"With over 15 branches nationwide, Placewell has a strong presence in the Philippines and recruits workers from all over the country.",
+        "our":"Our Teacher Testimonials",
+        "what":"What Our Teacher Says"
     }
+    
 }

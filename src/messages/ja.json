@@ -195,10 +195,37 @@
         "subtitle":"ホスピタリティ分野",
         "desc":"フィリピン人ならではの温かいおもてなしの心をさらに育み、サービス業で求められる接遇力の向上を目指します。",
         "Caregiving":"介護",
+        "CaregivingDesc":"We have our own dedicated facility for training and trade tests and modeled up to modern Japanese nursing home standards.",
         "Food":"外食",
+        "FoodDesc":"Our facility is complete with tools and equipment needed to conduct training and trade tests for cooking, proper serving and hygiene management.",
         "Housekeeping":"ハウスキーパー",
+        "HousekeepingDesc":"Our facility is complete with beds, dining tables, cooking tools and more – making it satisfactory for high-quality training and trade tests for domestic and hotel works.",
         "Other":"Other",
         "Japanese":"日本式ホスピタリティ（おもてなし）",
-        "Technical":"接客用語の習得"
+        "JapaneseDesc":"日本式ホスピタリティ（おもてなし）",
+        "Technical":"接客用語の習得",
+        "TechnicalDesc":"接客用語の習得"
+    },
+    "clientTestimonial":{
+        "title":"お客様の声",
+        "subtitle":"お取引先企業様の声",
+        "desc":"実際にフィリピン人材を採用いただいた企業様からのご意見やご感想をご紹介します。",
+        "ourClient":"お取引先企業様の声",
+        "what":"お取引先企業様の声"
+    },
+    "studentTestimonial":{
+        "title":"お客様の声",
+        "subtitle":"生徒の声",
+        "desc":"PLACEWELLはフィリピン全国に15以上の拠点を展開しており、各地域から意欲ある人材の募集・育成を行っています。",
+        "our":"生徒の声",
+        "what":"学生の声"
+    },
+    "teacherTestimonial":{
+        "title":"お客様の声",
+        "subtitle":"教師の声",
+        "desc":"生徒の成長を支える講師陣の想いや、日々の指導に対する取り組みをご紹介します。",
+        "our":"講師インタビュー",
+        "what":"教師の声"
     }
+
 }
