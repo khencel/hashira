@@ -61,25 +61,28 @@ export function getWhyHireFilipino() {
 export function getAllClient(){
     return [
         {
-            image:"/img/client/1.jpg"
+            image:"/img/client/client1.png"
         },
         {
-            image:"/img/client/2.jpg"
+            image:"/img/client/client2.png"
         },
         {
-            image:"/img/client/3.jpg"
+            image:"/img/client/client3.png"
         },
         {
-            image:"/img/client/4.jpg"
+            image:"/img/client/client4.png"
         },
         {
-            image:"/img/client/5.jpg"
+            image:"/img/client/client5.png"
         },
         {
-            image:"/img/client/1.jpg"
+            image:"/img/client/client6.png"
         },
         {
-            image:"img/client/2.jpg"
+            image:"img/client/client7.png"
+        },
+        {
+            image:"img/client/client8.png"
         }
     ]
 }

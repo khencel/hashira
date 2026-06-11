@@ -17,7 +17,7 @@ export default function WhyPlacewell() {
             <div className={s.left}>
             <div className={s.imageWrap}>
                 <Image
-                src="/img/planning.jpg"
+                src="/hashira.png"
                 alt="Planning"
                 fill
                 className={s.image}
