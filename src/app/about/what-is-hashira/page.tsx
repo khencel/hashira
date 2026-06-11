@@ -64,7 +64,7 @@ export default function About() {
 
                   </div>
                   <div className={`col-md-6 p-0 text-end ${s.hero}`}>
-                    <img src="/img/identity/joelo.png" style={{width:"60%"}} alt="" />
+                    <img src="/img/methodology.jpg" style={{width:"60%"}} alt="" />
                   </div>
                 </div>
               </div>
