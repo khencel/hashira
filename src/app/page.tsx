@@ -93,7 +93,7 @@ export default function Home() {
         slidesPerView={1}
         loop={true}
         modules={[Autoplay]}
-        // autoplay={{ delay: 2000 }}
+        autoplay={{ delay: 2000 }}
         speed={800}
       >
         <SwiperSlide>
