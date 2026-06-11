@@ -226,6 +226,31 @@
         "desc":"With over 15 branches nationwide, Placewell has a strong presence in the Philippines and recruits workers from all over the country.",
         "our":"Our Teacher Testimonials",
         "what":"What Our Teacher Says"
+    },
+    "gallery":{
+        "title":"Gallery",
+        "subtitle":"Explore Our Gallery",
+        "desc":"With over 15 branches nationwide, Placewell has a strong presence in the Philippines and recruits workers from all over the country. Our branch offices are located in key cities and provinces, allowing us to connect with a wide pool of talented Filipino workers and provide them with the support they need throughout the recruitment and deployment process."
+    },
+    "contactUs":{
+        "title":"Contact Us",
+        "subtitle":"We’re here to assist you",
+        "desc":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, dolorum quibusdam. Debitis dolorem obcaecati placeat ea totam, hic reprehenderit dicta, quam optio, iure exercitationem facilis. Enim sunt magnam illo nobis!",
+        "connect":"Let’s Connect"
+    },
+    "footer":{
+        "placewell":"PLACEWELL INTERNATIONAL",
+        "services":"Services Corporation",
+        "home":"Home",
+        "about":"About Us",
+        "system":"System",
+        "skill":"Skills Training",
+        "testimonial":"Testimonials",
+        "gallery":"Gallery",
+        "contact":"Contact Us",
+        "connect":"CONNECT WITH US",
+        "legal":"Legal & Compliance",
+        "privacy":"Privacy Policy"
     }
     
 }

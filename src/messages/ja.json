@@ -226,6 +226,31 @@
         "desc":"生徒の成長を支える講師陣の想いや、日々の指導に対する取り組みをご紹介します。",
         "our":"講師インタビュー",
         "what":"教師の声"
+    },
+    "gallery":{
+        "title":"Gallery",
+        "subtitle":"ギャラリー",
+        "desc":"学校での学習風景や技能訓練の様子、各種イベント、企業様との交流など、Hashira Skills and Language Academyの日々の取り組みをご紹介します。"
+    },
+    "contactUs":{
+        "title":"お問い合わせ",
+        "subtitle":"お気軽にご相談ください",
+        "desc":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, dolorum quibusdam. Debitis dolorem obcaecati placeat ea totam, hic reprehenderit dicta, quam optio, iure exercitationem facilis. Enim sunt magnam illo nobis!",
+        "connect":"お問い合わせ情報"
+    },
+    "footer":{
+        "placewell":"PLACEWELL INTERNATIONAL",
+        "services":"Services Corporation",
+        "home":"Home",
+        "about":"About Us",
+        "system":"System",
+        "skill":"Skills Training",
+        "testimonial":"Testimonials",
+        "gallery":"Gallery",
+        "contact":"Contact Us",
+        "connect":"CONNECT WITH US",
+        "legal":"Legal & Compliance",
+        "privacy":"Privacy Policy"
     }
 
 }

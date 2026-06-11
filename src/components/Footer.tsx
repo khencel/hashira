@@ -24,8 +24,8 @@ export default function Footer() {
           <div>
             <p>Home</p>
             <p>About Us</p>
-            <p>Engage with Us</p>
-            <p>Facilities and Divisions</p>
+            <p>System</p>
+            <p>Skills Training</p>
           </div>
 
           <div>

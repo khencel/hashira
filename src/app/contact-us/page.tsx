@@ -1,16 +1,19 @@
+"use client"
+
 import Banner from "@/components/Banner"
 import s from "@/styles/contactUs.module.css"
 import { FaFacebookF } from "react-icons/fa6";
-
+import { useTranslations } from "next-intl";
 
 export default function ContactUs(){
+    const t = useTranslations("contactUs");
     return (
         <>
             <Banner
                 backgroundImage="/img/banner/124009.jpg"
-                title="Contact Us"
-                subtitle="We’re here to assist you"
-                description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, dolorum quibusdam. Debitis dolorem obcaecati placeat ea totam, hic reprehenderit dicta, quam optio, iure exercitationem facilis. Enim sunt magnam illo nobis!"
+                title={t('title')}
+                subtitle={t('subtitle')}
+                description={t('desc')}
             />
 
             <section  className={`${s.testimonialSection} `}>
@@ -19,7 +22,7 @@ export default function ContactUs(){
                         <div >
                         
                         <div className="header">
-                            <h2 className="title">Let’s Connect</h2>
+                            <h2 className="title">{t('connect')}</h2>
                             <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
 
