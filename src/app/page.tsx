@@ -116,9 +116,7 @@ export default function Home() {
                 <h1 className={s.bannerTitle}>Placewell International Services Corporation</h1>
                 <p>Is a trusted Philippine overseas recruitment agency with more than 50 years of experience in sourcing and deploying qualified Filipino talent to employers around the world. Backed by a dedicated team and a comprehensive recruitment process, we provide reliable workforce solutions while upholding professionalism, integrity, and a strong commitment to both our clients and the workers we serve.</p>
                 
-                {/* <div className={s.buttons}>
-                  <button className={s.btnprimary}>Contact Us</button>
-                </div> */}
+                
               </div>
           </div>
         </SwiperSlide>

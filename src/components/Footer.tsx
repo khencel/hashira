@@ -1,3 +1,4 @@
+"use client"
 
 import Image from "next/image";
 import s from "../components/styles/Footer.module.css"
@@ -8,8 +9,10 @@ import {
     FaYoutube,
     FaTiktok 
 } from "react-icons/fa6";
+import { useTranslations } from "next-intl";
 
 export default function Footer() {
+  const t = useTranslations("footer");
   return (
     <footer className={s.footer}>
       <div className={s.topSection}>
@@ -22,23 +25,23 @@ export default function Footer() {
         {/* Links */}
         <div className={s.links}>
           <div>
-            <p>Home</p>
-            <p>About Us</p>
-            <p>System</p>
-            <p>Skills Training</p>
+            <p>{t('home')}</p>
+            <p>{t('about')}</p>
+            <p>{t('system')}</p>
+            <p>{t('skill')}</p>
           </div>
 
           <div>
-            <p>Testimonials</p>
-            <p>Gallery</p>
-            <p>Contact Us</p>
-            <p>FAQ</p>
+            <p>{t('testimonial')}</p>
+            <p>{t('gallery')}</p>
+            <p>{t('contact')}</p>
+            <p>{t('faq')}</p>
           </div>
         </div>
 
         {/* Social + Badge */}
         <div className={s.right}>
-          <p className={s.connect}>CONNECT WITH US</p>
+          <p className={s.connect}>{t('connect')}</p>
 
           <div className={s.socials}>
             <span><FaFacebook className="social-icon" style={{color:"white"}} /></span>
@@ -63,8 +66,8 @@ export default function Footer() {
 
       <div className={s.bottom}>
         <div className={s.bottomLeft}>
-          <p>Legal & Compliance</p>
-          <p>Privacy Policy</p>
+          {/* <p>Legal & Compliance</p>
+          <p>Privacy Policy</p> */}
         </div>
 
         {/* <div className={s.bottomRight}>

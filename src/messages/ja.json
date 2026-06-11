@@ -241,16 +241,16 @@
     "footer":{
         "placewell":"PLACEWELL INTERNATIONAL",
         "services":"Services Corporation",
-        "home":"Home",
-        "about":"About Us",
-        "system":"System",
-        "skill":"Skills Training",
-        "testimonial":"Testimonials",
-        "gallery":"Gallery",
-        "contact":"Contact Us",
-        "connect":"CONNECT WITH US",
-        "legal":"Legal & Compliance",
-        "privacy":"Privacy Policy"
+        "home":"ホーム",
+        "about":"会社概要",
+        "system":"システム",
+        "skill":"専門技能訓練",
+        "testimonial":"お客様の声",
+        "gallery":"ギャラリー",
+        "contact":"お問い合わせ",
+        "connect":"お問い合わせ",
+        "faq":"よくあるご質問"
+        
     },
     "japaneseCulture":{
         "title":"人材育成",

@@ -14,11 +14,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 20px;
+  padding: 5px 20px;
 }
 
 .logo img {
-  height: 90px;
+  height: 118px;
 }
 
 /* BURGER */
