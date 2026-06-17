@@ -30,25 +30,7 @@ export default function About() {
             
 
             <div className="row m-0 mt-5 pt-5 justify-content-center">
-              <div className="col-md-5 p-3">
-                <div className="row">
-                  <div className="col"><ImageStyle image="/img/identity/family-lifestyle-night.jpg"/></div>
-                  <div className="col d-flex align-items-center">
-                      <div className="position-relative">
-                        <h5 className="title" style={{fontSize:"24px"}} >{t('kawamichi')} </h5>
-                        <small>
-                            <strong>{t('vice')}</strong>
-                        </small>
-                        <div className={s.dotPattern}></div>
-                        <p className="mt-3 cardText">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sed cum rerum fugiat ad natus quos, asperiores consequatur dolores sint omnis vitae et, perferendis quibusdam! Itaque voluptatum consequuntur quisquam dolorum?
-                        </p>
-                      </div>
-                      
-                    </div>
-                </div>
-                  
-              </div>
+              
 
               <div className="col-md-5 p-3">
                   <div className="row">
@@ -60,7 +42,7 @@ export default function About() {
                         <small>
                             <strong>{t('president')}</strong>
                         </small>
-                        <div className={s.dotPattern}></div>
+                        {/* <div className={s.dotPattern}></div> */}
                         <p className="mt-3 cardText">
                           {t('presidentDesc')}
                         </p>
@@ -68,6 +50,33 @@ export default function About() {
                       
                     </div>
                 </div>
+              </div>
+
+              <div className="col-md-5 p-3">
+                <div className="row">
+                  <div className="col"><ImageStyle image="/img/identity/kuwamichi.jpg"/></div>
+                  <div className="col d-flex align-items-center">
+                      <div className="position-relative">
+                        <h5 className="title" style={{fontSize:"24px"}} >{t('kawamichi')} </h5>
+                        <small>
+                            <strong>{t('vice')}</strong>
+                        </small>
+                        {/* <div className={s.dotPattern}></div> */}
+                        <p className="mt-3 cardText">
+                            川道 信晃
+                            RWグループ 代表
+
+                            19歳の頃より外国人材受入事業に携わり、協同組合ビジネスサプライ愛知の設立メンバーとして事業の立ち上げに参画。以来20年以上にわたり、技能実習制度をはじめとする外国人材受入事業に従事してきました。
+
+                            現在はRWグループ代表として、外国人材紹介事業、日本語教育事業および各種支援事業を統括。長年培った経験と国内外のネットワークを活かし、外国人材と受入企業双方を支援しています。
+
+                            外国人材の育成、日本語教育、生活支援、定着支援を通じて、日本と海外をつなぐ架け橋として国際人材交流の発展に取り組んでいます。
+                        </p>
+                      </div>
+                      
+                    </div>
+                </div>
+                  
               </div>
             </div>
 

@@ -1,31 +1,42 @@
+"use client";
 import s from '@/styles/manners.module.css'
 import React from 'react'
+import Image from 'next/image'
 
-
-interface itemProps{
-    headTitle?:React.ReactNode,
-    description?:string,
-    imageLeft?:string,
-    imageRight?:string,
-    imageCenter?:string,
+interface itemProps {
+    headTitle?: React.ReactNode,
+    description?: string,
+    imageLeft?: string,
+    imageRight?: string,
+    imageCenter?: string,
 }
 
-export default function ItemSection ({headTitle,description,imageLeft,imageRight,imageCenter}:itemProps){
+export default function ItemSection({ headTitle, description, imageLeft, imageRight, imageCenter }: itemProps) {
     return (
         <div className={`${s.container} mb-5`}>
             <div className="row m-0 justify-content-center">
                 <div className="col-md-10 ">
                     <div className="row position-relative justify-content-center">
                         <div
-                                className={`${s.mobileTitle} col-md-8 text-center position-absolute start-50 translate-middle`}
-                                style={{ bottom: "-130px" }}
-                            >
-                            <span className="title" style={{fontWeight:"800",fontSize:"40px"}}>{headTitle}</span>
+                            className={`${s.mobileTitle} col-md-8 text-center position-absolute start-50 translate-middle`}
+                            style={{ bottom: "-130px" }}
+                        >
+                            <span className="title" style={{ fontWeight: "800", fontSize: "40px" }}>{headTitle}</span>
                         </div>
                     </div>
                     <div className="row ">
                         <div className="col-5 p-0">
-                            <img src={imageLeft} style={{height:"600px",width:"100%", objectFit:"cover"}} alt="" />
+                            {imageLeft && (
+                                <Image
+                                    src={imageLeft}
+                                    alt=""
+                                    width={900}
+                                    height={600}
+                                    sizes="(max-width: 768px) 100vw, 41vw"
+                                    style={{ height: "600px", width: "100%", objectFit: "cover" }}
+                                    loading="lazy"
+                                />
+                            )}
                         </div>
                         <div className="col-7 p-0">
                             <div className={`${s.rightDiv} d-flex justify-content-center align-items-center`}>
@@ -34,10 +45,28 @@ export default function ItemSection ({headTitle,description,imageLeft,imageRight
                                         {description}
                                     </div>
                                     <div className="col-md-2 border position-relative">
-                                        <img src={imageCenter} className={s.imgCenter} alt="" />
+                                        {imageCenter && (
+                                            <Image
+                                                src={imageCenter}
+                                                alt=""
+                                                width={400}
+                                                height={400}
+                                                className={s.imgCenter}
+                                                loading="lazy"
+                                            />
+                                        )}
                                     </div>
                                     <div className="col-md-4 border">
-                                        <img src={imageRight} className={s.imgRight} alt="" />
+                                        {imageRight && (
+                                            <Image
+                                                src={imageRight}
+                                                alt=""
+                                                width={600}
+                                                height={400}
+                                                className={s.imgRight}
+                                                loading="lazy"
+                                            />
+                                        )}
                                     </div>
                                 </div>
                             </div>
@@ -45,7 +74,6 @@ export default function ItemSection ({headTitle,description,imageLeft,imageRight
                     </div>
                 </div>
             </div>
-            
         </div>
     )
 }

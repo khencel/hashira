@@ -8,7 +8,7 @@ export default function About() {
     return (
       <>
         <Banner
-            backgroundImage="/img/banner/144829.jpg"
+            backgroundImage="/img/banner/hashira.jpg"
             title={t('title')}
             subtitle={t('subtitle')}
             description={t('desc')}
@@ -31,7 +31,7 @@ export default function About() {
                 </div>
               </div>
 
-              <div className="position-relative">
+              {/* <div className="position-relative">
                 <div className="dotPattern" style={{top:"-70px"}}></div>
                 <div className="row">
                   <div className={`col-md-8 ${s.heroDescription}`} >
@@ -48,7 +48,7 @@ export default function About() {
 
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               <div className="position-relative mt-5">
                 <div className="row">
@@ -64,7 +64,7 @@ export default function About() {
 
                   </div>
                   <div className={`col-md-6 p-0 text-end ${s.hero}`}>
-                    <img src="/img/methodology.jpg" style={{width:"60%"}} alt="" />
+                    <img src="/img/identity/joelo.png" style={{width:"60%"}} alt="" />
                   </div>
                 </div>
               </div>

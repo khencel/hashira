@@ -110,7 +110,7 @@ export default function Home() {
           </div>
         </SwiperSlide>
 
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div className={s.heroRight}>
               <div className={s.content}>
                 <h1 className={s.bannerTitle}>Placewell International Services Corporation</h1>
@@ -119,8 +119,8 @@ export default function Home() {
                 
               </div>
           </div>
-        </SwiperSlide>
-        <SwiperSlide>
+        </SwiperSlide> */}
+        {/* <SwiperSlide>
           <div >
                 <div className="row w-100">
                   <div className="col-md-5">
@@ -165,7 +165,7 @@ export default function Home() {
               </div>
           </div>
           
-        </SwiperSlide>
+        </SwiperSlide> */}
         
       </Swiper>
       <section style={styles.section}>

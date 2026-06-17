@@ -5,27 +5,27 @@ import { GiShipBow } from "react-icons/gi";
 export function getAllIndustriesFirstRow(){
     return [
         {
-            "image":"/img/industries/2151230014.jpg",
+            "image":"/img/default.png",
             "title":"construction",
             "description":"constructionDesc",
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
         },
         {
-            "image":"/img/industries/195.jpg",
+            "image":"/img/default.png",
             "title":"shipyard",
             "description":"shipyardDesc",
             "icon":<GiShipBow style={{fontSize:"25px",color:"white"}} />
         },
         {
-            "image":"/img/industries/24324.jpg",
+            "image":"/img/default.png",
             "title":"heavy",
             "description":"heavyDesc",
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
         },
         {
             "image":"/img/default.png",
-            "title":"caregiver",
-            "description":"caregiverDesc",
+            "title":"farmer",
+            "description":"farmerDesc",
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
         }
         
@@ -46,10 +46,11 @@ export function getAllIndustriesSecondRow(){
             "description":"factoryDesc",
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
         },
+        
         {
             "image":"/img/default.png",
-            "title":"farmer",
-            "description":"farmerDesc",
+            "title":"caregiver",
+            "description":"caregiverDesc",
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
         },
         {

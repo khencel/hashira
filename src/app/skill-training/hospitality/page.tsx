@@ -12,7 +12,7 @@ export default function Construction() {
     return (
         <>
             <Banner
-                backgroundImage="/img/banner/144829.jpg"
+                backgroundImage="/img/banner/hospitality.jpg"
                 title={t('title')}
                 subtitle={t('subtitle')}
                 description={t('desc')}

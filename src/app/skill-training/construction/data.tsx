@@ -5,24 +5,25 @@ export function getData(){
             title:"Welding",
             description:"WeldingDesc",
             videoId:"1vIU3R-BIDQ",
-            image1:"/img/default.png",
-            image2:"/img/default.png"
+            image1:"/img/skill/welding.jpg",
+            image2:"/img/skill/welding1.jpg"
+
         },
         {
             number:2,
             title:"Carpentry",
             description:"CarpentryDesc",
             videoId:"1vIU3R-BIDQ",
-            image1:"/img/default.png",
-            image2:"/img/default.png"
+            image1:"/img/skill/carpentry.jpg",
+            image2:"/img/skill/carpentry1.jpg"
         },
         {
             number:3,
             title:"Scaffolding",
             description:"ScaffoldingDesc",
             videoId:"1vIU3R-BIDQ",
-            image1:"/img/default.png",
-            image2:"/img/default.png"
+            image1:"/img/skill/scaf.jpg",
+            image2:"/img/skill/scaf1.jpg"
         },
         {
             number:4,

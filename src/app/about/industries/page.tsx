@@ -13,7 +13,7 @@ export default function AboutBranches() {
     return (
         <>
             <Banner
-                backgroundImage="/img/banner/philippines.jpg"
+                backgroundImage="/img/banner/industries.jpg"
                 title={t('title')}
                 subtitle={t('subtitle')}
                 description={t('desc')}

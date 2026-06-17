@@ -101,19 +101,21 @@ export default function NavForDesktop() {
                             </div>
                         </Link>
 
-                        <Link href="/system/achievements" className="mega-item">
-                            <FaUserDoctor className="social-icon" />
-                            <div>
-                            <h4>{t1('system.achievements')}</h4>
-                            <p>{t1('system.see')}</p>
-                            </div>
-                        </Link>
+                        
 
                         <Link href="/system/japanese-culture-manners" className="mega-item">
                             <FaUserDoctor className="social-icon" />
                             <div>
                             <h4>{t1('system.japanese')}</h4>
                             <p>{t1('system.just')}</p>
+                            </div>
+                        </Link>
+
+                        <Link href="/system/achievements" className="mega-item">
+                            <FaUserDoctor className="social-icon" />
+                            <div>
+                            <h4>{t1('system.achievements')}</h4>
+                            <p>{t1('system.see')}</p>
                             </div>
                         </Link>
 
