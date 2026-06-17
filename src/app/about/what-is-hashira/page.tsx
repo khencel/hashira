@@ -2,6 +2,7 @@
 import Banner from "@/components/Banner";
 import s from "@/styles/hashira.module.css"
 import { useTranslations } from "next-intl";
+import Card from "./card";
 
 export default function About() {
     const t = useTranslations("whatIsHashira");
@@ -49,25 +50,34 @@ export default function About() {
                   </div>
                 </div>
               </div> */}
-
-              <div className="position-relative mt-5">
-                <div className="row">
-                  <div className={`col-md-8 ${s.heroDescriptionV2}`} >
-                    <div className="dotPattern"></div>
-                    <span className="title">{t('our')}</span>
-                    
-                  </div>
-                </div>
-                <div className="row">
-                  
-                  <div className="col-md-6">
-
-                  </div>
-                  <div className={`col-md-6 p-0 text-end ${s.hero}`}>
-                    <img src="/img/identity/joelo.png" style={{width:"60%"}} alt="" />
-                  </div>
-                </div>
+              <div className="header mt-5">
+                  <h2 className="title">Lorem Ipsum</h2>
+                  <p className="subtitle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis sunt minus quis deleniti sit, perspiciatis aliquid nesciunt facilis impedit nobis eos, quam ut veritatis repellendus perferendis neque animi mollitia quae!</p>
               </div>
+              <div className="row">
+                  <div className="col-md-4">
+                    <Card 
+                      img="/img/hashira/IMG_2555.jpg" 
+                      title="Item 1" 
+                      desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ipsam esse eos, ex sit consequatur odio accusantium earum consectetur soluta obcaecati perspiciatis tenetur! Amet sunt beatae accusantium enim iste. Quas!"
+                    />
+                  </div>
+                  <div className="col-md-4">
+                    <Card 
+                      img="/img/hashira/IMG_2556.jpg" 
+                      title="Item 2" 
+                      desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ipsam esse eos, ex sit consequatur odio accusantium earum consectetur soluta obcaecati perspiciatis tenetur! Amet sunt beatae accusantium enim iste. Quas!"
+                    />
+                  </div>
+                  <div className="col-md-4">
+                    <Card 
+                      img="/img/hashira/IMG_2557.jpg" 
+                      title="Item 3" 
+                      desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ipsam esse eos, ex sit consequatur odio accusantium earum consectetur soluta obcaecati perspiciatis tenetur! Amet sunt beatae accusantium enim iste. Quas!"
+                    />
+                  </div>
+              </div>
+              
 
               
             </div>
