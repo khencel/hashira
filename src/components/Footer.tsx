@@ -18,8 +18,8 @@ export default function Footer() {
       <div className={s.topSection}>
         {/* Left Logo */}
         <div className={s.logo}>
-          <h2>PLACEWELL INTERNATIONAL</h2>
-          <span>Services Corporation</span>
+          <h2>Hashira Skill</h2>
+          <span>Language Academy</span>
         </div>
 
         {/* Links */}
