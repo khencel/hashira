@@ -28,7 +28,7 @@ export default function Achievements() {
                 <div className="row">
                   <div className="col-md-3">
                       <div>
-                        <img src="/img/default.png" className="img-fluid" alt="" />
+                        <img src="/img/achievement/achievement.JPG" className={s.imgStyle} alt="" />
                       </div>
                       <div className="p-2">
                         <span className="badge bg-success rounded-5 p-1">送り出し実績</span>
@@ -49,7 +49,7 @@ export default function Achievements() {
                   <div className="col-md-3">
                       <div className="position-relative">
                         <span className={s.cardBadge} style={{backgroundColor:"#0058DF"}}>70%</span>
-                        <img src="/img/default.png" className="img-fluid" alt="" />
+                        <img src="/img/achievement/achievement2.JPG" className={s.imgStyle} alt="" />
                       </div>
                       <div className="p-2">
                         <span className="badge rounded-5 p-1" style={{backgroundColor:"#0D466C"}}>JFT-Basic</span>
@@ -72,7 +72,7 @@ export default function Achievements() {
                   <div className="col-md-3">
                       <div className="position-relative">
                         <span className={s.cardBadge} style={{backgroundColor:"#FF6700"}}>85%</span>
-                        <img src="/img/default.png" className="img-fluid" alt="" />
+                        <img src="/img/achievement/achievement1.JPG" className={s.imgStyle} alt="" />
                       </div>
                       <div className="p-2">
                         <span className="badge rounded-5 p-1" style={{backgroundColor:"#FF6700"}} >JFT-Basic</span>
@@ -93,7 +93,7 @@ export default function Achievements() {
 
                   <div className="col-md-3">
                       <div className="position-relative">
-                        <img src="/img/default.png" className="img-fluid" alt="" />
+                        <img src="/img/achievement/achievement3.JPG" className={s.imgStyle} alt="" />
                       </div>
                       <div className="p-2">
                         <span className="badge rounded-5 p-1" style={{backgroundColor:"#6E61C2"}} >PROMETRIC</span>
@@ -184,15 +184,15 @@ export default function Achievements() {
                         </div>
                         <div className="row">
                           <div className="col-md-4 p-1">
-                            <img src="/img/default.png" className="img-fluid" alt="" />
+                            <img src="/img/achievement/achievement4.JPG" className={s.imgStyleV1} alt="" />
                             <div className={s.imgTitle}>アンゴノ校</div>
                           </div>
                           <div className="col-md-4 p-1">
-                            <img src="/img/default.png" className="img-fluid" alt="" />
+                            <img src="/img/achievement/achievement5.JPG" className={s.imgStyleV1} alt="" />
                             <div className={s.imgTitle}>ダスマ校</div>
                           </div>
                           <div className="col-md-4 p-1">
-                            <img src="/img/default.png" className="img-fluid" alt="" />
+                            <img src="/img/achievement/achievement6.JPG" className={s.imgStyleV1} alt="" />
                             <div className={s.imgTitle}>アンティポロ校</div>
                           </div>
                         </div>
