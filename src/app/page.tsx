@@ -12,6 +12,7 @@ import WhyPlacewell from "@/components/WhyPlacewell";
 import WhyHire from "@/components/WhyHire";
 import { useTranslations } from "next-intl";
 import  HashiraHeroSection from "./slide1"
+import HashiraHeroSection1 from "./slide2"
 
 
 export default function Home() {
@@ -94,7 +95,7 @@ export default function Home() {
         slidesPerView={1}
         loop={true}
         modules={[Autoplay]}
-        autoplay={{ delay: 2000 }}
+        // autoplay={{ delay: 2000 }}
         speed={800}
       >
         <SwiperSlide>
@@ -110,6 +111,10 @@ export default function Home() {
                 </div>
               </div>
           </div> */}
+
+        </SwiperSlide>
+        <SwiperSlide>
+          <HashiraHeroSection1 />
 
         </SwiperSlide>
         
