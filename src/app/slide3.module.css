@@ -1,0 +1,137 @@
+/* DESKTOP STYLES - UNCHANGED */
+.sectionStyle{
+    /* background-color: #002F6D; */
+    position: relative;
+}
+
+.imgStyle{
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+
+.numb{
+    width: 50px;
+    height: 90px;
+    background-color: #001D4F;
+    position: absolute;
+    color: white;
+    left: 5%;
+    font-weight: 700;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.underline {
+    width: 60%;
+    height: 4px;
+    background-color: #F7CD20;
+    border-radius: 2px;
+}
+
+.leftDiv {
+    height: 100vh;
+    background-color: linen;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+}
+
+.rightDiv {
+    height: 100vh;
+    width: 110%;
+    background-color: green;
+    clip-path: polygon(17% 0, 100% 0, 100% 100%, 0 100%);
+    margin-left: -10%;
+}
+
+
+.slantDiv {
+    width: 150px;
+    height: 100vh;
+    background-color: #002F6D;
+    position: absolute;
+    left: 60%;
+
+    clip-path: polygon(
+        70% 0,
+        100% 0,
+        30% 100%,
+        0 100%
+    );
+}
+
+.titleHeader{
+    position: absolute;
+    font-weight: 700;
+    font-size: 40px;
+    color: #001D4F;
+    left: 10%;
+    top: 100px;
+}
+
+.horizontalDiv{
+    width: 60%;
+    height: 50px;
+    background-color: #002F6D;
+    position: absolute;
+    left: 5%;
+    top: 230px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-top: 5px;
+}
+
+.hozizonText{
+    color: white;
+    font-weight: 600;
+    font-size: 27px;
+    margin-left: 80px;
+}
+
+.bottomDiv{
+    height: 400px;
+    width: 50%;
+    left: 5%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.bottomItem{
+    background-color: white;
+    width: 80%;
+    display: flex;
+    margin-top: 15px;
+}
+
+.bottomImage{
+    width: 36.4%;
+    height: 230px;
+    object-fit: cover;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    clip-path: polygon(7% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.middleImage{
+    width: 34%;
+    height: 230px;
+    object-fit: cover;
+    position: absolute;
+    right: 0px;
+    bottom: 33.5%;
+    clip-path: polygon(7% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.upperImage{
+    width: 31.6%;
+    height: 230px;
+    object-fit: cover;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    clip-path: polygon(7.2% 0, 100% 0, 100% 100%, 0 100%);
+}

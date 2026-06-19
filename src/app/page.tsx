@@ -13,6 +13,7 @@ import WhyHire from "@/components/WhyHire";
 import { useTranslations } from "next-intl";
 import  HashiraHeroSection from "./slide1"
 import HashiraHeroSection1 from "./slide2"
+import HashiraHeroSection2 from "./slide3"
 
 
 export default function Home() {
@@ -115,6 +116,10 @@ export default function Home() {
         </SwiperSlide>
         <SwiperSlide>
           <HashiraHeroSection1 />
+
+        </SwiperSlide>
+        <SwiperSlide>
+          <HashiraHeroSection2 />
 
         </SwiperSlide>
         
