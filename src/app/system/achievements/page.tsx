@@ -184,15 +184,15 @@ export default function Achievements() {
                         </div>
                         <div className="row">
                           <div className="col-md-4 p-1">
-                            <img src="/img/achievement/achievement4.JPG" className={s.imgStyleV1} alt="" />
+                            <img src="/img/achievement/achievement4.jpg" className={s.imgStyleV1} alt="" />
                             <div className={s.imgTitle}>アンゴノ校</div>
                           </div>
                           <div className="col-md-4 p-1">
-                            <img src="/img/achievement/achievement5.JPG" className={s.imgStyleV1} alt="" />
+                            <img src="/img/achievement/achievement5.jpg" className={s.imgStyleV1} alt="" />
                             <div className={s.imgTitle}>ダスマ校</div>
                           </div>
                           <div className="col-md-4 p-1">
-                            <img src="/img/achievement/achievement6.JPG" className={s.imgStyleV1} alt="" />
+                            <img src="/img/achievement/achievement6.jpg" className={s.imgStyleV1} alt="" />
                             <div className={s.imgTitle}>アンティポロ校</div>
                           </div>
                         </div>
