@@ -96,7 +96,7 @@ export default function Home() {
         spaceBetween={20}
         slidesPerView={1}
         loop={true}
-        // modules={[Autoplay]}
+        modules={[Autoplay]}
         autoplay={{ delay: 2000 }}
         speed={800}
       >
