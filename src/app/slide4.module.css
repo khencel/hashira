@@ -1,0 +1,63 @@
+.sectionStyle{
+    background-image: url('/img/banner/DSC02720.JPG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.imgStyle{
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+
+.numb{
+    width: 50px;
+    height: 90px;
+    background-color: #001D4F;
+    position: absolute;
+    color: white;
+    left: 5%;
+    font-weight: 700;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.underline {
+    width: 60%;
+    height: 4px;
+    background-color: #F7CD20;
+    border-radius: 2px;
+}
+
+.cardStyle{
+    width: 60%;
+    background-color: white;
+    border-radius: 16px;
+    height: 300px;
+}
+
+.logoStyle{
+    width: 70px;
+    height: 75px;
+    object-fit: contain;
+}
+
+.bottomItem{
+    background-color: #003475;
+    width: 100%;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+    padding: 3px;
+    border: 2px solid white;
+}

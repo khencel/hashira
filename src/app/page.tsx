@@ -14,6 +14,7 @@ import { useTranslations } from "next-intl";
 import  HashiraHeroSection from "./slide1"
 import HashiraHeroSection1 from "./slide2"
 import HashiraHeroSection2 from "./slide3"
+import HashiraHeroSection4 from "./slide4";
 
 
 export default function Home() {
@@ -95,7 +96,7 @@ export default function Home() {
         spaceBetween={20}
         slidesPerView={1}
         loop={true}
-        modules={[Autoplay]}
+        // modules={[Autoplay]}
         autoplay={{ delay: 2000 }}
         speed={800}
       >
@@ -114,13 +115,17 @@ export default function Home() {
           </div> */}
 
         </SwiperSlide>
+
         <SwiperSlide>
           <HashiraHeroSection1 />
-
         </SwiperSlide>
+
         <SwiperSlide>
           <HashiraHeroSection2 />
+        </SwiperSlide>
 
+        <SwiperSlide>
+          <HashiraHeroSection4 />
         </SwiperSlide>
         
       </Swiper>
