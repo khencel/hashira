@@ -13,7 +13,7 @@ export default function About() {
     return (
       <>
         <Banner
-          backgroundImage="/img/banner/corporate-identity.jpg"
+          backgroundImage="/img/banner/DSC03994.jpg"
           title={t('about')}
           subtitle={t('corporate')}
           description={t('corporateDesc')}
@@ -106,7 +106,7 @@ export default function About() {
                       {t('ourDesc')}
                   </p>
                 </div>
-                <div className={`${s.rightSlideDiv} col-md-8`} style={{backgroundImage:`url(/img/165.jpg)`}}>
+                <div className={`${s.rightSlideDiv} col-md-8`} style={{backgroundImage:`url(/img/DSC02734.jpg)`}}>
                   
                 </div>
               </div>
@@ -118,7 +118,7 @@ export default function About() {
           <div className="row m-0 justify-content-center">
             <div className="col-md-10">
               <div className="row">
-                <div className={`${s.leftSlideDiv} col-md-8`} style={{backgroundImage:`url(/img/student.jpg)`}}>
+                <div className={`${s.leftSlideDiv} col-md-8`} style={{backgroundImage:`url(/img/DSC02704.jpg)`}}>
                   
                 </div>
                 <div className="col-md-4">

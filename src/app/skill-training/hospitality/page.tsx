@@ -12,7 +12,7 @@ export default function Construction() {
     return (
         <>
             <Banner
-                backgroundImage="/img/banner/hospitality.jpg"
+                backgroundImage="/img/banner/DSC03164.jpg"
                 title={t('title')}
                 subtitle={t('subtitle')}
                 description={t('desc')}
@@ -62,7 +62,7 @@ export default function Construction() {
                             </div>
                             <div className="col-md-4">
                                 <div >
-                                    <img src="/img/banner/27532.jpg" style={{width:"100%", height:"150px", objectFit:"cover",margin:"10px 0",borderRadius:"5px"}} alt="" />
+                                    <img src="/img/hospitality/DSC02753.jpg" style={{width:"100%", height:"150px", objectFit:"cover",margin:"10px 0",borderRadius:"5px"}} alt="" />
                                 </div>
                                 <div >
                                     <img src="/img/banner/27532.jpg" style={{width:"100%", height:"150px", objectFit:"cover",margin:"10px 0",borderRadius:"5px"}} alt="" />
