@@ -9,7 +9,7 @@ export default function Overall() {
   return (
     <>
       <Banner
-        backgroundImage="/img/banner/144829.jpg"
+        backgroundImage="/img/banner/DSC02920.jpg"
         title={t('title')}
         subtitle={t('subtitle')}
         description={t('desc')}
@@ -21,21 +21,21 @@ export default function Overall() {
           <Step
             title={t('Orientation')}
             text={t('OrientationDesc')}
-            image="/img/industries/orientation.JPG"
+            image="/img/industries/DSC04492.jpg"
             reverse={false}
           />
 
           <Step
             title={t('Screening')}
             text={t('ScreeningDesc')}
-            image="/img/industries/screening.png"
+            image="/img/industries/DSC02781.jpg"
             reverse={true}
           />
 
           <Step
             title={t('Study')}
             text={t('StudyDesc')}
-            image="/img/industries/study.JPG"
+            image="/img/industries/DSC04504.jpg"
             reverse={false}
           />
 
@@ -56,7 +56,7 @@ export default function Overall() {
           <Step
             title={t('Post')}
             text={t('PostDesc')}
-            image="/img/default.png"
+            image="/img/industries/DSC03598.jpg"
             reverse={true}
           />
 

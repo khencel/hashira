@@ -10,9 +10,9 @@ export function getDepartmentList(){
             title: "Japanese",
             description: "JapaneseDesc",
             image:{
-                img1:"/img/default.png",
-                img2:"/img/default.png",
-                img3:"/img/default.png",
+                img1:"/img/rules/DSC02767.jpg",
+                img2:"/img/rules/DSC04557.jpg",
+            
             },
             videoId:"1vIU3R-BIDQ"
         },
@@ -23,7 +23,7 @@ export function getDepartmentList(){
             image:{
                 img1:"/img/default.png",
                 img2:"/img/default.png",
-                img3:"/img/default.png",
+              
             }
         },
         {
@@ -31,9 +31,9 @@ export function getDepartmentList(){
             title: "Mock",
             description: "MockDesc",
             image:{
-                img1:"/img/default.png",
-                img2:"/img/default.png",
-                img3:"/img/default.png",
+                img1:"/img/rules/DSC02747.jpg",
+                img2:"/img/rules/DSC02878.jpg",
+               
             },
             videoId:"1vIU3R-BIDQ"
         },
@@ -44,7 +44,7 @@ export function getDepartmentList(){
             image:{
                 img1:"/img/default.png",
                 img2:"/img/default.png",
-                img3:"/img/default.png",
+                
             }
         },
         
