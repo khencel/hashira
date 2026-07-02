@@ -162,9 +162,9 @@ export default function Home() {
         
         
     </section>
-    
-    <WhyPlacewell />
     <WhyHire />
+    <WhyPlacewell />
+    
 
     <section className="mt-5 mb-5">
       <div style={styles.header}>
@@ -194,7 +194,7 @@ export default function Home() {
         
         <div className="row justify-content-center m-0">
           <div className="col-md-10">
-              <Rolling data={allClient} perSlide={5} isLoop={true} isAutoplay={true} />
+              <Rolling data={allClient} perSlide={5} isLoop={true} isAutoplay={true} isContain={false} />
               
               <CustomHR />
           </div>

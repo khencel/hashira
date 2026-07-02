@@ -168,7 +168,7 @@ export default function Achievements() {
                               <br />
                               <span className={s.titleSecondary}>3つの学校で</span>
                               <br />
-                              <span style={{color:"#007D59",fontWeight:"600"}}>約</span><span className={s.titleCard} style={{color:"#007D59",fontWeight:"500"}}>300</span><span style={{color:"#007D59",fontWeight:"600"}}>人</span>
+                              <span style={{color:"#007D59",fontWeight:"600"}}>約</span><span className={s.titleCard} style={{color:"#007D59",fontWeight:"500"}}>500</span><span style={{color:"#007D59",fontWeight:"600"}}>人</span>
                               <br />
                               <span style={{color:"#007D59",fontWeight:"600"}}>にまで拡大!</span>
                               
@@ -238,7 +238,7 @@ export default function Achievements() {
                       <div className={s.cardbottomRight}>
                         <div className="p-3">
                           <div className="row">
-                            <div className="col">
+                            {/* <div className="col">
                               <div>
                                 <span className="badge p-1 rounded-5" style={{backgroundColor:"#1A8F7E",width:"100px"}}>2026年 (6月現在) 実績</span>
                               </div>
@@ -248,7 +248,7 @@ export default function Achievements() {
                               <div>
                                 <span className={s.titleCardBottom} style={{color:"#007D59",fontWeight:"500",fontSize:"100px"}}>228</span><span style={{color:"#007D59",fontWeight:"600"}}>人</span>
                               </div>
-                            </div>
+                            </div> */}
 
                             
                           </div>
