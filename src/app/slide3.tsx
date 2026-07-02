@@ -4,10 +4,10 @@ export default function HashiraHeroSection2() {
   return (
     <>
     <section className={styles.sectionStyle} style={{height:"100vh"}}>
-        <div className={styles.numb}>
+        {/* <div className={styles.numb}>
             03
             <div className={styles.underline}></div>
-        </div>
+        </div> */}
         {/* <div className="row">
             <div className="col-md-8 p-0">
                 <div className={styles.leftDiv}>

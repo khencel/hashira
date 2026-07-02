@@ -227,10 +227,16 @@
         "our":"講師インタビュー",
         "what":"教師の声"
     },
-    "gallery":{
-        "title":"Gallery",
-        "subtitle":"ギャラリー",
-        "desc":"学校での学習風景や技能訓練の様子、各種イベント、企業様との交流など、Hashira Skills and Language Academyの日々の取り組みをご紹介します。"
+    "gallery": {
+        "title": "ギャラリー",
+        "subtitle": "ギャラリーを見る",
+        "desc": "ギャラリーを通して、思い出に残る瞬間、活動、成果、イベントをご覧ください。",
+        "ourWorkers": "当社の労働者",
+        "interview": "面接",
+        "tradetest": "技能試験",
+        "facilities": "施設",
+        "testimonials": "お客様の声",
+        "others": "その他"
     },
     "contactUs":{
         "title":"お問い合わせ",

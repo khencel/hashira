@@ -34,10 +34,10 @@ export default function HashiraHeroSection1() {
             </div>
         </section>
         <section className={styles.sectionStyle} style={{height:"100vh"}}>
-            <div className={styles.numb}>
+            {/* <div className={styles.numb}>
                 02
                 <div className={styles.underline}></div>
-            </div>
+            </div> */}
             <div className={styles.title1}>
                 柱日本語学校の特徴
             </div>

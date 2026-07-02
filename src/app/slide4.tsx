@@ -4,10 +4,10 @@ export default function HashiraHeroSection4() {
   return (
     <>
     <section className={styles.sectionStyle} style={{height:"100vh"}}>
-        <div className={styles.numb}>
+        {/* <div className={styles.numb}>
             04
             <div className={styles.underline}></div>
-        </div>
+        </div> */}
         <div className="row justify-content-center">
             <div className="col-10">
                 <div className='text-center mt-4'>
