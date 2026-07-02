@@ -135,3 +135,103 @@
     top: 0px;
     clip-path: polygon(7.2% 0, 100% 0, 100% 100%, 0 100%);
 }
+
+/* ============================================= */
+/* RESPONSIVE FIXES - desktop rules above are untouched */
+/* Tablet / smaller laptop screens */
+/* ============================================= */
+@media (max-width: 992px) {
+    .sectionStyle {
+        height: auto !important;
+        padding-bottom: 40px;
+        overflow: hidden;
+    }
+
+    .leftDiv,
+    .rightDiv,
+    .slantDiv {
+        height: 60vh;
+    }
+
+    .titleHeader {
+        position: relative;
+        left: 0;
+        top: 0;
+        font-size: 28px;
+        padding: 20px 5% 0;
+        text-align: center;
+    }
+
+    .horizontalDiv {
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 90%;
+        margin: 20px auto 0;
+        border-radius: 10px;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .hozizonText {
+        margin-left: 0;
+        font-size: 16px;
+        display: block;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .bottomDiv {
+        position: relative;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .bottomItem {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    /* stack the decorative side images instead of overlapping absolutely */
+    .upperImage,
+    .middleImage,
+    .bottomImage {
+        display: none;
+    }
+}
+
+/* ============================================= */
+/* Mobile phones */
+/* ============================================= */
+@media (max-width: 576px) {
+    .titleHeader {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .horizontalDiv {
+        width: 94%;
+    }
+
+    .hozizonText {
+        font-size: 14px;
+    }
+
+    .bottomItem {
+        width: 94%;
+        margin: 8px auto;
+        flex-direction: row;
+        padding: 8px;
+    }
+
+    .bottomItem img {
+        width: 40px !important;
+    }
+
+    .bottomItem span {
+        font-size: 12px !important;
+    }
+}
