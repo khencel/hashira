@@ -18,7 +18,7 @@ export default function Footer() {
       <div className={s.topSection}>
         {/* Left Logo */}
         <div className={s.logo}>
-          <h2>Hashira Skill</h2>
+          <h2>Hashira Skills</h2>
           <span>Language Academy</span>
         </div>
 
