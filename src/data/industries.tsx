@@ -41,7 +41,7 @@ export function getAllIndustriesSecondRow(){
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
         },
         {
-            "image":"/img/default.png",
+            "image":"/img/industries/factory.jpg",
             "title":"factory",
             "description":"factoryDesc",
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />

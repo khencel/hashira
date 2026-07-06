@@ -35,7 +35,7 @@ export default function Overall() {
           <Step
             title={t('Study')}
             text={t('StudyDesc')}
-            image="/img/industries/DSC04504.jpg"
+            image="/img/industries/stuudy.jpg"
             reverse={false}
           />
 

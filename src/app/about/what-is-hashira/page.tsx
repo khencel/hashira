@@ -50,30 +50,31 @@ export default function About() {
                   </div>
                 </div>
               </div> */}
-              <div className="header mt-5">
+              {/* <div className="header mt-5">
                   <h2 className="title">Lorem Ipsum</h2>
                   <p className="subtitle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis sunt minus quis deleniti sit, perspiciatis aliquid nesciunt facilis impedit nobis eos, quam ut veritatis repellendus perferendis neque animi mollitia quae!</p>
-              </div>
-              <div className="row">
+              </div> */}
+              <hr />
+              <div className="row mt-5">
                   <div className="col-md-4">
                     <Card 
-                      img="/img/hashira/IMG_2555.jpg" 
-                      title="Item 1" 
-                      desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ipsam esse eos, ex sit consequatur odio accusantium earum consectetur soluta obcaecati perspiciatis tenetur! Amet sunt beatae accusantium enim iste. Quas!"
+                      img="/img/hashira/hashira1.jpg" 
+                      title="日本文化" 
+                      desc="日本の文化・習慣 日本での生活マナー 季節行事や伝統文化"
                     />
                   </div>
                   <div className="col-md-4">
                     <Card 
-                      img="/img/hashira/IMG_2556.jpg" 
-                      title="Item 2" 
-                      desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ipsam esse eos, ex sit consequatur odio accusantium earum consectetur soluta obcaecati perspiciatis tenetur! Amet sunt beatae accusantium enim iste. Quas!"
+                      img="/img/hashira/hashira2.jpg" 
+                      title="日本語コミュニケーション" 
+                      desc="日常会話 職場での会話 敬語・報連相・接客表現"
                     />
                   </div>
                   <div className="col-md-4">
                     <Card 
-                      img="/img/hashira/IMG_2557.jpg" 
-                      title="Item 3" 
-                      desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ipsam esse eos, ex sit consequatur odio accusantium earum consectetur soluta obcaecati perspiciatis tenetur! Amet sunt beatae accusantium enim iste. Quas!"
+                      img="/img/hashira/hashira3.jpg" 
+                      title="日本人の価値観" 
+                      desc="日本人の考え方 働く姿勢・責任感 協調性・礼儀・時間意識"
                     />
                   </div>
               </div>
