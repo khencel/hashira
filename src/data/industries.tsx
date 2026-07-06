@@ -17,7 +17,7 @@ export function getAllIndustriesFirstRow(){
             "icon":<GiShipBow style={{fontSize:"25px",color:"white"}} />
         },
         {
-            "image":"/img/default.png",
+            "image":"/img/industries/IMG_2428.jpg",
             "title":"heavy",
             "description":"heavyDesc",
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
