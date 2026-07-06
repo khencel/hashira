@@ -54,8 +54,23 @@ export default function NavForDesktop() {
                         <Link href="/about/industries" className="mega-item">
                             <FaSyringe className="social-icon" />
                             <div>
+                            <h4>学校案内</h4>
+                            <p>Lorem ipsuum</p>
+                            </div>
+                        </Link>
+
+                        <Link href="/about/industries" className="mega-item">
+                            <FaSyringe className="social-icon" />
+                            <div>
                             <h4>{t1('about.industries')}</h4>
                             <p>{t1('about.system')} </p>
+                            </div>
+                        </Link>
+                        <Link href="/about/industries" className="mega-item">
+                            <FaSyringe className="social-icon" />
+                            <div>
+                            <h4>グループ会社紹介</h4>
+                            <p>Lorem ipsum dolor sit amet</p>
                             </div>
                         </Link>
                         {/* <Link href="/worldwide-careers" className="mega-item">

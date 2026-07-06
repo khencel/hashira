@@ -106,7 +106,7 @@ export default function About() {
                       {t('ourDesc')}
                   </p>
                 </div>
-                <div className={`${s.rightSlideDiv} col-md-8`} style={{backgroundImage:`url(/img/DSC02734.jpg)`}}>
+                <div className={`${s.rightSlideDiv} col-md-8`} style={{backgroundImage:`url(/grop.jpg)`}}>
                   
                 </div>
               </div>
