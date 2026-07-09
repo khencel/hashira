@@ -76,7 +76,12 @@ export default function JapaneseCultureManners() {
                                                         {/* <img src="/img/default.png" className={s.imageStyle} alt="" /> */}
                                                     </div>
                                                     <div className={s.imageSize} >
-                                                        <img src={department?.image?.img3} className={s.imageStyle} alt="" />
+                                                        {
+                                                            department?.image?.img3 && (
+                                                                <img src={department?.image?.img3} className={s.imageStyle} alt="" />
+                                                            )
+                                                        }
+                                                        
                                                         {/* <img src="/img/default.png" className={s.imageStyle} alt="" /> */}
                                                     </div>
                                                     
