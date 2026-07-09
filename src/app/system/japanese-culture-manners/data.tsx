@@ -40,23 +40,6 @@ export function JapaneseCultureList(){
           
         },
         {
-            icon:<IoDocumentSharp style={{fontSize:"40px"}} />,
-            title: "元技能実習生による指導",
-            description: `日本での就労経験を持つ元技能実習生が、自身の経験をもとに実践的なアドバイスや指導を行います。`,
-            image:{
-                img1:"/img/manners/mentor1.jpg",
-                img2:"/img/manners/mentor2.jpg",
-                img3:"/img/manners/mentor3.jpg",
-            }
-        },
-        
-    ]
-}
-
-
-export function getAccount(){
-    return {
-
             icon:<GiInjustice style={{fontSize:"40px"}} />,
             title: "ごみ分別・リサイクル教育",
             description: "日本での生活に欠かせないごみの分別方法やリサイクルのルールを学び、環境への意識を高めます。",
@@ -66,6 +49,22 @@ export function getAccount(){
                 img3:"/img/manners/recycle3.jpg",
                
             }
-            
+        },
+        
+    ]
+}
+
+
+export function getAccount(){
+    return {
+            icon:<IoDocumentSharp style={{fontSize:"40px"}} />,
+            title: "元技能実習生による指導",
+            description: `日本での就労経験を持つ元技能実習生が、自身の経験をもとに実践的なアドバイスや指導を行います。`,
+            image:{
+                img1:"/img/manners/mentor1.jpg",
+                img2:"/img/manners/mentor2.jpg",
+                img3:"/img/manners/mentor3.jpg",
+            }
+
         }
 }
