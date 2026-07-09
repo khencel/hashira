@@ -1,12 +1,14 @@
 "use client";
 import Banner from "@/components/Banner";
-import s from '@/styles/manners.module.css'
-import ItemSection from "./ItemSection";
+import s from "../../department-facilities/department/department.module.css"
 import { useTranslations } from "next-intl";
-
+import { JapaneseCultureList, getAccount } from "./data";
+import YouTube from "react-youtube";
 
 export default function JapaneseCultureManners() {
     const t = useTranslations("japaneseCulture");
+    const itemList = JapaneseCultureList()
+    const account = getAccount()
     return (
         <>
             <Banner
@@ -15,11 +17,132 @@ export default function JapaneseCultureManners() {
                 subtitle={t('Japanese')}
                 description="just as important as Japanese language"
             />
+
+            <section className="mb-3" style={{background:"#f4f3f3"}}>
+                <div className="row m-0 justify-content-center">
+                    <div className="col-md-10">
+                        <div className="row">
+                            {
+                                itemList.map((department,index)=>{
+                                    return (
+                                        <div className="col-md-6 py-3" key={index}>
+                                            <div className={s.departmentContainer}>
+                                                <div style={{width:"60%"}} className="">
+                                                    <div className="d-flex mb-3">
+                                                        <div className="mt-3 d-flex justify-content-center align-items-center" style={{width:"30%"}}>
+                                                            <span className="badge p-3 rounded-circle" style={{background:"#104675"}}>{department.icon}</span>
+                                                        </div>
+                                                        <div className="mt-3" style={{width:"70%"}}>
+                                                            <span className="title" style={{fontSize:"18px",fontWeight:"600"}}>{department.title}</span>
+                                                        </div>
+                                                    </div> 
+                                                    <div className="p-3">
+                                                        <div className={s.descriptioCont}>
+                                                            <p className="subtitle">
+                                                                {department.description}
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    
+                                                </div>
+                                                <div style={{width:"40%"}} className="p-3 text-center">
+                                                    <div className={s.imageSize}>
+                                                        <img src={department?.image?.img1} className={s.imageStyle} alt="" />
+                                                    </div>
+                                                    <div className={s.imageSize}>
+                                                        <img src={department?.image?.img2} className={s.imageStyle} alt="" />
+                                                    </div>
+                                                    <div className={s.imageSize} >
+                                                        <img src={department?.image?.img3} className={s.imageStyle} alt="" />
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    )
+                                })
+                            }
+                        </div>
+
+
+                        <div className="row d-md-none">
+                            <div className="col-md-6 py-3">
+                                <div className={s.departmentContainer}>
+                                    <div style={{width:"60%"}} className="">
+                                        <div className="d-flex mb-3">
+                                            <div className="mt-3 d-flex justify-content-center align-items-center" style={{width:"30%"}}>
+                                                <span className="badge p-3 rounded-circle" style={{background:"#709C6B"}}>{account.icon}</span>
+                                            </div>
+                                            <div className="mt-3" style={{width:"70%"}}>
+                                                <span className="title" style={{fontSize:"18px",fontWeight:"600"}}>{account.title}</span>
+                                            </div>
+                                        </div> 
+                                        <div className="p-3">
+                                            <div className={s.descriptioCont}>
+                                                <p className="subtitle">
+                                                    {account.description}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style={{width:"40%"}} className="p-3 text-center">
+                                        <div className={s.imageSize} style={{backgroundImage:`url(${account?.image?.img1})`}}>
+
+                                        </div>
+                                        <div className={s.imageSize} style={{backgroundImage:`url(${account?.image?.img2})`}}>
+
+                                        </div>
+                                        <div className={s.imageSize} style={{backgroundImage:`url(${account?.image?.img3})`}}>
+
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="row mb-3 d-none d-md-block">
+                            <div className="col-md-12"> 
+                                <div className={s.departmentContainerBottom}>
+                                    <div style={{width:"30%"}} >
+                                        <div className="d-flex mb-3">
+                                            <div className="mt-3 d-flex justify-content-center align-items-center" style={{width:"30%"}}>
+                                                <span className="badge p-3 rounded-circle" style={{background:"#104675"}}>{account.icon}</span>
+                                            </div>
+                                            <div className="mt-3" style={{width:"70%"}}>
+                                                <span className="title" style={{fontSize:"18px",fontWeight:"600"}}>{account.title}</span>
+                                            </div>
+                                        </div> 
+                                        <div className="p-3">
+                                            <div className={s.descriptioCont}>
+                                                <p className="subtitle">
+                                                    {account.description}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style={{width:"70%"}} className=" d-flex">
+                                        <div className={`${s.imageSize} p-1`}>
+                                            <img src={account?.image?.img1} style={{height:"190px"}} className={s.imageStyle} alt="" />
+                                        </div>
+                                        <div className={`${s.imageSize} p-1`}>
+                                            <img src={account?.image?.img2} style={{height:"190px"}} className={s.imageStyle} alt="" />
+                                        </div>
+                                        <div className={`${s.imageSize} p-1`}>
+                                            <img src={account?.image?.img3} style={{height:"190px"}} className={s.imageStyle} alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             
-            <ItemSection
+            {/* <ItemSection
                 headTitle={
                     <>
-                        {/* <span className="text-white">Japanese</span> Cultural Manners */}
                         {t('Japanese')}
                     </>
                 }
@@ -34,7 +157,6 @@ export default function JapaneseCultureManners() {
             <ItemSection
                 headTitle={
                     <>
-                        {/* <span className="text-white">Japanese</span> Greetings */}
                         {t('Greetings')}
                     </>
                 }
@@ -50,7 +172,7 @@ export default function JapaneseCultureManners() {
             <ItemSection
                 headTitle={
                     <>
-                        {/* <span className="text-white">Sustainable</span> Recycling  */}
+                      
                         {t('Recycling')}
                     </>
                 }
@@ -66,7 +188,7 @@ export default function JapaneseCultureManners() {
             <ItemSection
                 headTitle={
                     <>
-                        {/* <span className="text-white">Learning</span> from Ex Trainee Teachers  */}
+                        
                         {t('Life')}
                     </>
                 }
@@ -82,7 +204,7 @@ export default function JapaneseCultureManners() {
             <ItemSection
                 headTitle={
                     <>
-                        {/* <span className="text-white">Japanese</span> Stay-in System  */}
+                       
                         {t('Stay')}
                     </>
                 }
@@ -91,7 +213,7 @@ export default function JapaneseCultureManners() {
                 imageLeft="/img/manners/stay3.jpg"
                 imageRight="/img/manners/stay2.jpg"
                 imageCenter="/img/manners/stay1.jpg"
-            />
+            /> */}
         </>
     );
 }

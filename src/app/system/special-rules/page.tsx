@@ -73,9 +73,9 @@ export default function SpecialRules() {
                                                     <div className={s.imageSize} style={{backgroundImage:`url(${department?.image?.img2})`}}>
 
                                                     </div>
-                                                    {/* <div className={s.imageSize} style={{backgroundImage:`url(${department?.image?.img3})`}}>
+                                                    <div className={s.imageSize} style={{backgroundImage:`url(${department?.image?.img3})`}}>
 
-                                                    </div> */}
+                                                    </div>
                                                     
                                                 </div>
                                             </div>

@@ -12,7 +12,7 @@ export function getDepartmentList(){
             image:{
                 img1:"/img/rules/DSC02767.jpg",
                 img2:"/img/rules/DSC04557.jpg",
-            
+                img3:"/img/default.png",
             },
             videoId:"1vIU3R-BIDQ"
         },
@@ -33,8 +33,10 @@ export function getDepartmentList(){
             image:{
                 img1:"/img/rules/DSC02747.jpg",
                 img2:"/img/rules/DSC02878.jpg",
+                img3:"/img/default.png",
                
             },
+            
             videoId:"1vIU3R-BIDQ"
         },
         {
@@ -61,6 +63,7 @@ export function getAccount(){
                 img1:"/img/default.png",
                 img2:"/img/default.png",
                 img3:"/img/default.png",
-            }
+            },
+            
         }
 }
