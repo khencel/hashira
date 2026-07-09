@@ -24,8 +24,8 @@ export default function Banner({ backgroundImage, title, subtitle, description, 
           {subtitle}
         </h1>
 
-        <p className={s.desc}>
-          {description}
+        <p className={s.desc} dangerouslySetInnerHTML={{ __html: description || "" }}>
+         
         </p>
 
         {
