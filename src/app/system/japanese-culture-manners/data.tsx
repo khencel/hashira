@@ -15,6 +15,7 @@ export function JapaneseCultureList(){
                 img3:"/img/manners/noShoes2.jpg",
             
             },
+            videoId:"1vIU3R-BIDQ"
             
         },
         {
@@ -24,7 +25,7 @@ export function JapaneseCultureList(){
             image:{
                 img1:"/img/manners/greet1.jpg",
                 img2:"/img/manners/greet2.jpg",
-                img3:"/img/manners/greet3.jpg",
+                // img3:"/img/manners/greet3.jpg",
               
             }
         },
@@ -36,7 +37,8 @@ export function JapaneseCultureList(){
                 img1:"/img/manners/stay3.jpg",
                 img2:"/img/manners/stay2.jpg",
                 img3:"/img/manners/stay1.jpg",
-            }
+            },
+            videoId:"1vIU3R-BIDQ"
           
         },
         {

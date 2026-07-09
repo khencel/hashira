@@ -43,21 +43,41 @@ export default function JapaneseCultureManners() {
                                                             </p>
                                                         </div>
                                                     </div>
-                                                    
+                                                    {
+                                                        department.videoId && (
+                                                            <div className="p-3 text-center">
+                                                                <YouTube
+                                                                    videoId={department.videoId}
+                                                                    opts={{
+                                                                        width: "100%",
+                                                                        height: "100%",
+                                                                        playerVars: {
+                                                                        autoplay: 0,
+                                                                        controls: 1,
+                                                                        mute: 1,
+                                                                        loop: 1,
+                                                                        playlist: "1vIU3R-BIDQ",
+                                                                        },
+                                                                    }}
+                                                                    
+                                                                />
+                                                            </div>
+                                                        )
+                                                    }
                                                     
                                                 </div>
                                                 <div style={{width:"40%"}} className="p-3 text-center">
                                                     <div className={s.imageSize}>
-                                                        {/* <img src={department?.image?.img1} className={s.imageStyle} alt="" /> */}
-                                                        <img src="/img/default.png" className={s.imageStyle} alt="" />
+                                                        <img src={department?.image?.img1} className={s.imageStyle} alt="" />
+                                                        {/* <img src="/img/default.png" className={s.imageStyle} alt="" /> */}
                                                     </div>
                                                     <div className={s.imageSize}>
-                                                        {/* <img src={department?.image?.img2} className={s.imageStyle} alt="" /> */}
-                                                        <img src="/img/default.png" className={s.imageStyle} alt="" />
+                                                        <img src={department?.image?.img2} className={s.imageStyle} alt="" />
+                                                        {/* <img src="/img/default.png" className={s.imageStyle} alt="" /> */}
                                                     </div>
                                                     <div className={s.imageSize} >
-                                                        {/* <img src={department?.image?.img3} className={s.imageStyle} alt="" /> */}
-                                                        <img src="/img/default.png" className={s.imageStyle} alt="" />
+                                                        <img src={department?.image?.img3} className={s.imageStyle} alt="" />
+                                                        {/* <img src="/img/default.png" className={s.imageStyle} alt="" /> */}
                                                     </div>
                                                     
                                                 </div>
