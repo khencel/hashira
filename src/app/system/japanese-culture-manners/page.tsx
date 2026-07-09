@@ -15,7 +15,7 @@ export default function JapaneseCultureManners() {
                 backgroundImage="/img/banner/31383.jpg"
                 title={t('title')}
                 subtitle={t('Japanese')}
-                description="just as important as Japanese language"
+                description={t('desc')}
             />
 
             <section className="mb-3" style={{background:"#f4f3f3"}}>
@@ -48,13 +48,16 @@ export default function JapaneseCultureManners() {
                                                 </div>
                                                 <div style={{width:"40%"}} className="p-3 text-center">
                                                     <div className={s.imageSize}>
-                                                        <img src={department?.image?.img1} className={s.imageStyle} alt="" />
+                                                        {/* <img src={department?.image?.img1} className={s.imageStyle} alt="" /> */}
+                                                        <img src="/img/default.png" className={s.imageStyle} alt="" />
                                                     </div>
                                                     <div className={s.imageSize}>
-                                                        <img src={department?.image?.img2} className={s.imageStyle} alt="" />
+                                                        {/* <img src={department?.image?.img2} className={s.imageStyle} alt="" /> */}
+                                                        <img src="/img/default.png" className={s.imageStyle} alt="" />
                                                     </div>
                                                     <div className={s.imageSize} >
-                                                        <img src={department?.image?.img3} className={s.imageStyle} alt="" />
+                                                        {/* <img src={department?.image?.img3} className={s.imageStyle} alt="" /> */}
+                                                        <img src="/img/default.png" className={s.imageStyle} alt="" />
                                                     </div>
                                                     
                                                 </div>
@@ -124,13 +127,16 @@ export default function JapaneseCultureManners() {
                                     </div>
                                     <div style={{width:"70%"}} className=" d-flex">
                                         <div className={`${s.imageSize} p-1`}>
-                                            <img src={account?.image?.img1} style={{height:"190px"}} className={s.imageStyle} alt="" />
+                                            {/* <img src={account?.image?.img1} style={{height:"190px"}} className={s.imageStyle} alt="" /> */}
+                                            <img src="/img/default.png" className={s.imageStyle} alt="" />
                                         </div>
                                         <div className={`${s.imageSize} p-1`}>
-                                            <img src={account?.image?.img2} style={{height:"190px"}} className={s.imageStyle} alt="" />
+                                            {/* <img src={account?.image?.img2} style={{height:"190px"}} className={s.imageStyle} alt="" /> */}
+                                            <img src="/img/default.png" className={s.imageStyle} alt="" />
                                         </div>
                                         <div className={`${s.imageSize} p-1`}>
-                                            <img src={account?.image?.img3} style={{height:"190px"}} className={s.imageStyle} alt="" />
+                                            {/* <img src={account?.image?.img3} style={{height:"190px"}} className={s.imageStyle} alt="" /> */}
+                                            <img src="/img/default.png" className={s.imageStyle} alt="" />
                                         </div>
                                     </div>
                                 </div>
