@@ -236,24 +236,8 @@ export default function Achievements() {
                     </div>
                     <div className="col-md-7">
                       <div className={s.cardbottomRight}>
-                        <div className="p-3">
-                          <div className="row">
-                            {/* <div className="col">
-                              <div>
-                                <span className="badge p-1 rounded-5" style={{backgroundColor:"#1A8F7E",width:"100px"}}>2026年 (6月現在) 実績</span>
-                              </div>
-                              <div>
-                                <span className={s.titleSecondaryV1} style={{color:"#007D59"}}>今年すでに多くの人材を日本へ送り出しました。</span>
-                              </div>
-                              <div>
-                                <span className={s.titleCardBottom} style={{color:"#007D59",fontWeight:"500",fontSize:"100px"}}>228</span><span style={{color:"#007D59",fontWeight:"600"}}>人</span>
-                              </div>
-                            </div> */}
+                        <div className="">
 
-                            
-                          </div>
-
-                          
                           <div className="">
                               <div className="d-flex align-items-center">
                                 <div className="flex-grow-1 pe-4">
@@ -261,7 +245,7 @@ export default function Achievements() {
                                     style={{
                                       color: "#104675",
                                       fontWeight: "600",
-                                      fontSize: "16px",
+                                      fontSize: "18px",
                                     }}
                                   >
                                     そして今も、入国を待つ仲間たちが多数控えています。
@@ -273,7 +257,7 @@ export default function Achievements() {
                                     style={{
                                       color: "#104675",
                                       fontWeight: "600",
-                                      fontSize: "13px",
+                                      fontSize: "14px",
                                     }}
                                   >
                                     これからも、さらに多くの仲間たちが日本で新たな一歩を踏み出します。
