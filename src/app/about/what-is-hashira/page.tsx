@@ -22,12 +22,25 @@ export default function About() {
             <div className="col-md-10">
               
               <div className="row">
-                <div className="col-md-6">
-                  <span className="title" style={{fontSize:"20px",fontWeight:"600"}}>{t('hashira')}</span>
-                  
+                <div className="col-md-6 d-flex flex-column justify-content-center">
+                  <span
+                    className="title"
+                    style={{ fontSize: "24px", fontWeight: "600" }}
+                  >
+                    {t("hashira")}
+                  </span>
+
                   <p className="subtitle longParagraph mt-3">
-                    {t('hashiraDesc')}
+                    {t("hashiraDesc")}
                   </p>
+                </div>
+
+                <div className="col-md-6 text-center">
+                  <img
+                    src="/logo3.jpg"
+                    style={{ width: "70%" }}
+                    alt=""
+                  />
                 </div>
                 <div className="col-md-6 text-center">
                   <img src="/logo3.jpg" style={{width:"70%"}} alt="" />
