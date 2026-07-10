@@ -12,7 +12,7 @@ export default function Construction() {
     return (
         <>
             <Banner
-                backgroundImage="/img/banner/DSC03164.jpg"
+                backgroundImage="/img/banner/DSC03209 (1).jpg"
                 title={t('title')}
                 subtitle={t('subtitle')}
                 description={t('desc')}
@@ -30,8 +30,8 @@ export default function Construction() {
                 <div className="row m-0 justify-content-center">
                     <div className="col-md-10">
                         <div className="header">
-                            <h2 className="title">{t('Other')}</h2>
-                            {/* <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> */}
+                            <h2 className="title">日本文化</h2>
+                            <p className="subtitle">特別な授業も行なっております！</p>
                         </div>
 
                         <div className={`row ${s.sectionStyle}`}>
@@ -40,7 +40,7 @@ export default function Construction() {
                                     {t('Japanese')}
                                 </span>
                                 <p className="subtitle" style={{fontSize:"14px"}}>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas quo quos suscipit similique reprehenderit, magnam, ipsam repellendus placeat libero ipsum. Soluta, modi sunt unde sint nesciunt error illo molestiae?
+                                    日本独自の「おもてなし」の精神を学び、相手を思いやる心や気配り、礼儀を身につけます。利用者やお客様に満足していただけるサービスの提供を目指します。
                                 </p>
                             </div>
                             <div className="col-md-5" style={{paddingTop:"10px"}}>
@@ -65,7 +65,7 @@ export default function Construction() {
                                     <img src="/img/hospitality/DSC02753.jpg" style={{width:"100%", height:"150px", objectFit:"cover",margin:"10px 0",borderRadius:"5px"}} alt="" />
                                 </div>
                                 <div >
-                                    <img src="/img/banner/27532.jpg" style={{width:"100%", height:"150px", objectFit:"cover",margin:"10px 0",borderRadius:"5px"}} alt="" />
+                                    <img src="/img/hospitality/dcb5999c-c30c-408a-baf9-ee84d5375d3c.jpg" style={{width:"100%", height:"150px", objectFit:"cover",margin:"10px 0",borderRadius:"5px"}} alt="" />
                                 </div>
                             </div>
                         </div>
@@ -76,7 +76,7 @@ export default function Construction() {
                                     {t('Technical')}
                                 </span>
                                 <p className="subtitle" style={{fontSize:"14px"}}>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas quo quos suscipit similique reprehenderit, magnam, ipsam repellendus placeat libero ipsum. Soluta, modi sunt unde sint nesciunt error illo molestiae?
+                                    接客業で使用される敬語や専門用語を学び、お客様や利用者に対して適切で丁寧な対応ができるコミュニケーション能力を養います。
                                 </p>
                             </div>
                             <div className="col-md-5" style={{paddingTop:"10px"}}>
@@ -98,10 +98,10 @@ export default function Construction() {
                             </div>
                             <div className="col-md-4">
                                 <div >
-                                    <img src="/img/banner/27532.jpg" style={{width:"100%", height:"150px", objectFit:"cover",margin:"10px 0",borderRadius:"5px"}} alt="" />
+                                    <img src="/img/hospitality/3b9ad848-f4a7-4be5-ad8f-d19edb4ba7f1.jpg" style={{width:"100%", height:"150px", objectFit:"cover",margin:"10px 0",borderRadius:"5px"}} alt="" />
                                 </div>
                                 <div >
-                                    <img src="/img/banner/27532.jpg" style={{width:"100%", height:"150px", objectFit:"cover",margin:"10px 0",borderRadius:"5px"}} alt="" />
+                                    <img src="/img/hospitality/ed634217-f8d6-4ba4-91b3-4f1fb435cd69.jpg" style={{width:"100%", height:"150px", objectFit:"cover",margin:"10px 0",borderRadius:"5px"}} alt="" />
                                 </div>
                             </div>
                         </div>

@@ -5,7 +5,7 @@ export function getData(){
             title:"Welding",
             description:"WeldingDesc",
             videoId:"1vIU3R-BIDQ",
-            image1:"/img/skill/welding.jpg",
+            image1:"/img/skill/g1-img1.jpg",
             image2:"/img/skill/welding1.jpg"
 
         },
@@ -22,7 +22,7 @@ export function getData(){
             title:"Scaffolding",
             description:"ScaffoldingDesc",
             videoId:"1vIU3R-BIDQ",
-            image1:"/img/skill/scaf.jpg",
+            image1:"/img/skill/g3-img1.jpg",
             image2:"/img/skill/scaf1.jpg"
         },
         {
@@ -30,16 +30,16 @@ export function getData(){
             title:"Masonry",
             description:"MasonryDesc",
             videoId:"1vIU3R-BIDQ",
-            image1:"/img/default.png",
-            image2:"/img/default.png"
+            image1:"/img/skill/g4-img1.jpeg",
+            image2:"/img/skill/g4-img2.jpeg"
         },
         {
             number:5,
             title:"Painting",
             description:"PaintingDesc",
             videoId:"1vIU3R-BIDQ",
-            image1:"/img/default.png",
-            image2:"/img/default.png"
+            image1:"/img/skill/g5-img1.jpeg",
+            image2:"/img/skill/g5-img2.jpeg"
         }
     ]
 }

@@ -30,8 +30,8 @@ export default function Construction() {
                 <div className="row m-0 justify-content-center">
                     <div className="col-md-10">
                         <div className="header">
-                            <h2 className="title">Other</h2>
-                            <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h2 className="title">日本文化</h2>
+                            <p className="subtitle">特別な授業も行なっております！</p>
                         </div>
 
                         <div className={`row ${s.sectionStyle}`}>
@@ -98,10 +98,10 @@ export default function Construction() {
                             </div>
                             <div className="col-md-4">
                                 <div >
-                                    <img src="/img/banner/27532.jpg" style={{width:"100%", height:"150px", objectFit:"cover",margin:"10px 0",borderRadius:"5px"}} alt="" />
+                                    <img src="/img/construction/0779dbad-9146-490e-96c7-44834d04d14d.jpg" style={{width:"100%", height:"150px", objectFit:"cover",margin:"10px 0",borderRadius:"5px"}} alt="" />
                                 </div>
                                 <div >
-                                    <img src="/img/banner/27532.jpg" style={{width:"100%", height:"150px", objectFit:"cover",margin:"10px 0",borderRadius:"5px"}} alt="" />
+                                    <img src="/img/construction/e62f0210-6e7e-46f2-9d30-7e0a3c91fa2a.jpg" style={{width:"100%", height:"150px", objectFit:"cover",margin:"10px 0",borderRadius:"5px"}} alt="" />
                                 </div>
                             </div>
                         </div>

@@ -48,15 +48,15 @@ export default function Achievements() {
 
                   <div className="col-md-3">
                       <div className="position-relative">
-                        <span className={s.cardBadge} style={{backgroundColor:"#0058DF"}}>70%</span>
-                        <img src="/img/achievement/achievement2.JPG" className={s.imgStyle} alt="" />
+                        <span className={s.cardBadge} style={{backgroundColor:"#0058DF"}}>80%</span>
+                        <img src="/img/achievement/0ad2802a-bd23-4d1a-82f1-6d802c69df34.jpg" className={s.imgStyle} alt="" />
                       </div>
                       <div className="p-2">
                         <span className="badge rounded-5 p-1" style={{backgroundColor:"#0D466C"}}>JFT-Basic</span>
                         <br />
                         <div className="row">
                           <div className="col-6"><span className={s.titleSecondary}><br/>合格率</span></div>
-                          <div className="col-6"><span className={`${s.titleCard}`} style={{color:"#0D466C"}}>70</span><span className={s.titleSecondary}>%</span></div>
+                          <div className="col-6"><span className={`${s.titleCard}`} style={{color:"#0D466C"}}>80</span><span className={s.titleSecondary}>%</span></div>
                         </div>
                         
                         <br />
@@ -71,15 +71,15 @@ export default function Achievements() {
 
                   <div className="col-md-3">
                       <div className="position-relative">
-                        <span className={s.cardBadge} style={{backgroundColor:"#FF6700"}}>85%</span>
-                        <img src="/img/achievement/achievement1.JPG" className={s.imgStyle} alt="" />
+                        <span className={s.cardBadge} style={{backgroundColor:"#FF6700"}}>90%</span>
+                        <img src="/img/achievement/9302cdf1-3444-4db3-b6bc-54184b71f4c7.jpg" className={s.imgStyle} alt="" />
                       </div>
                       <div className="p-2">
                         <span className="badge rounded-5 p-1" style={{backgroundColor:"#FF6700"}} >JFT-Basic</span>
                         <br />
                         <div className="row">
                           <div className="col-6"><span className={s.titleSecondary}><br/>合格率</span></div>
-                          <div className="col-6"><span className={`${s.titleCard}`} style={{color:"#FF6700"}}>85</span><span className={s.titleSecondary} style={{color:"#FF6700"}}>%</span></div>
+                          <div className="col-6"><span className={`${s.titleCard}`} style={{color:"#FF6700"}}>90</span><span className={s.titleSecondary} style={{color:"#FF6700"}}>%</span></div>
                         </div>
                         <br />
                         <span className={s.titleSecondary}>2回目の受験</span>
@@ -252,41 +252,85 @@ export default function Achievements() {
 
                             
                           </div>
+
                           
-                          <div className="d-flex">
-                            
-                            <div className="">
-                              <span style={{color:"#104675",fontWeight:"600",fontSize:"14px"}}>そして今も、入国を待つ仲間たちが多数控えています。!</span>
-                              <br />
-                              <span style={{color:"#104675",fontWeight:"600",fontSize:"10px"}}>これからも、さらに多くの仲間たちが日本で新たな一歩を踏み出します。!</span>
-                            </div>
-                            <div className="ms-3">
-                              <span
-                                className="badge d-inline-flex align-items-center justify-content-center"
-                                style={{
-                                  backgroundColor: "#145AC7",
-                                  width: "100px",
-                                  height: "100px",
-                                  borderRadius: "50%",
-                                }}
-                              >
-                                <span style={{ fontSize: "20px", textAlign: "center" }}>
-                                  さらなる
+                          <div className="">
+                              <div className="d-flex align-items-center">
+                                <div className="flex-grow-1 pe-4">
+                                  <span
+                                    style={{
+                                      color: "#104675",
+                                      fontWeight: "600",
+                                      fontSize: "16px",
+                                    }}
+                                  >
+                                    そして今も、入国を待つ仲間たちが多数控えています。
+                                  </span>
+
                                   <br />
-                                  成長へ!
-                                </span>
-                              </span>
-                            </div>
+
+                                  <span
+                                    style={{
+                                      color: "#104675",
+                                      fontWeight: "600",
+                                      fontSize: "13px",
+                                    }}
+                                  >
+                                    これからも、さらに多くの仲間たちが日本で新たな一歩を踏み出します。
+                                  </span>
+                                </div>
+
+                                <div className="ms-4">
+                                  <span
+                                    className="badge d-inline-flex align-items-center justify-content-center"
+                                    style={{
+                                      backgroundColor: "#145AC7",
+                                      width: "180px",
+                                      height: "180px",
+                                      borderRadius: "50%",
+                                    }}
+                                  >
+                                    <span style={{ fontSize: "20px", textAlign: "center" }}>
+                                      さらなる
+                                      <br />
+                                      成長へ!
+                                    </span>
+                                  </span>
+                                </div>
+                              </div>
+                              <div className="row justify-content-center mt-5">
+                                <div className="col">
+                                  <div className="text-center mt-5">
+                                    <div
+                                      style={{
+                                        width: "80px",
+                                        height: "4px",
+                                        background: "#145AC7",
+                                        margin: "0 auto 20px",
+                                        borderRadius: "10px",
+                                      }}
+                                    />
+
+                                    <span
+                                      style={{
+                                        color: "#104675",
+                                        fontWeight: "800",
+                                        fontSize: "28px",
+                                        lineHeight: "1.6",
+                                      }}
+                                    >
+                                      PLACEWELLは、これからも人と企業、未来をつなぐ架け橋であり続けます。
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                              
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="row justify-content-center">
-                    <div className="col-md-7">
-                      <span style={{color:"#104675",fontWeight:"600",fontSize:"18px"}}>PLACEWELLは、これからも人と企業、未来をつなく架け橋であり続けます。</span>
-                    </div>
-                  </div>
+                  
             </div>
           </div>
         </section>
