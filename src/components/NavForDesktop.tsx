@@ -66,11 +66,11 @@ export default function NavForDesktop() {
                             <p>{t1('about.system')} </p>
                             </div>
                         </Link>
-                        <Link href="/about/industries" className="mega-item">
+                        <Link href="/about/group-company" className="mega-item">
                             <FaSyringe className="social-icon" />
                             <div>
                             <h4>グループ会社紹介</h4>
-                            <p>Lorem ipsum dolor sit amet</p>
+                            <p>弊社のグループ会社のご紹介</p>
                             </div>
                         </Link>
                         {/* <Link href="/worldwide-careers" className="mega-item">

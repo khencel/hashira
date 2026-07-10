@@ -59,36 +59,36 @@ export default function AboutBranches() {
                             
 
                             {/* sakop 2 columns */}
-                        <div className="col-6 mt-4">
+                        <div className="col mt-5">
                                 
-                            <div className="d-flex">
-                                <div >
-                                    <span className="badge rounded-circle p-3" style={{background:"#CC121B",border:"5px solid white"}}>
-                                        <FaGlobe style={{fontSize:"25px",color:"white"}} />
-                                    </span>
+                                <div className="d-flex">
+                                    <div >
+                                        <span className="badge rounded-circle p-3" style={{background:"#CC121B",border:"5px solid white"}}>
+                                            <FaGlobe style={{fontSize:"25px",color:"white"}} />
+                                        </span>
+                                    </div>
+                                    <div style={{marginLeft:"20px"}}>
+                                        <span className="title" style={{fontSize:"18px",fontWeight:"bold"}}>
+                                            {t('map')}
+                                        </span>
+                                        <p className="subtitle" style={{fontSize:"14px",color:"#555"}}>
+                                            {t('explore')}
+                                        </p>
+                                    </div>
                                 </div>
-                                <div style={{marginLeft:"20px"}}>
-                                    <span className="title" style={{fontSize:"18px",fontWeight:"bold"}}>
-                                        {t('map')}
-                                    </span>
-                                    <p className="subtitle" style={{fontSize:"14px",color:"#555"}}>
-                                        {t('explore')}
-                                    </p>
+                                
+                                <div>
+                                    <img
+                                        src="/japan.png"
+                                        alt="Map of Japan"
+                                        className="img-fluid rounded-4 shadow-sm"
+                                        style={{
+                                            width: "100%",
+                                            height: "600px",
+                                            
+                                        }}
+                                    />
                                 </div>
-                            </div>
-                            
-                            <div>
-                                <img
-                                    src="/japan.png"
-                                    alt="Map of Japan"
-                                    className="img-fluid rounded-4 shadow-sm"
-                                    style={{
-                                        width: "100%",
-                                        height: "400px",
-                                        objectFit: "cover",
-                                    }}
-                                />
-                            </div>
                                 
                             </div>
                         </div>
