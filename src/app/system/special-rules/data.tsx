@@ -11,8 +11,9 @@ export function getDepartmentList(){
             description: "JapaneseDesc",
             image:{
                 img1:"/img/rules/DSC02767.jpg",
-                img2:"/img/rules/DSC04557.jpg",
-                img3:"/img/default.png",
+                img2:"/img/rules/g1-img2.jpg",
+                // img2:"/img/rules/DSC04557.jpg",
+                img3:"/img/rules/g1-iimg3.jpg",
             },
             videoId:"1vIU3R-BIDQ"
         },
@@ -22,7 +23,7 @@ export function getDepartmentList(){
             description: "StrikeDesc",
             image:{
                 img1:"/img/default.png",
-                img2:"/img/default.png",
+                img2:"/img/rules/g2-img2.jpg",
               
             }
         },
@@ -33,7 +34,7 @@ export function getDepartmentList(){
             image:{
                 img1:"/img/rules/DSC02747.jpg",
                 img2:"/img/rules/DSC02878.jpg",
-                img3:"/img/default.png",
+                img3:"/img/rules/g3-img3.jpg",
                
             },
             videoId:"1vIU3R-BIDQ"
@@ -43,8 +44,8 @@ export function getDepartmentList(){
             title: "Weekend",
             description: `WeekendDesc`,
             image:{
-                img1:"/img/default.png",
-                img2:"/img/default.png",
+                img1:"/img/rules/g4-img2.jpg",
+                img2:"/img/rules/76ecfa3a-4519-4853-8c93-0940cc96d151.jpg",
                 
             }
         },
@@ -59,9 +60,9 @@ export function getAccount(){
             title: "Rebatching",
             description: `RebatchingDesc`,
             image:{
-                img1:"/img/default.png",
-                img2:"/img/default.png",
-                img3:"/img/default.png",
+                img1:"/img/rules/g5-img1.jpg",
+                img2:"/img/rules/g5-img2.jpg",
+                img3:"/img/rules/g5-img3.jpg",
             }
         }
 }

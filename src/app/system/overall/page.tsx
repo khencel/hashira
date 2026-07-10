@@ -21,7 +21,7 @@ export default function Overall() {
           <Step
             title={t('Orientation')}
             text={t('OrientationDesc')}
-            image="/img/industries/DSC04492.jpg"
+            image="/img/banner/DSC03841.jpg"
             reverse={false}
           />
 
@@ -56,7 +56,7 @@ export default function Overall() {
           <Step
             title={t('Post')}
             text={t('PostDesc')}
-            image="/img/industries/DSC03598.jpg"
+            image="/img/banner/DSC03897.jpg"
             reverse={true}
           />
 

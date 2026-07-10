@@ -12,7 +12,7 @@ export default function SpecialRules() {
     return (
         <>
             <Banner
-                backgroundImage="/img/banner/144829.jpg"
+                backgroundImage="/img/banner/DSC03840.jpg"
                 title={t('title')}
                 subtitle={t('subtitle')}
                 description={t('desc')}
@@ -143,13 +143,13 @@ export default function SpecialRules() {
                                         </div>
                                     </div>
                                     <div style={{width:"70%"}} className=" d-flex">
-                                        <div className={s.imageSize} style={{backgroundImage:`url(${account?.image?.img1})`,margin:"10px",height:"150px"}}>
+                                        <div className={s.imageSize} style={{backgroundImage:`url(${account?.image?.img1})`,margin:"10px",height:"200px"}}>
 
                                         </div>
-                                        <div className={s.imageSize} style={{backgroundImage:`url(${account?.image?.img2})`,margin:"10px",height:"150px"}}>
+                                        <div className={s.imageSize} style={{backgroundImage:`url(${account?.image?.img2})`,margin:"10px",height:"200px"}}>
 
                                         </div>
-                                        <div className={s.imageSize} style={{backgroundImage:`url(${account?.image?.img3})`,margin:"10px",height:"150px"}}>
+                                        <div className={s.imageSize} style={{backgroundImage:`url(${account?.image?.img3})`,margin:"10px",height:"200px"}}>
 
                                         </div>
                                     </div>

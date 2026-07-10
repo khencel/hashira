@@ -152,16 +152,16 @@ export default function JapaneseCultureManners() {
                                     </div>
                                     <div style={{width:"70%"}} className=" d-flex">
                                         <div className={`${s.imageSize} p-1`}>
-                                            {/* <img src={account?.image?.img1} style={{height:"190px"}} className={s.imageStyle} alt="" /> */}
-                                            <img src="/img/default.png" className={s.imageStyle} alt="" />
+                                            <img src={account?.image?.img1} style={{height:"200px"}} className={s.imageStyle} alt="" />
+                                            {/* <img src="/img/default.png" className={s.imageStyle} alt="" /> */}
                                         </div>
                                         <div className={`${s.imageSize} p-1`}>
-                                            {/* <img src={account?.image?.img2} style={{height:"190px"}} className={s.imageStyle} alt="" /> */}
-                                            <img src="/img/default.png" className={s.imageStyle} alt="" />
+                                            <img src={account?.image?.img2} style={{height:"190px"}} className={s.imageStyle} alt="" />
+                                            {/* <img src="/img/default.png" className={s.imageStyle} alt="" /> */}
                                         </div>
                                         <div className={`${s.imageSize} p-1`}>
-                                            {/* <img src={account?.image?.img3} style={{height:"190px"}} className={s.imageStyle} alt="" /> */}
-                                            <img src="/img/default.png" className={s.imageStyle} alt="" />
+                                            <img src={account?.image?.img3} style={{height:"190px"}} className={s.imageStyle} alt="" />
+                                            {/* <img src="/img/default.png" className={s.imageStyle} alt="" /> */}
                                         </div>
                                     </div>
                                 </div>
