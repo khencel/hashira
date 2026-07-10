@@ -42,9 +42,9 @@ export default function About() {
                     alt=""
                   />
                 </div>
-                <div className="col-md-6 text-center">
+                {/* <div className="col-md-6 text-center">
                   <img src="/logo3.jpg" style={{width:"70%"}} alt="" />
-                </div>
+                </div> */}
               </div>
 
               {/* <div className="position-relative">
