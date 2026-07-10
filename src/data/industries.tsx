@@ -5,13 +5,13 @@ import { GiShipBow } from "react-icons/gi";
 export function getAllIndustriesFirstRow(){
     return [
         {
-            "image":"/img/industries/IMG_2431.jpg",
+            "image":"/img/industries/img1.jpg",
             "title":"construction",
             "description":"constructionDesc",
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
         },
         {
-            "image":"/img/default.png",
+            "image":"/img/industries/img2.jpg",
             "title":"shipyard",
             "description":"shipyardDesc",
             "icon":<GiShipBow style={{fontSize:"25px",color:"white"}} />
@@ -23,7 +23,7 @@ export function getAllIndustriesFirstRow(){
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
         },
         {
-            "image":"/img/default.png",
+            "image":"/img/industries/img4.jpg",
             "title":"farmer",
             "description":"farmerDesc",
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
@@ -54,7 +54,7 @@ export function getAllIndustriesSecondRow(){
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />
         },
         {
-            "image":"/img/industries/DSC03156.jpg",
+            "image":"/img/industries/achievement.JPG",
             "title":"hotel",
             "description":"hotelDesc",
             "icon":<FaHardHat style={{fontSize:"25px",color:"white"}} />

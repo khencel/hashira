@@ -13,7 +13,7 @@ export default function AboutBranches() {
     return (
         <>
             <Banner
-                backgroundImage="/img/banner/Industries_header.jpg"
+                backgroundImage="/img/banner/Industries_header.png"
                 title={t('title')}
                 subtitle={t('subtitle')}
                 description={t('desc')}
@@ -79,12 +79,12 @@ export default function AboutBranches() {
                             
                             <div>
                                 <img
-                                    src="/img/default.png"
+                                    src="/japan.png"
                                     alt="Map of Japan"
                                     className="img-fluid rounded-4 shadow-sm"
                                     style={{
                                         width: "100%",
-                                        height: "300px",
+                                        height: "400px",
                                         objectFit: "cover",
                                     }}
                                 />
