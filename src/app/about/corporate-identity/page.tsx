@@ -38,7 +38,7 @@ export default function About() {
                     
                     <div className="col d-flex align-items-center">
                       <div className="position-relative">
-                        <h5 className="title" style={{fontSize:"24px"}} >{t('jose')}</h5>
+                        <h5 className="title" style={{fontSize:"24px"}} >ビーチ、ジョーロ</h5>
                         <small>
                             <strong>{t('president')}</strong>
                         </small>
@@ -59,7 +59,7 @@ export default function About() {
                       <div className="position-relative">
                         <h5 className="title" style={{fontSize:"24px"}} >{t('kawamichi')} </h5>
                         <small>
-                            <strong>{t('vice')}</strong>
+                            <strong>顧問</strong>
                         </small>
                         {/* <div className={s.dotPattern}></div> */}
                         <p className="mt-3 cardText">
@@ -141,10 +141,26 @@ export default function About() {
                 {/* <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> */}
               </div>
               <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-6 position-relative">
                   <p className={`${s.longParagraph}`}>
                     {t('messageDesc')}
                   </p>
+
+                  <div style={{
+                    
+                    position:"absolute",
+                    bottom:"5%",
+                    left:"0%"
+                  }}>
+                    <div>
+                      <img src="/sign.jpg" style={{width:"100px"}} alt="" />
+                    </div>
+                    <span>Jose Lorenzo Escueta Beech</span>
+                    <br />
+                    <span>President & CEO</span>
+                  </div>
+
+                  
                   
                 </div>
 
