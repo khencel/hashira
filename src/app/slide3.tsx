@@ -94,9 +94,9 @@ export default function HashiraHeroSection2() {
                 </div>
             </div>
         </div>
-        <img src="/img/banner/slide3/upper.png" className={styles.upperImage} alt="" />
+        <img src="/img/banner/slide3/DSC03634.jpg" className={styles.upperImage} alt="" />
         <img src="/img/banner/slide3/middle.png" className={styles.middleImage} alt="" />
-        <img src="/img/banner/slide3/bottom.png" className={styles.bottomImage} alt="" />
+        <img src="/img/banner/slide3/DSC03883.jpg" className={styles.bottomImage} alt="" />
         
     </section>
     </>

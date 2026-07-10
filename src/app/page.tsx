@@ -2,7 +2,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "../../node_modules/swiper/swiper-bundle.min.css";
 import s from "../components/styles/swiper.module.css"
-import { Autoplay } from "swiper/modules";
+import { Autoplay,Navigation, Pagination } from "swiper/modules";
 import YouTube from "react-youtube";
 import { CSSProperties } from "react";
 import CustomHR from "@/components/CustomHR";
@@ -96,9 +96,11 @@ export default function Home() {
         spaceBetween={20}
         slidesPerView={1}
         loop={true}
-        modules={[Autoplay]}
-        autoplay={{ delay: 6000 }}
+        modules={[Autoplay, Navigation, Pagination]}
+        // autoplay={{ delay: 12000 }}
         speed={800}
+        navigation
+        pagination={{ clickable: true }}
       >
         <SwiperSlide>
           <HashiraHeroSection />
@@ -141,7 +143,7 @@ export default function Home() {
         
         <div style={styles.videoCard} className={s.videoCard}>
             <YouTube
-              videoId="1vIU3R-BIDQ"
+              videoId="g3lMmY4aWoA"
               opts={{
                 width: "100%",
                 height: "100%",
@@ -150,7 +152,7 @@ export default function Home() {
                   controls: 1,
                   mute: 1,
                   loop: 1,
-                  playlist: "1vIU3R-BIDQ",
+                  playlist: "g3lMmY4aWoA",
                 },
               }}
               style={styles.youtube}

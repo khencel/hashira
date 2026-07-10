@@ -13,7 +13,7 @@ export default function About() {
     return (
       <>
         <Banner
-          backgroundImage="/img/banner/DSC03994.jpg"
+          backgroundImage="/img/banner/DSC02891.jpg"
           title={t('about')}
           subtitle={t('corporate')}
           description={t('corporateDesc')}

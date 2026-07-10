@@ -61,7 +61,7 @@ export default function HashiraHeroSection4() {
                                     <span style={{fontWeight:"700",fontSize:"14px",color:"#002352"}}>プロメトリック <br/>合格率</span>
                                 </div>
                               
-                                <span style={{fontWeight:"700",fontSize:"35px",color:"#002352"}}>70</span>
+                                <span style={{fontWeight:"700",fontSize:"35px",color:"#002352"}}>80</span>
                                 <span style={{fontWeight:"700",fontSize:"16px",color:"#002352"}}>%</span>
                                 <br />
                                 <br />
@@ -82,7 +82,7 @@ export default function HashiraHeroSection4() {
                                 <div style={{height:"60px"}}>
                                     <span style={{fontWeight:"700",fontSize:"14px",color:"#002352"}}>在籍学生数</span>
                                 </div>
-                                <span style={{fontWeight:"700",fontSize:"35px",color:"#002352"}}>300</span>
+                                <span style={{fontWeight:"700",fontSize:"35px",color:"#002352"}}>500</span>
                                 <span style={{fontWeight:"700",fontSize:"16px",color:"#002352"}}>名以上</span>
                                 <br />
                                 <br />
