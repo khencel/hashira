@@ -22,7 +22,7 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: "Hashira Skills",
-  description: "Bridging together Japan and the Philippines",
+  description: "Bridging together Japan and the Philippines"
 };
 
 export default function RootLayout({
