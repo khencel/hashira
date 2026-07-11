@@ -303,7 +303,7 @@ export default function Achievements() {
                                         lineHeight: "1.6",
                                       }}
                                     >
-                                      PLACEWELL と HASHIRA SKILLS、これからも人と企業、未来をつなぐ架け橋であり続けます。
+                                      PLACEWELL と HASHIRA SKILLS は、これからも人と企業、未来をつなぐ架け橋であり続けます。
                                     </span>
                                   </div>
                                 </div>

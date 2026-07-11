@@ -68,7 +68,7 @@ export default function Navigation() {
         {/* MENU */}
         <ul className={`nav-menu ${open ? "active" : ""}`}>
           <NavForDesktop />
-          <NavForMobile />
+          <NavForMobile onLinkClick={() => setOpen(false)} />
         </ul>
       </nav>
     </div>
