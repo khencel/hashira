@@ -34,8 +34,8 @@ export default function Construction() {
                             <p className="subtitle">特別な授業も行なっております！</p>
                         </div>
 
-                        <div className={`row ${s.sectionStyle}`}>
-                            <div className="col-md-3 p-3">
+                        <div className={`row align-items-center ${s.sectionStyle}`}>
+                            <div className="col-lg-3 col-md-4 col-12 p-3">
                                 <span className="title" style={{fontWeight:"600", fontSize:"20px"}}>
                                     {t('Japanese')}
                                 </span>
@@ -43,29 +43,38 @@ export default function Construction() {
                                     日本独自の「おもてなし」の精神を学び、相手を思いやる心や気配り、礼儀を身につけます。利用者やお客様に満足していただけるサービスの提供を目指します。
                                 </p>
                             </div>
-                            <div className="col-md-5" style={{paddingTop:"10px"}}>
-                                <YouTube
-                                videoId="1vIU3R-BIDQ"
-                                opts={{
-                                    width: "100%",
-                                    height: "300px",
-                                    playerVars: {
-                                    autoplay: 0,
-                                    controls: 1,
-                                    mute: 1,
-                                    loop: 1,
-                                    playlist: "1vIU3R-BIDQ",
-                                    },
-                                }}
-                               
-                                />
-                            </div>
-                            <div className="col-md-4">
-                                <div >
-                                    <img src="/img/hospitality/DSC02753.jpg" style={{width:"100%", height:"150px", objectFit:"cover",margin:"10px 0",borderRadius:"5px"}} alt="" />
+                            <div className="col-lg-5 col-md-8 col-12" style={{paddingTop:"10px"}}>
+                                <div className={s.videoWrapper}>
+                                    <YouTube
+                                        videoId="1vIU3R-BIDQ"
+                                        opts={{
+                                            width: "100%",
+                                            height: "300px",
+                                            playerVars: {
+                                            autoplay: 0,
+                                            controls: 1,
+                                            mute: 1,
+                                            loop: 1,
+                                            playlist: "1vIU3R-BIDQ",
+                                            },
+                                        }}
+                                        
+                                    />
                                 </div>
-                                <div >
-                                    <img src="/img/hospitality/dcb5999c-c30c-408a-baf9-ee84d5375d3c.jpg" style={{width:"100%", height:"150px", objectFit:"cover",margin:"10px 0",borderRadius:"5px"}} alt="" />
+                            </div>
+                            <div className="col-lg-4 col-12">
+                                <div className={s.imageGrid}>
+                                    <img
+                                        src="/img/hospitality/DSC02753.jpg"
+                                        className={s.galleryImage}
+                                        alt=""
+                                    />
+
+                                    <img
+                                        src="/img/hospitality/dcb5999c-c30c-408a-baf9-ee84d5375d3c.jpg"
+                                        className={s.galleryImage}
+                                        alt=""
+                                    />
                                 </div>
                             </div>
                         </div>

@@ -5,9 +5,11 @@ import YouTube from "react-youtube";
 import TestimonialCard from "@/components/TestimonialsCard";
 import s from "../../../styles/testimonials.module.css"
 import { useTranslations } from "next-intl";
+import { getTeachers } from "../data";
 
 export default function TeacherTestimonial() {
     const t = useTranslations("teacherTestimonial");
+    const items = getTeachers()
     return (
         <>
             <Banner
@@ -107,15 +109,19 @@ export default function TeacherTestimonial() {
                                 {/* <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptate ratione</p> */}
                             </div>
                             <div className="row">
-                                <div className="col-md-4">
-                                    <TestimonialCard />
-                                </div>
-                                <div className="col-md-4">
-                                    <TestimonialCard />
-                                </div>
-                                <div className="col-md-4">
-                                    <TestimonialCard />
-                                </div>
+                                {
+                                    items.map((item, index) => (
+                                        <div className="col-md-4" key={index}>
+                                            <TestimonialCard
+                                                name={item.name}
+                                                role={item.role}
+                                                company={item.company}
+                                                statement={item.statement}
+                                            />
+                                        </div>
+                                    ))
+                                }
+                                
                             </div>
                         </div>
                     </div>
