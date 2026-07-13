@@ -100,7 +100,7 @@ export default function JapaneseCultureManners() {
                                     <div style={{width:"60%"}} className="">
                                         <div className="d-flex mb-3">
                                             <div className="mt-3 d-flex justify-content-center align-items-center" style={{width:"30%"}}>
-                                                <span className="badge p-3 rounded-circle" style={{background:"#709C6B"}}>{account.icon}</span>
+                                                <span className="badge p-3 rounded-circle" style={{background:"#104675"}}>{account.icon}</span>
                                             </div>
                                             <div className="mt-3" style={{width:"70%"}}>
                                                 <span className="title" style={{fontSize:"18px",fontWeight:"600"}}>{account.title}</span>
