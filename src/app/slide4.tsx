@@ -11,7 +11,8 @@ export default function HashiraHeroSection4() {
         <div className="row justify-content-center">
             <div className="col-10">
                 <div className='text-center mt-4'>
-                    <span 
+                    <span
+                        className={styles.headerTitle} 
                         style={{
                             fontWeight:"700",
                             fontSize:"50px",
@@ -20,16 +21,17 @@ export default function HashiraHeroSection4() {
                     >柱日本語学校の実績</span>
                     <br />
                     <span 
-                    style={{
-                        fontSize:"20px",
-                        fontWeight:"600",
-                        color:"#002352"
-                    }}
+                        className={styles.headerSubTitle}
+                        style={{
+                            fontSize:"20px",
+                            fontWeight:"600",
+                            color:"#002352"
+                        }}
                     >多くの学生が日本で活躍し、確かな成果を上げています。</span>
                 </div>
 
                 <div className="row mt-5">
-                    <div className="col-md-4 mt-5">
+                    <div className="col-4 mt-5">
                         <div className={`${styles.cardStyle} ms-auto`} >
                             <div className='w-100 text-center p-2'>
                                 <img src="/img/banner/slide4/group.png" className={styles.logoStyle} alt="" />
@@ -39,7 +41,14 @@ export default function HashiraHeroSection4() {
                                     <span style={{fontWeight:"700",fontSize:"14px",color:"#002352"}}>送り出し実績</span>
                                 </div>
                                 
-                                <span style={{fontWeight:"700",fontSize:"35px",color:"#002352"}}>2,000</span>
+                                <span 
+                                    style={{
+                                        fontWeight:"700",
+                                        fontSize:"35px",
+                                        color:"#002352"
+                                        }}>
+                                            2,000
+                                </span>
                                 <span style={{fontWeight:"700",fontSize:"16px",color:"#002352"}}>名以上</span>
                                 <br />
                                 <br />
@@ -51,7 +60,7 @@ export default function HashiraHeroSection4() {
                             
                         </div>
                     </div>
-                    <div className="col-md-4 mt-5">
+                    <div className="col-4 mt-5">
                         <div className={`${styles.cardStyle} m-auto`} >
                             <div className='w-100 text-center p-2'>
                                 <img src="/img/banner/slide4/chart.png" className={styles.logoStyle} alt="" />
@@ -73,7 +82,7 @@ export default function HashiraHeroSection4() {
                             
                         </div>
                     </div>
-                    <div className="col-md-4 mt-5">
+                    <div className="col-4 mt-5">
                         <div className={styles.cardStyle}>
                             <div className='w-100 text-center p-2'>
                                 <img src="/img/banner/slide4/calendar.png" className={styles.logoStyle} alt="" />

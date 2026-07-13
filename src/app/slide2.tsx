@@ -19,7 +19,7 @@ export default function HashiraHeroSection1() {
                                 <div className="col p-0 pt-3 pb-5" key={keys}>
                                     <div className={`text-center ${keys !== 0 ? 'border-start' : ''} d-flex flex-column align-items-center justify-content-center w-100`}>
                                         <span className={styles.circleIcon}>
-                                            <img src={item.icon} style={{width:"50px"}} alt="" />
+                                            <img src={item.icon} style={{width:"50%"}} alt="" />
                                         </span>
                                         
                                         <span className={styles.titleIcon} dangerouslySetInnerHTML={{__html: item.title}}></span>
@@ -61,7 +61,7 @@ export default function HashiraHeroSection1() {
 
                     
                 </div>
-                <div className="col-md-8 p-0">
+                <div className="col-md-8 p-0 d-none d-md-block">
                     <div className={styles.rightCont}>
 
                     </div>

@@ -136,6 +136,10 @@
     clip-path: polygon(7.2% 0, 100% 0, 100% 100%, 0 100%);
 }
 
+.tesdaImg{
+    width: 100%;
+}
+
 /* ============================================= */
 /* RESPONSIVE FIXES - desktop rules above are untouched */
 /* Tablet / smaller laptop screens */
@@ -233,5 +237,9 @@
 
     .bottomItem span {
         font-size: 12px !important;
+    }
+
+    .tesdaImg{
+        width: 40%;
     }
 }

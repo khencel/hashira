@@ -86,8 +86,8 @@ export default function HashiraHeroSection2() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-5">
-                            <img src="/tesda.png" className='img-fluid' alt="" />
+                        <div className="col-md-5 text-center pt-3">
+                            <img src="/tesda.png" className={styles.tesdaImg} alt="" />
                         </div>
                     </div>
                     

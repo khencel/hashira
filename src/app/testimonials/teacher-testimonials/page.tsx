@@ -29,20 +29,9 @@ export default function TeacherTestimonial() {
                         <div className="row">
                             <div className="col-md-4 p-2">
                                 <div>
-                                    <YouTube
-                                    videoId="1vIU3R-BIDQ"
-                                    opts={{
-                                        width: "100%",
-                                        height: "300px",
-                                        playerVars: {
-                                        autoplay: 0,
-                                        controls: 1,
-                                        mute: 1,
-                                        loop: 1,
-                                        playlist: "1vIU3R-BIDQ",
-                                        },
-                                    }}
-                                    />
+                                    <video width="100%" height="300px" controls muted loop playsInline>
+                                        <source src='/videos/TBSA　TESTIMONIAL.mp4' type="video/mp4" />
+                                    </video>
                                 </div>
                                 <div>
                                     <span className="title" style={{fontSize:"18px"}}>Juan Carlos Santos</span>
@@ -51,21 +40,9 @@ export default function TeacherTestimonial() {
                             </div>
                             <div className="col-md-4 p-2">
                                 <div>
-                                    <YouTube
-                                    videoId="1vIU3R-BIDQ"
-                                    opts={{
-                                        width: "100%",
-                                        height: "300px",
-                                        playerVars: {
-                                        autoplay: 0,
-                                        controls: 1,
-                                        mute: 1,
-                                        loop: 1,
-                                        playlist: "1vIU3R-BIDQ",
-                                        },
-                                    }}
-                                    
-                                    />
+                                    <video width="100%" height="300px" controls muted loop playsInline>
+                                        <source src='/videos/ルイサ先生　インタビュー.mp4' type="video/mp4" />
+                                    </video>
                                 </div>
                                 <div>
                                     <span className="title" style={{fontSize:"18px"}}>John Paul Cruz</span>
@@ -74,21 +51,9 @@ export default function TeacherTestimonial() {
                             </div>
                             <div className="col-md-4 p-2">
                                 <div>
-                                    <YouTube
-                                    videoId="1vIU3R-BIDQ"
-                                    opts={{
-                                        width: "100%",
-                                        height: "300px",
-                                        playerVars: {
-                                        autoplay: 0,
-                                        controls: 1,
-                                        mute: 1,
-                                        loop: 1,
-                                        playlist: "1vIU3R-BIDQ",
-                                        },
-                                    }}
-                                    
-                                    />
+                                    <video width="100%" height="300px" controls muted loop playsInline>
+                                        <source src='/videos/ケイビー先生　インタビュー1.mp4' type="video/mp4" />
+                                    </video>
                                 </div>
                                 <div>
                                     <span className="title" style={{fontSize:"18px"}}>Mark Anthony Reyes</span>
