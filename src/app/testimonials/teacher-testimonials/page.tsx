@@ -41,7 +41,7 @@ export default function TeacherTestimonial() {
                             <div className="col-md-4 p-2">
                                 <div>
                                     <video width="100%" height="300px" controls muted loop playsInline>
-                                        <source src='/videos/ルイサ先生　インタビュー.mp4' type="video/mp4" />
+                                        <source src='/videos/testimonials2.mp4' type="video/mp4" />
                                     </video>
                                 </div>
                                 <div>
