@@ -60,4 +60,8 @@
     .grid {
         grid-template-columns: 1fr;
     }
+
+    .section {
+        padding: 2rem;
+    }
 }

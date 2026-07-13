@@ -5,4 +5,13 @@
   height: 320px;
   /* width: 80%; */
   object-fit: cover;
+  margin-bottom: 10px;
 }
+
+@media (max-width: 768px){
+  .imgStyle{
+    box-shadow: none;
+  }
+}
+
+

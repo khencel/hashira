@@ -7,7 +7,7 @@ interface ImageProps {
 export default function ImageStyle ({image}:ImageProps){
     return (
         <>
-            <img className={`${s.imgStyle} img-fluid`} src={image} alt="" />
+            <img className={`${s.imgStyle}`} src={image} alt="" />
         </>
     );
 }

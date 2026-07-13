@@ -178,6 +178,10 @@
     z-index: 2;
 }
 
+.presMessage{
+    height: 530px;
+}
+
 /* 📱 mobile fix */
 @media (max-width: 768px){
     .rightSlideDiv{
@@ -186,6 +190,10 @@
 
     .rightSlideDiv::before{
         display: none; /* alisin slant sa mobile */
+    }
+
+    .presMessage{
+        height: 650px;
     }
 }
 
