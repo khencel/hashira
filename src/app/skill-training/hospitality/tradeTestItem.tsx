@@ -32,7 +32,7 @@ export default function TradeTestItem({ number, title, description, videoId, ima
                         </div>
                     </div>
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-3 p-2">
                     <YouTube
                         videoId={videoId}
                         opts={{
@@ -48,10 +48,10 @@ export default function TradeTestItem({ number, title, description, videoId, ima
                         }}
                     />
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-3 p-2">
                     <img src={image1} className={s.imageStyle} alt="" />
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-3 p-2">
                     <img src={image2} className={s.imageStyle} alt="" />
                 </div>
             </div>
