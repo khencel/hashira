@@ -108,6 +108,7 @@ export default function ClientTestimonial() {
                                 <h2 className="title">{t('what')}</h2>
                                 {/* <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptate ratione</p> */}
                             </div>
+                            
                             <div className="row">
                                 {
                                     items.map((item, index)=>(
