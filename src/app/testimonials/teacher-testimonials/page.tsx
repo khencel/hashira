@@ -34,7 +34,7 @@ export default function TeacherTestimonial() {
                                     </video>
                                 </div>
                                 <div>
-                                    <span className="title" style={{fontSize:"18px"}}>Juan Carlos Santos</span>
+                                    <span className="title" style={{fontSize:"18px"}}>Juan Carlos Santos test</span>
                                     <p className="subtitle">Chief Executive Officer</p>
                                 </div>
                             </div>
