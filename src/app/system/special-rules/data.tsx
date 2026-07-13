@@ -6,7 +6,7 @@ import { IoDocumentSharp, IoCalculator  } from "react-icons/io5";
 export function getDepartmentList(){
     return [
         {
-            icon:<RiTeamFill style={{fontSize:"40px"}} />,
+            icon:<RiTeamFill style={{fontSize:"2.5em"}} />,
             title: "Japanese",
             description: "JapaneseDesc",
             image:{
@@ -18,7 +18,7 @@ export function getDepartmentList(){
             videoId:"1vIU3R-BIDQ"
         },
         {
-            icon:<FaUser style={{fontSize:"40px"}} />,
+            icon:<FaUser style={{fontSize:"2.5em"}} />,
             title: "Strike",
             description: "StrikeDesc",
             image:{
@@ -28,7 +28,7 @@ export function getDepartmentList(){
             }
         },
         {
-            icon:<GiInjustice style={{fontSize:"40px"}} />,
+            icon:<GiInjustice style={{fontSize:"2.5em"}} />,
             title: "Mock",
             description: "MockDesc",
             image:{
@@ -40,7 +40,7 @@ export function getDepartmentList(){
             videoId:"1vIU3R-BIDQ"
         },
         {
-            icon:<IoDocumentSharp style={{fontSize:"40px"}} />,
+            icon:<IoDocumentSharp style={{fontSize:"2.5em"}} />,
             title: "Weekend",
             description: `WeekendDesc`,
             image:{
@@ -56,7 +56,7 @@ export function getDepartmentList(){
 
 export function getAccount(){
     return {
-            icon:<IoCalculator style={{fontSize:"40px"}} />,
+            icon:<IoCalculator style={{fontSize:"2.5em"}} />,
             title: "Rebatching",
             description: `RebatchingDesc`,
             image:{
