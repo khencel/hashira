@@ -46,8 +46,8 @@ export default function TeacherTestimonial() {
                                     />
                                 </div>
                                 <div>
-                                    <span className="title" style={{fontSize:"18px"}}>John Paul Cruz</span>
-                                    <p className="subtitle">General Manager</p>
+                                    <span className="title" style={{fontSize:"18px"}}>ケイビー先生</span>
+                                    <p className="subtitle">技能実習生主任</p>
                                 </div>
                             </div>
                             
@@ -69,8 +69,8 @@ export default function TeacherTestimonial() {
                                     />
                                 </div>
                                 <div>
-                                    <span className="title" style={{fontSize:"18px"}}>Juan Carlos Santos</span>
-                                    <p className="subtitle">Chief Executive Officer</p>
+                                    <span className="title" style={{fontSize:"18px"}}>ルイサ先生</span>
+                                    <p className="subtitle">本部長</p>
                                 </div>
                             </div>
                             
@@ -93,8 +93,8 @@ export default function TeacherTestimonial() {
                                     />
                                 </div>
                                 <div>
-                                    <span className="title" style={{fontSize:"18px"}}>Mark Anthony Reyes</span>
-                                    <p className="subtitle">Operations Manager</p>
+                                    <span className="title" style={{fontSize:"18px"}}>矢方朋樹</span>
+                                    <p className="subtitle">監理団体理事長</p>
                                 </div>
                             </div>
                         </div>
