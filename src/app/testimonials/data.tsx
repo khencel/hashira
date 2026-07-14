@@ -46,7 +46,7 @@ export function getStudent(){
         },
         {
             avatar:"test",
-            name:"MARKCO FUNTALBA MUDLONG",
+            name:"Markco Funtalba Mudlong",
             role:"とび",
             company:" 株式会社エド建",
             statement:`「柱日本語学校で学んだことが、日本での仕事と生活の大きな力になっています。」
@@ -57,7 +57,7 @@ export function getStudent(){
         },
         {
             avatar:"test",
-            name:"SAMUEL AROGANTE BERNARDO",
+            name:"Samuel Arogante Bernardo",
             role:"農業",
             company:" 岩井流通株式会社",
             statement:`「日本語をしっかり学んでから日本へ来ることの大切さを実感しました。」
