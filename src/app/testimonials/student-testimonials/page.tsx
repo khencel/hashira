@@ -27,9 +27,21 @@ export default function StudentTestimonial() {
                         <div className="row">
                             <div className="col-md-4 p-2">
                                 <div>
-                                    <video width="100%" height="300px" controls muted loop playsInline>
-                                        <source src='/videos/student/0708 (2).mp4' type="video/mp4" />
-                                    </video>
+                                    <YouTube
+                                        videoId="XWjmokb4zUk"
+                                        opts={{
+                                            width: "100%",
+                                            height: "300px",
+                                            playerVars: {
+                                            autoplay: 0,
+                                            controls: 1,
+                                            mute: 1,
+                                            loop: 1,
+                                            playlist: "XWjmokb4zUk",
+                                            },
+                                        }}
+                                        
+                                    />
                                 </div>
                                 <div>
                                     <span className="title" style={{fontSize:"18px"}}>Juan Carlos Santos</span>
@@ -38,9 +50,21 @@ export default function StudentTestimonial() {
                             </div>
                             <div className="col-md-4 p-2">
                                 <div>
-                                    <video width="100%" height="300px" controls muted loop playsInline>
-                                        <source src='/videos/student/hotel service with sub.mp4' type="video/mp4" />
-                                    </video>
+                                    <YouTube
+                                        videoId="TPDpyCVv5UM"
+                                        opts={{
+                                            width: "100%",
+                                            height: "300px",
+                                            playerVars: {
+                                            autoplay: 0,
+                                            controls: 1,
+                                            mute: 1,
+                                            loop: 1,
+                                            playlist: "TPDpyCVv5UM",
+                                            },
+                                        }}
+                                        
+                                    />
                                 </div>
                                 <div>
                                     <span className="title" style={{fontSize:"18px"}}>John Paul Cruz</span>
@@ -49,9 +73,21 @@ export default function StudentTestimonial() {
                             </div>
                             <div className="col-md-4 p-2">
                                 <div>
-                                    <video width="100%" height="300px" controls muted loop playsInline>
-                                        <source src='/videos/student/マリア.mp4' type="video/mp4" />
-                                    </video>
+                                    <YouTube
+                                        videoId="wwtwvZcB_XY"
+                                        opts={{
+                                            width: "100%",
+                                            height: "300px",
+                                            playerVars: {
+                                            autoplay: 0,
+                                            controls: 1,
+                                            mute: 1,
+                                            loop: 1,
+                                            playlist: "wwtwvZcB_XY",
+                                            },
+                                        }}
+                                        
+                                    />
                                 </div>
                                 <div>
                                     <span className="title" style={{fontSize:"18px"}}>Mark Anthony Reyes</span>

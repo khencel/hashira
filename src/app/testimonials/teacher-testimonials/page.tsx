@@ -29,31 +29,68 @@ export default function TeacherTestimonial() {
                         <div className="row">
                             <div className="col-md-4 p-2">
                                 <div>
-                                    <video width="100%" height="300px" controls muted loop playsInline>
-                                        <source src='/videos/TBSA　TESTIMONIAL.mp4' type="video/mp4" />
-                                    </video>
-                                </div>
-                                <div>
-                                    <span className="title" style={{fontSize:"18px"}}>Juan Carlos Santos test</span>
-                                    <p className="subtitle">Chief Executive Officer</p>
-                                </div>
-                            </div>
-                            <div className="col-md-4 p-2">
-                                <div>
-                                    <video width="100%" height="300px" controls muted loop playsInline>
-                                        <source src='/videos/testimonials2.mp4' type="video/mp4" />
-                                    </video>
+                                    <YouTube
+                                    videoId="YMe7bSttqBE"
+                                    opts={{
+                                        width: "100%",
+                                        height: "300px",
+                                        playerVars: {
+                                        autoplay: 0,
+                                        controls: 1,
+                                        mute: 1,
+                                        loop: 1,
+                                        playlist: "YMe7bSttqBE",
+                                        },
+                                    }}
+                                    
+                                    />
                                 </div>
                                 <div>
                                     <span className="title" style={{fontSize:"18px"}}>John Paul Cruz</span>
                                     <p className="subtitle">General Manager</p>
                                 </div>
                             </div>
+                            
                             <div className="col-md-4 p-2">
                                 <div>
-                                    <video width="100%" height="300px" controls muted loop playsInline>
-                                        <source src='/videos/test3.mp4' type="video/mp4" />
-                                    </video>
+                                    <YouTube
+                                    videoId="eAeVBxZPie8"
+                                    opts={{
+                                        width: "100%",
+                                        height: "300px",
+                                        playerVars: {
+                                        autoplay: 0,
+                                        controls: 1,
+                                        mute: 1,
+                                        loop: 1,
+                                        playlist: "eAeVBxZPie8",
+                                        },
+                                    }}
+                                    />
+                                </div>
+                                <div>
+                                    <span className="title" style={{fontSize:"18px"}}>Juan Carlos Santos</span>
+                                    <p className="subtitle">Chief Executive Officer</p>
+                                </div>
+                            </div>
+                            
+                            <div className="col-md-4 p-2">
+                                <div>
+                                    <YouTube
+                                    videoId="bERqugcvTns"
+                                    opts={{
+                                        width: "100%",
+                                        height: "300px",
+                                        playerVars: {
+                                        autoplay: 0,
+                                        controls: 1,
+                                        mute: 1,
+                                        loop: 1,
+                                        playlist: "bERqugcvTns",
+                                        },
+                                    }}
+                                    
+                                    />
                                 </div>
                                 <div>
                                     <span className="title" style={{fontSize:"18px"}}>Mark Anthony Reyes</span>
