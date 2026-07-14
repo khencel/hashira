@@ -13,7 +13,7 @@ export function getData(){
             number:2,
             title:"Carpentry",
             description:"CarpentryDesc",
-            videoId:"1vIU3R-BIDQ",
+            videoId:"SeEtyq7Xusc",
             image1:"/img/skill/carpentry.jpg",
             image2:"/img/skill/carpentry1.jpg"
         },
@@ -37,7 +37,7 @@ export function getData(){
             number:5,
             title:"Painting",
             description:"PaintingDesc",
-            videoId:"1vIU3R-BIDQ",
+            videoId:"HBjMm8bI_jU",
             image1:"/img/skill/g5-img1.jpeg",
             image2:"/img/skill/g5-img2.jpeg"
         }
