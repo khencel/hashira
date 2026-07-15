@@ -13,7 +13,8 @@ export default function ContactUs(){
                 backgroundImage="/img/banner/124009.jpg"
                 title={t('title')}
                 subtitle={t('subtitle')}
-                description={t('desc')}
+                // description={t('desc')}
+                customFontSize={true}
             />
 
             <section  className={`${s.testimonialSection} `}>
@@ -23,7 +24,7 @@ export default function ContactUs(){
                         
                         <div className="header">
                             <h2 className="title">{t('connect')}</h2>
-                            <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            {/* <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> */}
                         </div>
 
                         {/* MAIN */}

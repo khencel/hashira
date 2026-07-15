@@ -20,7 +20,7 @@ export function getClient(){
 export function getStudent(){
     return [
         {
-            avatar:"test",
+            avatar:"/jeciel.jpg",
             name:"Jeciel Mae Paumar",
             role:"食品製造",
             company:" サンハウス食品株式会社",
@@ -31,7 +31,7 @@ export function getStudent(){
                     ここまで成長できたのは、先生方のご指導と支えがあったからです。本当にありがとうございました。`
         },
         {
-            avatar:"test",
+            avatar:"/marcko.jpg",
             name:"Markco Funtalba Mudlong",
             role:"とび",
             company:" 株式会社エド建",
@@ -42,7 +42,7 @@ export function getStudent(){
                         その教えを今でも大切にしながら、日本で毎日成長できるよう努力しています。柱日本語学校で学んだ経験は、私にとってかけがえのない財産です。`
         },
         {
-            avatar:"test",
+            avatar:"/samuel.jpg",
             name:"Samuel Arogante Bernardo",
             role:"農業",
             company:" 岩井流通株式会社",

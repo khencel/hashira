@@ -131,6 +131,7 @@ export default function StudentTestimonial() {
                                                 role={item.role}
                                                 company={item.company}
                                                 statement={item.statement}
+                                                avatar={item.avatar}
                                             />
                                         </SwiperSlide>
                                     ))
