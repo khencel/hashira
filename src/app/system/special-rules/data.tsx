@@ -22,7 +22,7 @@ export function getDepartmentList(){
             title: "Strike",
             description: "StrikeDesc",
             image:{
-                img1:"/img/default.png",
+                img1:"/img/rules/rules1.JPG",
                 img2:"/img/rules/g2-img2.jpg",
               
             }

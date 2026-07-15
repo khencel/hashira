@@ -1,9 +1,9 @@
 export function getClient(){
     return [
         {
-            avatar:"test",
+            avatar:"/37a029c7-b04e-4b38-a3fc-29dd143a66dc.jpg",
             name:"中西 巧",
-            role:"test",
+            role:"代表取締役社長",
             company:" 株式会社日建ホールディングス",
             statement:`日本国内の住宅業界の人材不足は深刻な社会問題となっております。
                         外国人材を採用しなければ日本国内で住宅は建築できません。
@@ -21,24 +21,10 @@ export function getStudent(){
     return [
         {
             avatar:"test",
-            name:"中西 巧",
-            role:"Student",
-            company:" Hashira",
-            statement:`日本国内の住宅業界の人材不足は深刻な社会問題となっております。
-                        外国人材を採用しなければ日本国内で住宅は建築できません。
-                        外国人労働者採用の大きな課題は
-                        ❶良い人材の採用
-                        ❷人材の教育
-                        ❸失踪の防止
-                        ですが、送出し機関として社歴の深いPlacewell社と日本語学校「柱」に任せれば全ての課題は解決できます。
-                        今後もパートナーとして期待しています。`
-        },
-        {
-            avatar:"test",
             name:"Jeciel Mae Paumar",
-            role:"Student",
-            company:" Hashira",
-            statement:`サンハウス食品株式会社　食品製造「先生には心から感謝しています。」
+            role:"食品製造",
+            company:" サンハウス食品株式会社",
+            statement:`「先生には心から感謝しています。」
                     先生、私たちが日本へ来る前から、そして日本で働き始めた今も変わらずサポートしてくださり、本当にありがとうございます。
                     HASHIRAで学ぶことができて、本当に良かったと思っています。入学前と比べて私の人生は大きく変わりました。
                     今では貯金ができるようになり、家族を支えることもできています。
@@ -73,20 +59,20 @@ export function getStudent(){
 export function getTeachers(){
     return [
         {
-            avatar:"test",
+            avatar:"/Screenshot 2026-07-15 162147.png",
             name:"Michael Aldwin D. Sequihod",
             role:"最高執行責任者（COO）",
-            company:" Hashira",
+            company:" Hashira Skills",
             statement:`私は2022年5月15日に柱日本語学校へ入社し、技能実習生を対象とした日本語教師として勤務を開始しました。入社以来、日本で働き、より良い将来を築くことを目指す多くのフィリピン人研修生の指導に携わってまいりました。
                         柱日本語学校での仕事は、若いフィリピン人が夢を実現し、家族を支える存在へと成長する過程を支援できるため、大きなやりがいを感じています。
                         私は日本で6年間働いた経験を活かし、日本語だけでなく、日本文化や職場環境、日本での生活について実践的な知識を学生たちに伝えています。
                         本校での経験を通じて、私たちの使命は単なる教育にとどまらず、学生が人生を切り開き、自らの可能性を伸ばし、より良い未来へ進むための支援を行うことだと実感しています。`
         },
         {
-            avatar:"test",
+            avatar:"/Screenshot 2026-07-15 162907.png",
             name:"Joan Bascuguin",
             role:"人事担当",
-            company:" Hashira",
+            company:" Hashira Skills",
             statement:`はじめまして。私は柱日本語学校で人事を担当しているJoan Bascuguinです。
                         私は人材育成と組織の成長に強い関心を持ち、一人ひとりが目標を達成できるよう支援することにやりがいを感じています。
                         柱日本語学校は、学生一人ひとりを大切にする教育方針と質の高い教育で知られています。
@@ -95,10 +81,10 @@ export function getTeachers(){
                         学生の皆さんには、新しい経験を前向きに受け入れ、失敗を恐れず挑戦してほしいと思います。すべての経験が成長につながる大切な学びとなります。`
         },
         {
-            avatar:"test",
-            name:"レイジ先生",
+            avatar:"/745045474_2436238376899401_3080839268621199412_n.jpg",
+            name:"Regie Familiar",
             role:"技能実習生　講師",
-            company:" Hashira",
+            company:" Hashira Skills",
             statement:`私の学校での生活は、大変なこともありますが、とても充実しています。
                 学生たちに日本語を教え、自分の日本での経験を伝えられることに、大きな喜びを感じています。
                 また、職場の同僚の皆さんはとても親切で熱心で、毎日楽しく仕事をすることができています。

@@ -12,7 +12,7 @@ export default function Achievements() {
   return (
     <>
         <Banner
-            backgroundImage="/img/banner/achievement.jpg"
+            backgroundImage="/DSC03897.jpg"
             title={t('title')}
             subtitle={t('subtitle')}
             description={t('desc')}

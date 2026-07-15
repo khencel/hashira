@@ -19,7 +19,7 @@ export default function Construction() {
             />
 
             <div className="row justify-content-center m-0">
-                <div className="col-md-10">
+                <div className="col-md-11">
                     {data.map((item) => (
                         <TradeTestItem key={item.number} {...item} />
                     ))}

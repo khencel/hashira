@@ -47,7 +47,7 @@ export function JapaneseCultureList(){
             description: "日本での生活に欠かせないごみの分別方法やリサイクルのルールを学び、環境への意識を高めます。",
             image:{
                 img1:"/img/japanese/g4-img1.jpg",
-                img2:"/img/default.png",
+                img2:"/trash.jpg",
                 // img3:"/img/manners/recycle3.jpg",
                
             }

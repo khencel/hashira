@@ -17,7 +17,7 @@ export default function StudentTestimonial() {
     return (
         <>
             <Banner
-                backgroundImage="/img/banner/57234.jpg"
+                backgroundImage="/9798362_4257304.jpg"
                 title={t('title')}
                 subtitle={t('subtitle')}
                 description={t('desc')}

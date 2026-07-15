@@ -12,7 +12,7 @@ export default function JapaneseCultureManners() {
     return (
         <>
             <Banner
-                backgroundImage="/img/banner/31383.jpg"
+                backgroundImage="/DSC02767.jpg"
                 title={t('title')}
                 subtitle={t('Japanese')}
                 description={t('desc')}

@@ -79,7 +79,7 @@ export default function AboutBranches() {
                                 
                                 <div>
                                     <img
-                                        src="/japan.png"
+                                        src="/japanmap.png"
                                         alt="Map of Japan"
                                         className="img-fluid rounded-4 shadow-sm"
                                         style={{
