@@ -59,6 +59,7 @@ export default function Construction() {
                                 }}
                                
                                 />
+                                
                             </div>
                             <div className="col-md-4">
                                 <div >

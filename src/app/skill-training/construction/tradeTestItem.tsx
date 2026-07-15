@@ -33,8 +33,8 @@ export default function TradeTestItem({ number, title, description, videoId, ima
                         </div>
                     </div>
                 </div>
-                <div className="col-md-3 p-2">
-                    <YouTube
+                <div className="col-md-4 p-2">
+                    {/* <YouTube
                         videoId={videoId}
                         opts={{
                             width: "100%",
@@ -47,12 +47,16 @@ export default function TradeTestItem({ number, title, description, videoId, ima
                             playlist: "1vIU3R-BIDQ",
                             },
                         }}
-                    />
+                    /> */}
+
+                    <video width="100%" height="100%" controls muted loop playsInline>
+                        <source src={`/videos/skill/${videoId}#t=0.9`} type="video/mp4" />
+                    </video>
                 </div>
-                <div className="col-md-3 p-2">
+                <div className="col-md-2 p-2">
                     <img src={image1} className={s.imageStyle} alt="" />
                 </div>
-                <div className="col-md-3 p-2">
+                <div className="col-md-2 p-2">
                     <img src={image2} className={s.imageStyle} alt="" />
                 </div>
             </div>

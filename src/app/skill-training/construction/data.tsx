@@ -4,7 +4,7 @@ export function getData(){
             number:1,
             title:"Welding",
             description:"WeldingDesc",
-            videoId:"1vIU3R-BIDQ",
+            videoId:"welder with sub.mp4",
             image1:"/img/skill/g1-img1.jpg",
             image2:"/img/skill/welding1.jpg"
 
@@ -13,7 +13,7 @@ export function getData(){
             number:2,
             title:"Carpentry",
             description:"CarpentryDesc",
-            videoId:"SeEtyq7Xusc",
+            videoId:"HASHIRA CARPENTRY WITH SUB.mp4",
             image1:"/img/skill/carpentry.jpg",
             image2:"/img/skill/carpentry1.jpg"
         },
@@ -21,7 +21,7 @@ export function getData(){
             number:3,
             title:"Scaffolding",
             description:"ScaffoldingDesc",
-            videoId:"1vIU3R-BIDQ",
+            videoId:"scaffolding　with sub.mp4",
             image1:"/img/skill/g3-img1.jpg",
             image2:"/img/skill/scaf1.jpg"
         },
@@ -29,7 +29,7 @@ export function getData(){
             number:4,
             title:"Masonry",
             description:"MasonryDesc",
-            videoId:"1vIU3R-BIDQ",
+            videoId:"masonarywith sub.mp4",
             image1:"/img/skill/g4-img1.jpeg",
             image2:"/img/skill/g4-img2.jpeg"
         },
@@ -37,7 +37,7 @@ export function getData(){
             number:5,
             title:"Painting",
             description:"PaintingDesc",
-            videoId:"HBjMm8bI_jU",
+            videoId:"PAINTER WITH SUB.mp4",
             image1:"/img/skill/g5-img1.jpeg",
             image2:"/img/skill/g5-img2.jpeg"
         }
