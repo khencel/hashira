@@ -13,7 +13,7 @@ export default function TeacherTestimonial() {
     return (
         <>
             <Banner
-                backgroundImage="/8270986_5480.jpg"
+                backgroundImage="/17053900_5810485.jpg"
                 title={t('title')}
                 subtitle={t('subtitle')}
                 description={t('desc')}
