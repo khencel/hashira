@@ -43,7 +43,7 @@ export default function TradeTestItem({ number, title, description, videoId, ima
                             controls: 1,
                             mute: 1,
                             loop: 1,
-                            playlist: "1vIU3R-BIDQ",
+                            playlist: videoId,
                             },
                         }}
                     />

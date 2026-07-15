@@ -77,7 +77,7 @@ export default function TeacherTestimonial() {
                             <div className="col-md-4 p-2">
                                 <div>
                                     <YouTube
-                                    videoId="1vIU3R-BIDQ"
+                                    videoId="q-3pO8uwDoo"
                                     opts={{
                                         width: "100%",
                                         height: "300px",
@@ -86,7 +86,7 @@ export default function TeacherTestimonial() {
                                         controls: 1,
                                         mute: 1,
                                         loop: 1,
-                                        playlist: "1vIU3R-BIDQ",
+                                        playlist: "q-3pO8uwDoo",
                                         },
                                     }}
                                     
