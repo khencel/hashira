@@ -14,7 +14,7 @@ export default function NavForDesktop() {
 
     return (
         <>
-            <li className="d-none d-md-block"><Link href="/">{t1('home')}</Link></li>
+            <li className="d-none d-md-block"><Link href="/" className="nav-link">{t1('home')}</Link></li>
             <li
                 className="mega-wrapper d-none d-md-block"
                 onMouseEnter={() => setMegaOpen(true)}
@@ -51,11 +51,11 @@ export default function NavForDesktop() {
                             </div>
                         </Link>
 
-                        <Link href="/about/industries" className="mega-item">
+                        <Link href="/about/school-tour" className="mega-item">
                             <FaSyringe className="social-icon" />
                             <div>
                             <h4>学校案内</h4>
-                            <p>Lorem ipsuum</p>
+                            <p>当校の校舎をご覧ください</p>
                             </div>
                         </Link>
 
@@ -219,9 +219,9 @@ export default function NavForDesktop() {
 
             
 
-            <li className="d-none d-md-block"><Link href="/gallery">{t1('gallery')}</Link></li>
+            <li className="d-none d-md-block"><Link href="/gallery" className="nav-link">{t1('gallery')}</Link></li>
             <li className="d-none d-md-block">
-                <Link href="/contact-us">{t1('contact')}</Link>
+                <Link href="/contact-us" className="nav-link">{t1('contact')}</Link>
             </li>
         </>
     )

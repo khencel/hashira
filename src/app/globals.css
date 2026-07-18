@@ -523,3 +523,25 @@
 .swiper-button-next {
   right: 20px !important;
 }
+
+/* .nav-link {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 35%;              
+  bottom: 0;
+  width: 30%;
+  height: 2px;
+  background-color: currentColor;
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+  left: 0;
+} */
