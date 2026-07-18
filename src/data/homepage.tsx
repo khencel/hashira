@@ -1,3 +1,16 @@
+import { getGallery } from "./gallery";
+
+const images = getGallery()
+    .filter(item =>
+        ["interview", "tradetest"].includes(item.category)
+    )
+    .map(item => item.imageUrl);
+
+const getRandomImage = () => {
+    return images[Math.floor(Math.random() * images.length)];
+};
+
+
 export function getRollingData() {
     return [
         {
@@ -31,27 +44,47 @@ export function getRollingData() {
 export function getWhyHireFilipino() {
     return [
         {
-            image: "img/why_hire/Bartender-400x267.jpg",
+            image: getRandomImage(),
             title: "well",
             description: `wellDesc`,
         },
         {
-            image: "img/why_hire/Caregiver-400x267.jpg",
+            image: getRandomImage(),
             title: "english",
             description: `englishDesc`,
         },
         {
-            image: "img/why_hire/deliver-support-1.jpg",
+            image: getRandomImage(),
             title: "lowAge",
             description: `lowAgeDesc`,
         },
         {
-            image: "img/why_hire/Engineer-400x267.jpg",
+            image: getRandomImage(),
             title: "lowWage",
             description: `lowWageDesc`,
         },
         {
-            image: "img/why_hire/Light-Driver-400x267.jpg",
+            image: getRandomImage(),
+            title: "filipinoLove",
+            description: `filipinoLoveDesc`,
+        },
+        {
+            image: getRandomImage(),
+            title: "filipinoLove",
+            description: `filipinoLoveDesc`,
+        },
+        {
+            image: getRandomImage(),
+            title: "filipinoLove",
+            description: `filipinoLoveDesc`,
+        },
+        {
+            image: getRandomImage(),
+            title: "filipinoLove",
+            description: `filipinoLoveDesc`,
+        },
+        {
+            image: getRandomImage(),
             title: "filipinoLove",
             description: `filipinoLoveDesc`,
         },

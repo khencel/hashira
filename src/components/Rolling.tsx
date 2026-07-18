@@ -33,7 +33,7 @@ export default function Rolling({ data, perSlide, isLoop, isAutoplay, isContain=
                 spaceBetween: 15,
                 },
                 992: {
-                slidesPerView: perSlide ?? 3,
+                slidesPerView: perSlide ?? 5,
                 spaceBetween: 20,
                 },
             }}
