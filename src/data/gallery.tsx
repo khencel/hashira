@@ -31,6 +31,8 @@ export function getGallery(){
         { id: 23, category: "interview", imageUrl:"/img/gallery/interview/9.jpeg" },
         { id: 24, category: "interview", imageUrl:"/img/gallery/interview/10.jpg" },
 
+
+        
         { id: 25, category: "tradetest", imageUrl:"/img/gallery/tradeTests/1.jpg" },
         { id: 26, category: "tradetest", imageUrl:"/img/gallery/tradeTests/2.jpg" },
         { id: 27, category: "tradetest", imageUrl:"/img/gallery/tradeTests/3.jpg" },
