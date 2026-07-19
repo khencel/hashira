@@ -4,6 +4,7 @@ import Banner from "@/components/Banner"
 import s from "@/styles/contactUs.module.css"
 import { FaFacebookF } from "react-icons/fa6";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function ContactUs(){
     const t = useTranslations("contactUs");
@@ -32,7 +33,7 @@ export default function ContactUs(){
                             <div className="row">
                                 <div className="col-md-6">
                                     <div >
-                                        <iframe className={s.map} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.743829638057!2d121.00617261068406!3d14.556636485865777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9ebe115c34b%3A0x3cdacf768e5e983d!2sPlacewell%20International%20Services%20Corporation!5e0!3m2!1sen!2sph!4v1777863205609!5m2!1sen!2sph"></iframe>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30892.52672393006!2d121.15724164692706!3d14.566802681197766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c1e9d1ddc9b5%3A0xfc095f21b3b019!2sHashira%20Skills%20%26%20Language%20Academy!5e0!3m2!1sen!2sph!4v1784434116956!5m2!1sen!2sph" width="600" height="450" style={{border:"0"}} allowFullScreen="" loading="lazy" referrerPolicy="strict-origin-when-cross-origin"></iframe>
                                     </div>
                                     
                                 </div>
@@ -44,7 +45,7 @@ export default function ContactUs(){
                                             <span>📍</span>
                                             <div>
                                             <strong>Address</strong>
-                                            <p>JMC Centre 6488 P. Medina St. Brgy. Pio Del Pilar, Makati, Philippines</p>
+                                            <p>G5XM+R85, Don Mariano Santos Ave, Angono, Rizal</p>
                                             </div>
                                         </div>
 
@@ -52,15 +53,7 @@ export default function ContactUs(){
                                             <span>📞</span>
                                             <div>
                                             <strong>Phone</strong>
-                                            <p>+63 908 850 8508</p>
-                                            </div>
-                                        </div>
-
-                                        <div className={s.infoItem}>
-                                            <span>📞</span>
-                                            <div>
-                                            <strong>Trunkline</strong>
-                                            <p>+632 526 4838</p>
+                                            <p>+639175672721</p>
                                             </div>
                                         </div>
 
@@ -68,7 +61,7 @@ export default function ContactUs(){
                                             <span>📧</span>
                                             <div>
                                             <strong>Email</strong>
-                                            <p>manila@placewellinternational.com</p>
+                                            <p>angono@hashiraskills.com</p>
                                             </div>
                                         </div>
 
@@ -76,7 +69,9 @@ export default function ContactUs(){
                                             <span><FaFacebookF /></span>
                                             <div>
                                             <strong>Facebook</strong>
-                                            <p>Placewell International Services Corporation</p>
+                                            <Link href={""}>
+                                                <p>Hashira Skills</p>
+                                            </Link>
                                             </div>
                                         </div>
                                     </div>

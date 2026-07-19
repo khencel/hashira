@@ -3,17 +3,17 @@ export default function GetAllData(){
         {
             "image":"/img/hashira/DSC03093.jpg",
             "title":"日本文化",
-            "desc":"日本の文化・習慣 日本での生活マナー 季節行事や伝統文化"
+            "desc":"日本の文化・習慣、日本での生活マナー、そして季節行事や伝統文化につい <br/> て総合的に学習し、日本社会への理解を深めます。"
         },
         {
             "image":"/img/hashira/DSC04481.jpg",
             "title":"日本語コミュニケーション",
-            "desc":"日常会話 職場での会話 敬語・報連相・接客表現"
+            "desc":"日常会話や職場での会話に加え、敬語、報告・連絡・相談、接客表現につ <br />いて実践的に学びます。"
         },
         {
             "image":"/img/hashira/att.7_HWtZQBw_M5sE-_vdGJCteps-zlZHGzsymjwg-qLXE.JPG",
             "title":"日本人の価値観",
-            "desc":"日本人の考え方 働く姿勢・責任感 協調性・礼儀・時間意識"
+            "desc":"日本人の考え方や価値観を理解するとともに、働く姿勢や責任感、協調 <br />性、礼儀、時間意識について実践的に学びます。"
         },
         {
             "image":"/img/hashira/7a5e452c-ca8a-4ac6-aa93-6691b9a02b99.jpg",
@@ -23,7 +23,7 @@ export default function GetAllData(){
         {
             "image":"/img/hashira/DSC03966.jpg",
             "title":"元技能実習生・JLPT取得スタッフ",
-            "desc":"日本人の心や考え方を理解するとともに、フィリピン人受講生が直面する不安や課題にも寄り添いながら指導します"
+            "desc":"日本人の心や考え方を理解するとともに、フィリピン人受講生が直面する不安や課題にも寄り添いながら指導します。"
         },
         {
             "image":"/img/hashira/bf526fa8-dcc3-4530-9fa7-5555f4594b7b.jpg",
