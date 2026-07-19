@@ -69,8 +69,19 @@ export default function ContactUs(){
                                             <span><FaFacebookF /></span>
                                             <div>
                                             <strong>Facebook</strong>
-                                            <Link href={""}>
-                                                <p>Hashira Skills</p>
+                                            <Link
+                                                href="https://www.facebook.com/profile.php?id=61590683485492&mibextid=wwXIfr&rdid=CXKHSSTSFfbU1fr9&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18t4vLYP9w%2F%3Fmibextid%3DwwXIfr#"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+
+                                                style={{
+                                                    // textDecoration:"none",
+                                                    color:"#104675",
+                                                    fontWeight:"600"
+                                                
+                                                }}
+                                                >
+                                                <p>Hashira Skills and Language Academy</p>
                                             </Link>
                                             </div>
                                         </div>
