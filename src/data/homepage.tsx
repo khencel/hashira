@@ -67,27 +67,7 @@ export function getWhyHireFilipino() {
             image: getRandomImage(),
             title: "filipinoLove",
             description: `filipinoLoveDesc`,
-        },
-        {
-            image: getRandomImage(),
-            title: "filipinoLove",
-            description: `filipinoLoveDesc`,
-        },
-        {
-            image: getRandomImage(),
-            title: "filipinoLove",
-            description: `filipinoLoveDesc`,
-        },
-        {
-            image: getRandomImage(),
-            title: "filipinoLove",
-            description: `filipinoLoveDesc`,
-        },
-        {
-            image: getRandomImage(),
-            title: "filipinoLove",
-            description: `filipinoLoveDesc`,
-        },
+        }
     ]
 }
 
@@ -117,5 +97,41 @@ export function getAllClient(){
         {
             image:"img/client/client8.png"
         }
+    ]
+}
+
+
+export function ShowGallery(){
+    return [
+        {
+            image: getRandomImage()
+        },
+        {
+            image: getRandomImage()
+        },
+        {
+            image: getRandomImage()
+        },
+        {
+            image: getRandomImage()
+        },
+        {
+            image: getRandomImage()
+        },
+        {
+            image: getRandomImage()
+        },
+        {
+            image: getRandomImage()
+        },
+        {
+            image: getRandomImage()
+        },
+        {
+            image: getRandomImage()
+        },
+        {
+            image: getRandomImage()
+        },
     ]
 }

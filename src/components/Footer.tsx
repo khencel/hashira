@@ -45,7 +45,7 @@ export default function Footer() {
 
           <div className={s.socials}>
             <span><FaFacebook className="social-icon" style={{color:"white"}} /></span>
-            <span><FaLinkedin className="social-icon" style={{color:"white"}} /></span>
+            {/* <span><FaLinkedin className="social-icon" style={{color:"white"}} /></span> */}
             <span><FaInstagram className="social-icon" style={{color:"white"}} /></span>
             <span><FaYoutube className="social-icon" style={{color:"white"}} /></span>
             <span><FaTiktok className="social-icon" style={{color:"white"}} /></span>

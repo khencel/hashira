@@ -63,8 +63,8 @@ export function getAccount(){
             title: "元技能実習生による指導",
             description: `日本での就労経験を持つ元技能実習生が、自身の経験をもとに実践的なアドバイスや指導を行います。`,
             image:{
-                img1:"/img/japanese/g5-img1.jpg",
-                img2:"/img/japanese/g5-img2.jpg",
+                img1:"/img/japanese/g5-img2.jpg",
+                img2:"/img/japanese/g5-img1.jpg",
                 img3:"/img/japanese/g5-img3.jpg",
             }
 

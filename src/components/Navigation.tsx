@@ -40,7 +40,7 @@ export default function Navigation() {
           {/* SOCIALS DESKTOP */}
           <div className={`socials ${open ? "hide" : ""}`}>
             <span><FaFacebook className="social-icon" /></span>
-            <span><FaLinkedin className="social-icon" /></span>
+            {/* <span><FaLinkedin className="social-icon" /></span> */}
             <span><FaInstagram className="social-icon" /></span>
             <span><FaYoutube className="social-icon" /></span>
             <span><FaTiktok className="social-icon" /></span>
@@ -59,7 +59,7 @@ export default function Navigation() {
         {/* MOBILE SOCIALS */}
         <div className={`socials for-mobile pt-2 pb-3 ${open ? "show" : ""}`}>
           <span><FaFacebook className="social-icon" /></span>
-          <span><FaLinkedin className="social-icon" /></span>
+          {/* <span><FaLinkedin className="social-icon" /></span> */}
           <span><FaInstagram className="social-icon" /></span>
           <span><FaYoutube className="social-icon" /></span>
           <span><FaTiktok className="social-icon" /></span>
