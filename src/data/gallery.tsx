@@ -20,19 +20,19 @@ export function getGallery(){
 
 
 
-        { id: 15, category: "interview", imageUrl:"/img/gallery/interview/1.jpg" },
-        { id: 16, category: "interview", imageUrl:"/img/gallery/interview/2.jpg" },
-        { id: 17, category: "interview", imageUrl:"/img/gallery/interview/3.jpg" },
-        { id: 18, category: "interview", imageUrl:"/img/gallery/interview/4.jpg" },
-        { id: 19, category: "interview", imageUrl:"/img/gallery/interview/5.jpg" },
-        { id: 20, category: "interview", imageUrl:"/img/gallery/interview/6.jpg" },
-        { id: 21, category: "interview", imageUrl:"/img/gallery/interview/7.jpg" },
+        { id: 15, category: "interview", imageUrl:"/img/gallery/interview/1.JPG" },
+        { id: 16, category: "interview", imageUrl:"/img/gallery/interview/2.JPG" },
+        { id: 17, category: "interview", imageUrl:"/img/gallery/interview/3.JPG" },
+        { id: 18, category: "interview", imageUrl:"/img/gallery/interview/4.JPG" },
+        { id: 19, category: "interview", imageUrl:"/img/gallery/interview/5.JPG" },
+        { id: 20, category: "interview", imageUrl:"/img/gallery/interview/6.JPG" },
+        { id: 21, category: "interview", imageUrl:"/img/gallery/interview/7.JPG" },
         { id: 22, category: "interview", imageUrl:"/img/gallery/interview/8.jpg" },
         { id: 23, category: "interview", imageUrl:"/img/gallery/interview/9.jpeg" },
-        { id: 24, category: "interview", imageUrl:"/img/gallery/interview/10.jpg" },
+        { id: 24, category: "interview", imageUrl:"/img/gallery/interview/10.JPG" },
 
 
-        
+
         { id: 25, category: "tradetest", imageUrl:"/img/gallery/tradeTests/1.jpg" },
         { id: 26, category: "tradetest", imageUrl:"/img/gallery/tradeTests/2.jpg" },
         { id: 27, category: "tradetest", imageUrl:"/img/gallery/tradeTests/3.jpg" },
