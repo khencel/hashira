@@ -11,7 +11,7 @@ import {
 import NavForMobile from "./NavForMobile";
 import NavForDesktop from "./NavForDesktop";
 import { useLocale } from "@/i18n/LocaleContext";
-
+import Link from "next/link";
 
 export default function Navigation() {
   const [open, setOpen] = useState(false);
@@ -39,11 +39,18 @@ export default function Navigation() {
 
           {/* SOCIALS DESKTOP */}
           <div className={`socials ${open ? "hide" : ""}`}>
-            <span><FaFacebook className="social-icon" /></span>
-            {/* <span><FaLinkedin className="social-icon" /></span> */}
+            <Link target="_blank" href={"https://www.facebook.com/profile.php?id=61590683485492&mibextid=wwXIfr&rdid=CXKHSSTSFfbU1fr9&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18t4vLYP9w%2F%3Fmibextid%3DwwXIfr#"}>
+              <span><FaFacebook className="social-icon" /></span>
+            </Link>
+            <Link target="_blank" href={""}>
             <span><FaInstagram className="social-icon" /></span>
+            </Link>
+            <Link target="_blank" href={"https://www.youtube.com/channel/UCE9mVgF3EqaZefDfjo0SQCA"}>
             <span><FaYoutube className="social-icon" /></span>
+            </Link>
+            <Link target="_blank" href={""}>
             <span><FaTiktok className="social-icon" /></span>
+            </Link>
             <span>
               <select
                 value={locale}
@@ -58,10 +65,13 @@ export default function Navigation() {
 
         {/* MOBILE SOCIALS */}
         <div className={`socials for-mobile pt-2 pb-3 ${open ? "show" : ""}`}>
-          <span><FaFacebook className="social-icon" /></span>
-          {/* <span><FaLinkedin className="social-icon" /></span> */}
+          <Link target="_blank" href={"https://www.facebook.com/profile.php?id=61590683485492&mibextid=wwXIfr&rdid=CXKHSSTSFfbU1fr9&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18t4vLYP9w%2F%3Fmibextid%3DwwXIfr#"}>
+            <span><FaFacebook className="social-icon" /></span>
+          </Link>
           <span><FaInstagram className="social-icon" /></span>
-          <span><FaYoutube className="social-icon" /></span>
+          <Link target="_blank" href={"https://www.youtube.com/channel/UCE9mVgF3EqaZefDfjo0SQCA"}>
+            <span><FaYoutube className="social-icon" /></span>
+          </Link>
           <span><FaTiktok className="social-icon" /></span>
         </div>
 
