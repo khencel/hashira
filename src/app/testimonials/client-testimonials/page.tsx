@@ -81,7 +81,7 @@ export default function ClientTestimonial() {
                             <div className="col-md-4 p-2">
                                 <div>
                                     <YouTube
-                                    videoId="1vIU3R-BIDQ"
+                                    videoId="BZHjWdZY1TI"
                                     opts={{
                                         width: "100%",
                                         height: "300px",
@@ -90,15 +90,15 @@ export default function ClientTestimonial() {
                                         controls: 1,
                                         mute: 1,
                                         loop: 1,
-                                        playlist: "1vIU3R-BIDQ",
+                                        playlist: "BZHjWdZY1TI",
                                         },
                                     }}
                                     
                                     />
                                 </div>
                                 <div>
-                                    <span className="title" style={{fontSize:"18px"}}>Mark Anthony Reyes</span>
-                                    <p className="subtitle">Operations Manager</p>
+                                    <span className="title" style={{fontSize:"18px"}}>臼井　一徳</span>
+                                    <p className="subtitle">担当相談役 <br/>協同組合ビジネスサプライ愛知</p>
                                 </div>
                             </div>
                         </div>
