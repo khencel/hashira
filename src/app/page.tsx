@@ -18,7 +18,10 @@ import HashiraHeroSection4 from "./slide4";
 import { FaYoutube } from "react-icons/fa";
 
 
+
+
 export default function Home() {
+ 
   const t = useTranslations("home");
   const rollingData = getRollingData();
   const whyHireFilipino = getWhyHireFilipino();
@@ -91,6 +94,8 @@ export default function Home() {
     zIndex: 0,
     pointerEvents: "none",
   },
+
+  
 };
   return (
     <>

@@ -7,9 +7,18 @@ import { Autoplay } from "swiper/modules";
 import s from "./style.module.css"
 import MissionVision from "@/components/MissionVision";
 import { useTranslations } from "next-intl";
+import { useEffect, useRef  } from "react";
+import { customEvent } from "@/lib/metaPixel";
 
-export default function About() {
+export default function CorporateIdentity() {
     const t = useTranslations("corporate");
+    const hasTracked = useRef(false);
+
+    useEffect(() => {
+      if (hasTracked.current) return;
+      hasTracked.current = true;
+      customEvent("CorporateIdentityPageView");
+    }, []);
     return (
       <>
         <Banner

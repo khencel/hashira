@@ -3,6 +3,7 @@ import { useState } from "react";
 import { FaHospital, FaUserDoctor, FaSyringe } from "react-icons/fa6";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { customEvent } from "@/lib/metaPixel";
 
 export default function NavForDesktop() {
     const [megaOpen, setMegaOpen] = useState(false);
@@ -31,7 +32,16 @@ export default function NavForDesktop() {
 
                     <div className="mega-grid">
                         <strong>{t1('about.about')}</strong>
-                        <Link href="/about/corporate-identity" className="mega-item">
+                        <Link 
+                                href="/about/corporate-identity" 
+                                className="mega-item"
+                                onClick={() =>
+                                    customEvent("MenuClick", {
+                                        menu_name: "Corporate Identity",
+                                        location: "About Us",
+                                    })
+                                }
+                        >
                             <FaHospital className="social-icon" />
                             <div>
                             <h4>{t1('about.corporate')}</h4>

@@ -14,6 +14,7 @@ import "../../node_modules/swiper/swiper-bundle.min.css";
 
 import { LocaleProvider } from "@/i18n/LocaleContext";
 import ScrollToTop from "@/components/ScrollToTop";
+import MetaPixel from "@/components/MetaPixel";
 
 const montserrat = Montserrat({
         subsets: ["latin"]
@@ -33,10 +34,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body style={{margin:"0px"}} className={`${montserrat.className} font-sans`}>
+        
         <LocaleProvider>
           <BootstrapClient />
           <CustomHR />
           <Navigation />
+          <MetaPixel />
             {children}
             <ScrollToTop />
           <Footer />
