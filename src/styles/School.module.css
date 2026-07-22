@@ -81,6 +81,7 @@
 
 .content {
     flex: 1;
+    height: 110px;
 }
 
 .content h5 {
