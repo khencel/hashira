@@ -32,7 +32,7 @@ export default function ClientTestimonial() {
                             <div className="col-md-4 p-2">
                                 <div>
                                     <YouTube
-                                    videoId="3rY_jYkcXWw"
+                                    videoId="qZFmmB7THxw"
                                     opts={{
                                         width: "100%",
                                         height: "300px",
@@ -41,7 +41,7 @@ export default function ClientTestimonial() {
                                         controls: 1,
                                         mute: 1,
                                         loop: 1,
-                                        playlist: "3rY_jYkcXWw",
+                                        playlist: "qZFmmB7THxw",
                                         },
                                     }}
                                     />

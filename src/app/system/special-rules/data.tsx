@@ -15,7 +15,7 @@ export function getDepartmentList(){
                 // img2:"/img/rules/DSC04557.jpg",
                 img3:"/img/rules/g1-iimg3.jpg",
             },
-            videoId:"1vIU3R-BIDQ"
+            videoId:"dwBm36gS7yw"
         },
         {
             icon:<FaUser style={{fontSize:"2.5em"}} />,
@@ -37,7 +37,7 @@ export function getDepartmentList(){
                 img3:"/img/rules/g3-img3.jpg",
                
             },
-            videoId:"1vIU3R-BIDQ"
+            videoId:"T1dGAqWIum0"
         },
         {
             icon:<IoDocumentSharp style={{fontSize:"2.5em"}} />,

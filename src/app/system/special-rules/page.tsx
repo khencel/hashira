@@ -56,7 +56,7 @@ export default function SpecialRules() {
                                                                         controls: 1,
                                                                         mute: 1,
                                                                         loop: 1,
-                                                                        playlist: "1vIU3R-BIDQ",
+                                                                        playlist: department.videoId,
                                                                         },
                                                                     }}
                                                                     
