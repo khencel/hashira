@@ -58,7 +58,7 @@ export default function SchoolInformation() {
           <div className="col-md-10">
             
                 <div className={styles.cardItemList}>
-                    <div className="row">
+                    <div className="row justify-content-center">
                       {
                         items.map((item,index) => (
                           <div className="col-md-4 mb-3" key={index}>
