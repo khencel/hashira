@@ -46,7 +46,7 @@ export default function Construction() {
                             <div className="col-lg-5 col-md-8 col-12" style={{paddingTop:"10px"}}>
                                 <div className={s.videoWrapper}>
                                     <YouTube
-                                        videoId="1vIU3R-BIDQ"
+                                        videoId="qORaQcTU3UA"
                                         opts={{
                                             width: "100%",
                                             height: "300px",
@@ -55,7 +55,7 @@ export default function Construction() {
                                             controls: 1,
                                             mute: 1,
                                             loop: 1,
-                                            playlist: "1vIU3R-BIDQ",
+                                            playlist: "qORaQcTU3UA",
                                             },
                                         }}
                                         
@@ -90,7 +90,7 @@ export default function Construction() {
                             </div>
                             <div className="col-md-5" style={{paddingTop:"10px"}}>
                                 <YouTube
-                                videoId="1vIU3R-BIDQ"
+                                videoId="kptzfxDTykY"
                                 opts={{
                                     width: "100%",
                                     height: "300px",
@@ -99,7 +99,7 @@ export default function Construction() {
                                     controls: 1,
                                     mute: 1,
                                     loop: 1,
-                                    playlist: "1vIU3R-BIDQ",
+                                    playlist: "kptzfxDTykY",
                                     },
                                 }}
                                

@@ -15,7 +15,7 @@ export function JapaneseCultureList(){
                 img3:"/img/japanese/g1-img3.jpg",
             
             },
-            videoId:"1vIU3R-BIDQ"
+            videoId:"qf6uQPhrlgk"
             
         },
         {

@@ -45,7 +45,7 @@ export default function Construction() {
                             </div>
                             <div className="col-md-5" style={{paddingTop:"10px"}}>
                                 <YouTube
-                                videoId="1vIU3R-BIDQ"
+                                videoId="F_xpE8SVpm4"
                                 opts={{
                                     width: "100%",
                                     height: "300px",
@@ -54,7 +54,7 @@ export default function Construction() {
                                     controls: 1,
                                     mute: 1,
                                     loop: 1,
-                                    playlist: "1vIU3R-BIDQ",
+                                    playlist: "F_xpE8SVpm4",
                                     },
                                 }}
                                
@@ -82,7 +82,7 @@ export default function Construction() {
                             </div>
                             <div className="col-md-5" style={{paddingTop:"10px"}}>
                                 <YouTube
-                                videoId="1vIU3R-BIDQ"
+                                videoId="a0G-q6BjDqQ"
                                 opts={{
                                     width: "100%",
                                     height: "300px",
@@ -91,7 +91,7 @@ export default function Construction() {
                                     controls: 1,
                                     mute: 1,
                                     loop: 1,
-                                    playlist: "1vIU3R-BIDQ",
+                                    playlist: "a0G-q6BjDqQ",
                                     },
                                 }}
                                
@@ -118,7 +118,7 @@ export default function Construction() {
                             </div>
                             <div className="col-md-5" style={{paddingTop:"10px"}}>
                                 <YouTube
-                                videoId="1vIU3R-BIDQ"
+                                videoId="pSPbpK1j-gs"
                                 opts={{
                                     width: "100%",
                                     height: "300px",
@@ -127,7 +127,7 @@ export default function Construction() {
                                     controls: 1,
                                     mute: 1,
                                     loop: 1,
-                                    playlist: "1vIU3R-BIDQ",
+                                    playlist: "pSPbpK1j-gs",
                                     },
                                 }}
                                
