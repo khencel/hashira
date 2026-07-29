@@ -168,7 +168,7 @@ export default function Home() {
         
         <div style={styles.videoCard} className={s.videoCard}>
             <YouTube
-              videoId="WaSmVwttRNk"
+              videoId="aAOoxl6C0yU"
               opts={{
                 width: "100%",
                 height: "100%",
@@ -177,7 +177,7 @@ export default function Home() {
                   controls: 1,
                   mute: 1,
                   loop: 1,
-                  playlist: "WaSmVwttRNk",
+                  playlist: "aAOoxl6C0yU",
                 },
               }}
               style={styles.youtube}
