@@ -63,7 +63,7 @@ export default function CorporateIdentity() {
 
               <div className="col-md-5 p-3">
                 <div className="row p-3">
-                  <div className="col-md-6"><ImageStyle image="/img/identity/kuwamichi.jpg"/></div>
+                  <div className="col-md-6"><ImageStyle image="/nobuaki.png"/></div>
                   <div className="col-md-6 d-flex align-items-center">
                       <div className="position-relative">
                         <h5 className="title" style={{fontSize:"24px"}} >{t('kawamichi')} </h5>
