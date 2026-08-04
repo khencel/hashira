@@ -34,7 +34,7 @@ export default function StudentTestimonial() {
                             <div className="col-md-4 p-2">
                                 <div>
                                     <YouTube
-                                        videoId="XWjmokb4zUk"
+                                        videoId="W5_dXAZzwz8"
                                         opts={{
                                             width: "100%",
                                             height: "300px",
@@ -43,7 +43,7 @@ export default function StudentTestimonial() {
                                             controls: 1,
                                             mute: 1,
                                             loop: 1,
-                                            playlist: "XWjmokb4zUk",
+                                            playlist: "W5_dXAZzwz8",
                                             },
                                         }}
                                         
@@ -54,29 +54,7 @@ export default function StudentTestimonial() {
                                     <p className="subtitle">海月館グループ　ホテルスタッフ</p>
                                 </div>
                             </div>
-                            <div className="col-md-4 p-2">
-                                <div>
-                                    <YouTube
-                                        videoId="TPDpyCVv5UM"
-                                        opts={{
-                                            width: "100%",
-                                            height: "300px",
-                                            playerVars: {
-                                            autoplay: 0,
-                                            controls: 1,
-                                            mute: 1,
-                                            loop: 1,
-                                            playlist: "TPDpyCVv5UM",
-                                            },
-                                        }}
-                                        
-                                    />
-                                </div>
-                                <div>
-                                    <span className="title" style={{fontSize:"18px"}}>マリア ラリーサ E サンチェス</span>
-                                    <p className="subtitle">ザ・テラスホテルズ株式会社　ホテルスタッフ</p>
-                                </div>
-                            </div>
+                            
                             <div className="col-md-4 p-2">
                                 <div>
                                     <YouTube
@@ -98,6 +76,30 @@ export default function StudentTestimonial() {
                                 <div>
                                     <span className="title" style={{fontSize:"18px"}}>レクシーアン　オプリモ</span>
                                     <p className="subtitle">株式会社壱番屋　外食スタッフ</p>
+                                </div>
+                            </div>
+
+                            <div className="col-md-4 p-2">
+                                <div>
+                                    <YouTube
+                                        videoId="Io7sp84B_0E"
+                                        opts={{
+                                            width: "100%",
+                                            height: "300px",
+                                            playerVars: {
+                                            autoplay: 0,
+                                            controls: 1,
+                                            mute: 1,
+                                            loop: 1,
+                                            playlist: "Io7sp84B_0E",
+                                            },
+                                        }}
+                                        
+                                    />
+                                </div>
+                                <div>
+                                    <span className="title" style={{fontSize:"18px"}}>マリア ラリーサ E サンチェス</span>
+                                    <p className="subtitle">ザ・テラスホテルズ株式会社　ホテルスタッフ</p>
                                 </div>
                             </div>
                         </div>
