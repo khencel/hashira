@@ -138,25 +138,34 @@
 
 @media(max-width:991px){
 
-.card{
-    padding:35px;
+  .card{
+      padding:35px;
+  }
+
+  .logoCard{
+      margin-top:35px;
+  }
+
+  .features{
+      grid-template-columns:1fr;
+  }
+
+  .feature{
+      border-right:none;
+      border-bottom:1px solid #eee;
+  }
+
+  .feature:last-child{
+      border-bottom:none;
+  }
+
 }
 
-.logoCard{
-    margin-top:35px;
-}
-
-.features{
-    grid-template-columns:1fr;
-}
-
-.feature{
-    border-right:none;
-    border-bottom:1px solid #eee;
-}
-
-.feature:last-child{
-    border-bottom:none;
-}
-
+@media(max-width:991px){
+  .titleHead{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #104675;
+    font-weight: 600;
+  }
 }

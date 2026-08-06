@@ -23,7 +23,7 @@ export default function CompanyCard({
 
           <div className={styles.leftAccent}></div>
 
-          <h2>{title}</h2>
+          <h2 className={styles.titleHead}>{title}</h2>
 
           <p>{description}</p>
 
