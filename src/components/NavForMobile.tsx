@@ -51,11 +51,11 @@ export default function NavForMobile({ onLinkClick }: { onLinkClick?: () => void
                   </div>
                 </Link>
 
-                <Link href="/about/school-guide" className="mega-item" onClick={onLinkClick}>
+                <Link href="/about/school-tour" className="mega-item" onClick={onLinkClick}>
                   <FaSyringe className="social-icon" />
                   <div>
                     <h4>学校案内</h4>
-                    <p>Lorem ipsum</p>
+                    <p>当校の校舎をご覧ください</p>
                   </div>
                 </Link>
 
