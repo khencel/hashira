@@ -90,3 +90,8 @@
     height: 150px;
     object-fit: cover;
 }
+@media (max-width: 768px) {
+    .titleButtom{
+        font-size:20px !important;
+    }
+}

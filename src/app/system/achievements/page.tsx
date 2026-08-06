@@ -239,8 +239,8 @@ export default function Achievements() {
                         <div className="">
 
                           <div className="">
-                              <div className="d-flex align-items-center">
-                                <div className="flex-grow-1 pe-4">
+                              <div className="d-flex flex-column flex-md-row align-items-center">
+                                <div className="flex-grow-1 pe-md-4 text-center text-md-start">
                                   <span
                                     style={{
                                       color: "#104675",
@@ -264,7 +264,7 @@ export default function Achievements() {
                                   </span>
                                 </div>
 
-                                <div className="ms-4">
+                                <div className="ms-md-4 mt-4 mt-md-0">
                                   <span
                                     className="badge d-inline-flex align-items-center justify-content-center"
                                     style={{
@@ -296,6 +296,8 @@ export default function Achievements() {
                                     />
 
                                     <span
+
+                                    className={s.titleButtom}
                                       style={{
                                         color: "#104675",
                                         fontWeight: "800",

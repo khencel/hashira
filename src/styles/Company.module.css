@@ -161,7 +161,7 @@
 
 }
 
-@media(max-width:991px){
+@media(max-width:750px){
   .titleHead{
     font-size: 20px;
     margin-bottom: 10px;
