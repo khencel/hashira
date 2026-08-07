@@ -64,8 +64,8 @@ export default function NavForDesktop() {
                         <Link href="/about/school-tour" className="mega-item">
                             <FaSyringe className="social-icon" />
                             <div>
-                            <h4>学校案内</h4>
-                            <p>当校の校舎をご覧ください</p>
+                            <h4>{t1('about.schoolInfo')}</h4>
+                            <p>{t1('about.schoolInfoDesc')}</p>
                             </div>
                         </Link>
 
@@ -79,8 +79,8 @@ export default function NavForDesktop() {
                         <Link href="/about/group-company" className="mega-item">
                             <FaSyringe className="social-icon" />
                             <div>
-                            <h4>グループ会社紹介</h4>
-                            <p>弊社のグループ会社のご紹介</p>
+                            <h4>{t1('about.groupCompanies')}</h4>
+                            <p>{t1('about.groupCompaniesDesc')}</p>
                             </div>
                         </Link>
                         {/* <Link href="/worldwide-careers" className="mega-item">

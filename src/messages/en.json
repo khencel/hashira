@@ -13,8 +13,12 @@
             "know":"Know all about one of the Philippines' leading Japanese Schools",
             "what":"What is Hashira",
             "filipino":"Filipino workers as the foundation of a Japan in need of labor",
+            "schoolInfo":"School Information",
+            "schoolInfoDesc":"Take a look at our school facilities.",
             "industries":"Industries",
-            "system":"Over 2,000 Filipino workers deployed all across Japan"
+            "system":"Over 2,000 Filipino workers deployed all across Japan",
+            "groupCompanies":"Group Companies",
+            "groupCompaniesDesc":"Introduction to Our Group Companies"
         },
         "system":{
             "system":"System",
