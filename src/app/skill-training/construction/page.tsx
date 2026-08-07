@@ -16,6 +16,7 @@ export default function Construction() {
                 title={t('title')}
                 subtitle={t('subtitle')}
                 description={t('desc')}
+                
             />
 
             <div className="row justify-content-center m-0">
