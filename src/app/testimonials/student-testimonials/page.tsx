@@ -34,7 +34,7 @@ export default function StudentTestimonial() {
                             <div className="col-md-4 p-2">
                                 <div>
                                     <YouTube
-                                        videoId="W5_dXAZzwz8"
+                                        videoId="Io7sp84B_0E"
                                         opts={{
                                             width: "100%",
                                             height: "300px",
@@ -43,15 +43,15 @@ export default function StudentTestimonial() {
                                             controls: 1,
                                             mute: 1,
                                             loop: 1,
-                                            playlist: "W5_dXAZzwz8",
+                                            playlist: "Io7sp84B_0E",
                                             },
                                         }}
                                         
                                     />
                                 </div>
                                 <div>
-                                    <span className="title" style={{fontSize:"18px"}}>エイザ　ベアナー</span>
-                                    <p className="subtitle">海月館グループ　ホテルスタッフ</p>
+                                    <span className="title" style={{fontSize:"18px"}}>デクスター ロハス</span>
+                                    <p className="subtitle">株式会社カマハラ鋳鋼所</p>
                                 </div>
                             </div>
                             
@@ -82,7 +82,7 @@ export default function StudentTestimonial() {
                             <div className="col-md-4 p-2">
                                 <div>
                                     <YouTube
-                                        videoId="Io7sp84B_0E"
+                                        videoId="W5_dXAZzwz8"
                                         opts={{
                                             width: "100%",
                                             height: "300px",
@@ -91,17 +91,19 @@ export default function StudentTestimonial() {
                                             controls: 1,
                                             mute: 1,
                                             loop: 1,
-                                            playlist: "Io7sp84B_0E",
+                                            playlist: "W5_dXAZzwz8",
                                             },
                                         }}
                                         
                                     />
                                 </div>
                                 <div>
-                                    <span className="title" style={{fontSize:"18px"}}>マリア ラリーサ E サンチェス</span>
-                                    <p className="subtitle">ザ・テラスホテルズ株式会社　ホテルスタッフ</p>
+                                    <span className="title" style={{fontSize:"18px"}}>ディオデル サウザ</span>
+                                    <p className="subtitle">水谷建設株式会社</p>
                                 </div>
                             </div>
+
+                            
                         </div>
                     </div>
                 </div>
