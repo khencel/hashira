@@ -38,10 +38,11 @@ export default function HashiraHeroSection4() {
                             </div>
                             <div className='w-100 text-center'>
                                 <div style={{height:"60px"}}>
-                                    <span style={{fontWeight:"700",fontSize:"14px",color:"#002352"}}>送り出し実績</span>
+                                    <span className={styles.titleIcon} style={{fontWeight:"700",fontSize:"14px",color:"#002352"}}>送り出し実績</span>
                                 </div>
                                 
                                 <span 
+                                    className={styles.numberStyle}
                                     style={{
                                         fontWeight:"700",
                                         fontSize:"35px",
@@ -49,10 +50,10 @@ export default function HashiraHeroSection4() {
                                         }}>
                                             2,000
                                 </span>
-                                <span style={{fontWeight:"700",fontSize:"16px",color:"#002352"}}>名以上</span>
+                                <span className={styles.numbText} style={{fontWeight:"700",fontSize:"16px",color:"#002352"}}>名以上</span>
                                 <br />
                                 <br />
-                                <span style={{fontWeight:"700",fontSize:"13px",color:"#002352"}}>
+                                <span className={styles.numbText} style={{fontWeight:"700",fontSize:"13px",color:"#002352"}}>
                                     多くのフィリピン人材を<br/>
                                     日本の企業へ送り出しています。
                                 </span>
@@ -67,11 +68,11 @@ export default function HashiraHeroSection4() {
                             </div>
                             <div className='w-100 text-center'>
                                 <div style={{height:"60px"}}>
-                                    <span style={{fontWeight:"700",fontSize:"14px",color:"#002352"}}>プロメトリック <br/>合格率</span>
+                                    <span className={styles.titleIcon} style={{fontWeight:"700",fontSize:"14px",color:"#002352"}}>プロメトリック <br/>合格率</span>
                                 </div>
                               
-                                <span style={{fontWeight:"700",fontSize:"35px",color:"#002352"}}>80</span>
-                                <span style={{fontWeight:"700",fontSize:"16px",color:"#002352"}}>%</span>
+                                <span className={styles.numberStyle} style={{fontWeight:"700",fontSize:"35px",color:"#002352"}}>80</span>
+                                <span className={styles.numbText} style={{fontWeight:"700",fontSize:"16px",color:"#002352"}}>%</span>
                                 <br />
                                 <br />
                                 <span style={{fontWeight:"700",fontSize:"13px",color:"#002352"}}>
@@ -89,10 +90,10 @@ export default function HashiraHeroSection4() {
                             </div>
                             <div className='w-100 text-center'>
                                 <div style={{height:"60px"}}>
-                                    <span style={{fontWeight:"700",fontSize:"14px",color:"#002352"}}>在籍学生数</span>
+                                    <span className={styles.titleIcon} style={{fontWeight:"700",fontSize:"14px",color:"#002352"}}>在籍学生数</span>
                                 </div>
-                                <span style={{fontWeight:"700",fontSize:"35px",color:"#002352"}}>500</span>
-                                <span style={{fontWeight:"700",fontSize:"16px",color:"#002352"}}>名以上</span>
+                                <span className={styles.numberStyle} style={{fontWeight:"700",fontSize:"35px",color:"#002352"}}>500</span>
+                                <span className={styles.numbText} style={{fontWeight:"700",fontSize:"16px",color:"#002352"}}>名以上</span>
                                 <br />
                                 <br />
                                 <span style={{fontWeight:"700",fontSize:"13px",color:"#002352"}}>

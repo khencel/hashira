@@ -40,7 +40,7 @@
     width: 60%;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 16px;
-    height: 300px;
+    height: 300px !important;
 }
 
 .logoStyle{
@@ -87,14 +87,30 @@
     }
 
     .logoStyle{
-        width:45px;
-        height:45px;
+        width:30px;
+        height:30px;
     }
 
     .bottomItem{
         font-size:14px;
         height:auto;
         padding:10px;
+    }
+
+    .titleIcon{
+        font-size: 12px !important;
+    }
+
+    .numberStyle{
+        font-size: 14px !important;
+    }
+
+    .numbText{
+        font-size: 10px !important;
+    }
+
+    .cardStyle{
+        height: 270px !important;
     }
 
 }

@@ -21,8 +21,10 @@ export default function HashiraHeroSection1() {
                                         <span className={styles.circleIcon}>
                                             <img src={item.icon} style={{width:"50%"}} alt="" />
                                         </span>
+                                        <div style={{height:"40px"}}>
+                                            <span className={styles.titleIcon} dangerouslySetInnerHTML={{__html: item.title}}></span>
+                                        </div>
                                         
-                                        <span className={styles.titleIcon} dangerouslySetInnerHTML={{__html: item.title}}></span>
 
                                         <span className={styles.descIcon} dangerouslySetInnerHTML={{__html: item.desc}}></span>
                                     </div>
