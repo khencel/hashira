@@ -23,8 +23,7 @@ export default function Card({img,title,desc}:CardProps){
                 </div>
                 <div className="mt-3">
                     <span className="title" style={{fontSize:"20px",fontWeight:"600"}}>{title}</span>
-                    <p className="subtitle" style={{fontSize:"12px"}}>
-                        {desc}
+                    <p className="subtitle"  style={{fontSize:"12px"}} dangerouslySetInnerHTML={{__html: desc}}>
                     </p>
                 </div>
             </div>
