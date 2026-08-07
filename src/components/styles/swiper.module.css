@@ -168,6 +168,7 @@
 
 
 
+
 /* =========================
    MOBILE RESPONSIVE
 ========================= */
@@ -216,11 +217,22 @@
   }
 
   .videoCard{
-    height: 230px !important;
+    height: 250px !important;
+    max-width: 100% !important;
+    width: 100% !important;
   }
 
   .swiper {
     height: 337px;
+  }
+
+  .videoSection{
+    padding: 0px !important;
+    
+  }
+
+  .title{
+    font-size: 1.5rem !important;
   }
 }
 

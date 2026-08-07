@@ -30,7 +30,7 @@ export default function Home() {
   
   const styles: { section: CSSProperties; header: CSSProperties; title: CSSProperties; subtitle: CSSProperties; videoCard: CSSProperties; videoWrapper: CSSProperties; youtube: CSSProperties; gradientBg: CSSProperties } = {
   section: {
-    padding: "60px 20px",
+    // padding: "60px 20px",
     background: "#ffffff",
     color: "white",
     display: "flex",
@@ -40,6 +40,7 @@ export default function Home() {
     position: "relative",
     overflow: "hidden",
     zIndex: 0,
+    paddingBottom: "60px",
   },
 
   header: {
@@ -104,7 +105,7 @@ export default function Home() {
         slidesPerView={1}
         loop={true}
         modules={[Autoplay, Navigation, Pagination]}
-        // autoplay={{ delay: 12000 }}
+        autoplay={{ delay: 12000 }}
         speed={800}
         navigation
         pagination={{ clickable: true }}
@@ -138,10 +139,12 @@ export default function Home() {
         </SwiperSlide>
         
       </Swiper>
-      <section style={styles.section}>
+      <section style={styles.section} className={s.videoSection}>
         <div style={styles.gradientBg}></div>
         <div style={styles.header} className=" w-100 position-relative">
-          <h2 style={styles.title}>{t('feature')}</h2>
+          <h2 style={styles.title} className={s.title}>
+            {t('feature')}
+          </h2>
           <p style={styles.subtitle}>
             {/* Watch our latest highlight and updates */}
           </p>
