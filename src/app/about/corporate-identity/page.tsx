@@ -38,7 +38,7 @@ export default function CorporateIdentity() {
 
             
 
-            <div className="row m-0 mt-5 pt-5 justify-content-center">
+            <div className="row m-0 justify-content-center">
               
 
               <div className="col-md-5 p-3">
@@ -142,7 +142,7 @@ export default function CorporateIdentity() {
           </div>
         </section>
 
-        <section className="mt-5 mb-5">
+        <section className="mt-md-5 mt-0 mb-5">
           <div className="row m-0 justify-content-center">
             <div className="col-md-10 p-4">
               <div className="header">
@@ -152,25 +152,27 @@ export default function CorporateIdentity() {
               <div className="row">
                 <div className="col-md-6 order-2 order-md-1">
                   <div className={`${s.presMessage} position-relative`}>
-                    <p className={`${s.longParagraph}`}>
-                        {t('messageDesc')}
-                      </p>
-
-                      <div style={{
-                          position:"absolute",
-                          bottom:"5%",
-                          left:"0%"
-                        }}>
+                      <div>
+                        <p className={`${s.longParagraph}`}>
+                          {t('messageDesc')}
+                        </p>
+                      </div>
+                      <div
+                        // className={s.signature}
+                        // style={{
+                        //     position:"absolute",
+                        //     bottom:"5%",
+                        //     left:"0%"
+                        //   }}
+                        >
                         <div>
-                          <img src="/sign.png" className={s.signature} style={{width:"100px"}} alt="" />
+                          <img src="/sign.png"  style={{width:"100px"}} alt="" />
                         </div>
                         <span>Jose Lorenzo Escueta Beech</span>
                         <br />
                         <span>President & CEO</span>
                       </div>
                   </div>
-                  
-
                 </div>
 
                 <div className="col-md-6 order-1 order-md-2 mb-4 mb-md-0">

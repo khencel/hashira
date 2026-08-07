@@ -193,12 +193,13 @@
     }
 
     .presMessage{
-        height: 650px;
+        /* height: 650px; */
+        height: auto;
     }
 
     .signature{
         position: absolute;
-        bottom: -50px;
+        bottom: 0px;
         
     }
 }
