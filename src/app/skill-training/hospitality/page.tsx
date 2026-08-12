@@ -30,8 +30,8 @@ export default function Construction() {
                 <div className="row m-0 justify-content-center">
                     <div className="col-md-10">
                         <div className="header">
-                            <h2 className="title">日本文化</h2>
-                            <p className="subtitle">特別な授業も行なっております！</p>
+                            <h2 className="title">{t('bottomTitle')}</h2>
+                            <p className="subtitle">{t('bottomSubtitle')}</p>
                         </div>
 
                         <div className={`row align-items-center ${s.sectionStyle}`}>

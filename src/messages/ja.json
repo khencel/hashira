@@ -171,7 +171,54 @@
     "achievement":{
         "title":"人材育成",
         "subtitle":"実績紹介",
-        "desc":"2020年の設立以来、人材育成を通じて積み重ねてきた取り組みと<br/>実績をご紹介します。"
+        "desc":"2020年の設立以来、人材育成を通じて積み重ねてきた取り組みと<br/>実績をご紹介します。",
+        "section2Title":"数字で見るPLACEWELL、柱日本語学校の実績",
+        "section2Subtitle":"確かな実績とデータが、私たちの信頼の証です。",
+        "section2Item1Header":"送り出し実績",
+        "section2Item1Subheader":"名以上",
+        "section2Item1Title":"日本全国で活躍中",
+        "section2Item1Subtitle":"2020年の設立以来、2,000名を超える人材を日本全国の企業へ送込出しています。",
+        "section2Item2Header":"JFT-Basic",
+        "section2Item2Subheader":"合格率",
+        "section2Item2Title":"日本全国で活躍中",
+        "section2Item2Subtitle":"4か月間の集中教育プログラムにより、多くの学生が初回受験で合格を達成しています。",
+        "section2Item3Header":"JFT-Basic",
+        "section2Item3Subheader":"合格率",
+        "section2Item3Title":"2回目の受験",
+        "section2Item3Subtitle":"弱点分析と個別指導を通じて、再受験者の高い合格率を実現しています。",
+        "section2Item4Header":"PROMETRIC",
+        "section2Item4Subheader":"合格率",
+        "section2Item4Title":"初回受験者",
+        "section2Item4Subtitle":"特定技能試験において、初回受験者でも高い合格実績を維持しています。",
+
+        "section3Title":"成長し続ける柱日本語学校の実績",
+        "section3Subtitle":"コロナ禍からの挑戦と成長。より多くの人材を日本へ送り出しています。",
+        "leftTitle":"コロナの時代",
+        "leftDesc:":"1つの学校で",
+        "leftNumber":"人",
+        "leftUnderNumber":"のみ",
+
+        "rightTitle":"現在",
+        "rightDesc":"3つの学校で",
+        "rightNumber":"約",
+        "rightNumber1":"人",
+        "rightUnderNumber":"にまで拡大!",
+
+        "rightPartTitle":"3つの学校体制に!",
+        "rightPartTitleItem1":"アンゴノ校",
+        "rightPartTitleItem2":"ダスマ校",
+        "rightPartTitleItem3":"アンティポロ校",
+        "rightPartBootomText":"教育環境の充実と体制強化により、より多くの優秀な人材を育成し、日本企業の皆さまへ送り出しています。",
+
+        "bottomTitle":"2025年実績",
+        "bottomDesc":"日本へ送り出した人数",
+        "bottomNumber":"人",
+        "bottomUnderNumber":"たくさんの夢と希望を日本へ!",
+        "bottomRightText":"そして今も、入国を待つ仲間たちが多数控えています。",
+        "bottomRightText1":"これからも、さらに多くの仲間たちが日本で新たな一歩を踏み出します。",
+        "bottomRightCircle":"さらなる",
+        "bottomRightCircle1":"成長へ!",
+        "bottomRightFooter":"PLACEWELL と HASHIRA SKILLS は、これからも人と企業、未来をつなぐ架け橋であり続けます。"
     },
     "construction":{
         "title":"技能訓練",
@@ -193,7 +240,9 @@
         "Technical":"専門用語教育",
         "TechnicalDesc":"円滑なコミュニケーションは、現場で使用される言葉を理解することから始まります。各業種で必要となる専門用語を学び、日本で自信を持って働ける力を養います。",
         "Emphasis":"現場指示理解教育",
-        "EmphasisDesc":"日本の職場で活躍するためには、指示を正しく理解し行動する力が欠かせません。実践的な学習を通じて、聞く力・理解する力・行動する力を身につけます。"
+        "EmphasisDesc":"日本の職場で活躍するためには、指示を正しく理解し行動する力が欠かせません。実践的な学習を通じて、聞く力・理解する力・行動する力を身につけます。",
+        "bottomTitle":"日本文化",
+        "bottomSubtitle":"特別な授業も行なっております！"
     },
     "hospitality":{
         "title":"技能訓練",
@@ -209,7 +258,9 @@
         "Japanese":"日本式ホスピタリティ（おもてなし）",
         "JapaneseDesc":"日本独自の「おもてなし」の精神を学び、相手を思いやる心や気配り、礼儀を身につけます。利用者やお客様に満足していただけるサービスの提供を目指します。",
         "Technical":"接客用語教育",
-        "TechnicalDesc":"接客業で使用される敬語や専門用語を学び、お客様や利用者に対して適切で丁寧な対応ができるコミュニケーション能力を養います。"
+        "TechnicalDesc":"接客業で使用される敬語や専門用語を学び、お客様や利用者に対して適切で丁寧な対応ができるコミュニケーション能力を養います。",
+        "bottomTitle":"日本文化",
+        "bottomSubtitle":"特別な授業も行なっております！"
     },
     "clientTestimonial":{
         "title":"お客様の声",

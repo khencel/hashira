@@ -171,7 +171,54 @@
     "achievement":{
         "title":"System",
         "subtitle":"Achievements",
-        "desc":"See what Hashira has achieved since its establishment in 2020"
+        "desc":"See what Hashira has achieved since its establishment in 2020",
+        "section2Title": "PLACEWELL & Hashira Japanese Language School Achievements in Numbers",
+        "section2Subtitle": "Our proven track record and data are a testament to the trust placed in us.",
+        "section2Item1Header": "Successful Placements",
+        "section2Item1Subheader": "People and counting",
+        "section2Item1Title": "Working Across Japan",
+        "section2Item1Subtitle": "Since our establishment in 2020, we have successfully sent more than 2,000 Filipino workers to companies across Japan.",
+        "section2Item2Header": "JFT-Basic",
+        "section2Item2Subheader": "Pass Rate",
+        "section2Item2Title": "Working Across Japan",
+        "section2Item2Subtitle": "Through our intensive four-month training program, many students successfully pass the JFT-Basic on their first attempt.",
+        "section2Item3Header": "JFT-Basic",
+        "section2Item3Subheader": "Pass Rate",
+        "section2Item3Title": "Second-Time Test Takers",
+        "section2Item3Subtitle": "Through weakness analysis and personalized instruction, we achieve a high pass rate among students retaking the examination.",
+        "section2Item4Header": "PROMETRIC",
+        "section2Item4Subheader": "Pass Rate",
+        "section2Item4Title": "First-Time Test Takers",
+        "section2Item4Subtitle": "We maintain a strong pass rate among first-time test takers in specified skilled worker examinations.",
+
+        "section3Title": "The Achievements of Hashira Japanese Language School, Continuing to Grow",
+        "section3Subtitle": "Challenges and growth since the COVID-19 pandemic. We continue to send more talented individuals to Japan.",
+        "leftTitle": "During the COVID-19 Era",
+        "leftDesc": "At a single school",
+        "leftNumber": "people",
+        "leftUnderNumber": "only",
+
+        "rightTitle": "Today",
+        "rightDesc": "Across 3 Schools",
+        "rightNumber": "Over",
+        "rightNumber1": "People",
+        "rightUnderNumber": "and still growing!",
+
+        "rightPartTitle": "Expanded to 3 Schools!",
+        "rightPartTitleItem1": "Angono Campus",
+        "rightPartTitleItem2": "Dasma Campus",
+        "rightPartTitleItem3": "Antipolo Campus",
+        "rightPartBootomText": "By strengthening our educational environment and support systems, we continue to develop more highly skilled talent and connect them with companies across Japan.",
+
+        "bottomTitle": "2025 Results",
+        "bottomDesc": "Number of People Sent to Japan",
+        "bottomNumber": "People",
+        "bottomUnderNumber": "Bringing Dreams and Hope to Japan!",
+        "bottomRightText": "Even now, many more people are waiting to enter Japan.",
+        "bottomRightText1": "Moving forward, even more people will take their first step toward a new future in Japan.",
+        "bottomRightCircle": "Toward",
+        "bottomRightCircle1": "Further Growth!",
+        "bottomRightFooter": "PLACEWELL and HASHIRA SKILLS will continue to be a bridge connecting people, companies, and the future."
     },
     "construction":{
         "title":"Skills Training",
@@ -193,7 +240,9 @@
         "Technical":"Technical Terminology Training",
         "TechnicalDesc":"Effective communication begins with understanding the language of the workplace. We provide industry-specific terminology training to help students communicate confidently and accurately in Japan.",
         "Emphasis":"Understanding Workplace Instructions",
-        "EmphasisDesc":"Understanding instructions correctly is essential for success in the workplace. Our training focuses on developing listening, comprehension, and response skills needed in Japanese working environments."
+        "EmphasisDesc":"Understanding instructions correctly is essential for success in the workplace. Our training focuses on developing listening, comprehension, and response skills needed in Japanese working environments.",
+        "bottomTitle": "Japanese Culture",
+        "bottomSubtitle": "We also offer special lessons on Japanese culture!"
     },
     "hospitality":{
         "title":"Skills Training",
@@ -209,7 +258,9 @@
         "Japanese":"Japanese Hospitality (Omotenashi)",
         "JapaneseDesc":"We teach the spirit of Japanese hospitality, emphasizing attentiveness, respect, and consideration for others. Students learn how to provide service that exceeds expectations.",
         "Technical":"Customer Service Terminology Training",
-        "TechnicalDesc":"Students learn the professional language and expressions commonly used in customer-facing roles, helping them communicate politely and confidently in Japanese workplaces."
+        "TechnicalDesc":"Students learn the professional language and expressions commonly used in customer-facing roles, helping them communicate politely and confidently in Japanese workplaces.",
+        "bottomTitle": "Japanese Culture",
+        "bottomSubtitle": "We also offer special lessons on Japanese culture!"
     },
     "clientTestimonial":{
         "title":"Testimonials",
