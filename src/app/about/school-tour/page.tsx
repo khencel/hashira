@@ -10,22 +10,22 @@ import getData from "./data";
 
 
 export default function SchoolInformation() {
-  const t = useTranslations("whatIsHashira");
-  const items = getData()
+  const t = useTranslations("schoolInformation");
+  const items = getData(t)
   return (
     <>
       <Banner
         backgroundImage="/Angono Branch 4.jpg"
         title={t("title")}
-        subtitle="学校案内"
-        description="当校の校舎をご覧ください"
+        subtitle={t("subtitle")}
+        description={t("desc")}
       />
 
       <section className={`${styles.section} ${styles.banner}`}>
         <div className="row justify-content-center">
           <div className="col-md-8">
             <div className="header">
-                <h2 className="" style={{color:"white"}}>柱日本語学校紹介動画</h2>
+                <h2 className="" style={{color:"white"}}>{t("video")}</h2>
             </div>
               <YouTube
                 className={styles.youtubeStyle}
@@ -48,10 +48,9 @@ export default function SchoolInformation() {
 
       <section className="mb-5 mt-5">
         <div className="header">
-          <h2 className="title">柱日本語学校 施設紹介</h2>
+          <h2 className="title">{t("section3Title")}</h2>
           <p className="subtitle">
-            学びやすさと暮らしやすさを兼ね備えた環境で、
-            日本で活躍するための第一歩をサポートします。
+            {t("section3Subtitle")}
           </p>
         </div>
         <div className="row m-0 justify-content-center">

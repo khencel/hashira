@@ -1,8 +1,10 @@
 import styles from './slide2.module.css';
 import SkillData from '@/data/skill';
+import { useTranslations } from "next-intl";
 
 export default function HashiraHeroSection1() {
     const skills = SkillData()
+    const t = useTranslations("slide2");
     return (
         <>
         <section style={{

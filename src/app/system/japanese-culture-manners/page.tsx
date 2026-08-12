@@ -7,14 +7,14 @@ import YouTube from "react-youtube";
 
 export default function JapaneseCultureManners() {
     const t = useTranslations("japaneseCulture");
-    const itemList = JapaneseCultureList()
-    const account = getAccount()
+    const itemList = JapaneseCultureList(t)
+    const account = getAccount(t)
     return (
         <>
             <Banner
                 backgroundImage="/DSC02767.jpg"
                 title={t('title')}
-                subtitle={t('Japanese')}
+                subtitle={t('subtitle')}
                 description={t('desc')}
             />
 

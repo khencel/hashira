@@ -6,6 +6,7 @@ interface Props {
   description: string;
   image: string;
   link: string;
+  txtButton?: string;
 }
 
 export default function CompanyCard({
@@ -13,6 +14,7 @@ export default function CompanyCard({
   description,
   image,
   link,
+  txtButton,
 }: Props) {
   return (
     <div className={styles.card}>
@@ -28,7 +30,7 @@ export default function CompanyCard({
           <p>{description}</p>
 
           <Link href={link} target="_blank" className={styles.button}>
-            ホームページ →
+            {txtButton}
           </Link>
 
         </div>

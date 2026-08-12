@@ -7,7 +7,7 @@ import GetAllData from "./data";
 
 export default function About() {
     const t = useTranslations("whatIsHashira");
-    const items = GetAllData()
+    const s = useTranslations("whatIsHashiraItem");
     return (
       <>
         <Banner
@@ -72,7 +72,7 @@ export default function About() {
               <hr />
               <div className="row">
                   {
-                    items.map((item,index) => (
+                    GetAllData(s).map((item,index) => (
                       <div className="col-md-4 mt-5" key={index}>
                         <Card 
                           img={item.image} 

@@ -47,7 +47,7 @@ export default function CorporateIdentity() {
                     
                     <div className="col-md-6 d-flex align-items-center">
                       <div className="position-relative">
-                        <h5 className="title" style={{fontSize:"24px"}} >ビーチ、ジョーロ</h5>
+                        <h5 className="title" style={{fontSize:"24px"}} >{t('jose')}</h5>
                         <small>
                             <strong>{t('president')}</strong>
                         </small>
@@ -68,18 +68,11 @@ export default function CorporateIdentity() {
                       <div className="position-relative">
                         <h5 className="title" style={{fontSize:"24px"}} >{t('kawamichi')} </h5>
                         <small>
-                            <strong>顧問</strong>
+                            <strong>{t('vice')}</strong>
                         </small>
                         {/* <div className={s.dotPattern}></div> */}
                         <p className="mt-3 cardText">
-                            川道 信晃
-                            RWグループ 代表
-
-                            19歳の頃より外国人材受入事業に携わり、協同組合ビジネスサプライ愛知の設立メンバーとして事業の立ち上げに参画。以来20年以上にわたり、技能実習制度をはじめとする外国人材受入事業に従事してきました。
-
-                            現在はRWグループ代表として、外国人材紹介事業、日本語教育事業および各種支援事業を統括。長年培った経験と国内外のネットワークを活かし、外国人材と受入企業双方を支援しています。
-
-                            外国人材の育成、日本語教育、生活支援、定着支援を通じて、日本と海外をつなぐ架け橋として国際人材交流の発展に取り組んでいます。
+                            {t('viceDesc')}
                         </p>
                       </div>
                       
