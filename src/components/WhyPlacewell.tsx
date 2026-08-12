@@ -51,7 +51,7 @@ export default function WhyPlacewell() {
 
             {/* RIGHT SIDE */}
             <div className={s.right}>
-            <span className={s.titleHead}>{t('why')}?</span>
+            <span className={s.titleHead}>{t('why')}</span>
 
             <div className={s.list}>
                 {rollingData.map((item, i) => (

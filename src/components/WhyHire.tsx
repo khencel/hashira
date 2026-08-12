@@ -51,7 +51,7 @@ export default function WhyHire() {
                             <FaCircleCheck className={s.icon}/>
                         </div>
                         <div>
-                            <h4>{t(item.title)}</h4>
+                            <h4 >{t(item.title)}</h4>
                             <p>
                                 {t(item.description)}
                             </p>
