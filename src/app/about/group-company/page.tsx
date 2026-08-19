@@ -31,12 +31,20 @@ export default function About() {
           <CompanyCard
             title={t("item2")}
             description={t("item2Desc")}
-            image="/client5.png"
-            link="https://www.b-s-aichi.jp/"
+            image="/sky.png"
+            link="https://www.placewellinternational.net/"
+            haveBtn={false}
             txtButton={t("button")}
           />
 
-          
+          <CompanyCard
+            title={t("item3")}
+            description={t("item3Desc")}
+            image="/pro-tech.png"
+            link="https://www.placewellinternational.net/"
+            haveBtn={false}
+            txtButton={t("button")}
+          />
 
         </div>
       </section>

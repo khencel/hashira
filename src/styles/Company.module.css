@@ -65,6 +65,7 @@
   display:flex;
   justify-content:center;
   align-items:center;
+  height: 350px;
 }
 
 .logoCard img{
@@ -134,6 +135,10 @@
 .feature p{
   color:#777;
   margin:0;
+}
+
+.logStyle{
+  width: 70% !important;
 }
 
 @media(max-width:991px){

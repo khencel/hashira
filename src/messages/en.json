@@ -6,7 +6,7 @@
         "skillNav":"Skills Training",
         "testimonialsNav":"Testimonials",
         "gallery":"Gallery",
-        "contact":"Contact Us",
+        "contact":"Information on Partnerships",
         "about":{
             "about":"About Us",
             "corporate":"Corporate Identity",
@@ -71,7 +71,7 @@
         "englishDesc":"Japan is moving towards Globalization and the demand for the English language is growing across the country. Almost all Filipinos are proficient in English and are happy to share their",
         "lowAge":"Low Average Age",
         "lowAgeDesc":"The average age in the Philippines is around 25 years old, which means that there is a lot of youthful energy available for work in an aging Japan",
-        "lowWage":"Low Minimum Wage",
+        "lowWage":"Strong Motivation to Work Abroad",
         "lowWageDesc":"The minimum wage in the Philippines is around 1,000yen/day. This has driven Filipinos to find employment in foreign countries, with Japan being the top choice for many Filipinos.",
         "filipinoLove":"Filipino Love Japan",
         "filipinoLoveDesc":"Filipinos are truly enchanted by Japan and its people. We love to watch Anime, sing Karaoke and eat Ramen and Sushi. You probably won’t find a Filipino who doesn’t know what “Arigato” means! Japan is really the dream country of many Filipinos.",
@@ -85,8 +85,7 @@
         "board":"Board of Directors",
         "kawamichi":"Kawamichi Nobuaki",
         "vice":"Vice President for Operations",
-        "viceDesc":"Nobuaki Kawamichi, Representative, RW Group. He has been involved in the foreign workforce recruitment business since he was 19 years old and participated in the launch of Business Supply Aichi Cooperative as a founding member. Since then, for over 20 years, he has been engaged in the recruitment of foreign workers, including through the Technical Intern Training Program. Currently, as Representative of the RW Group, he oversees foreign talent recruitment, Japanese language education, and various support services. Leveraging his many years of experience and his domestic and international networks, he supports both foreign workers and the companies that hire them. Through the training of foreign workers, Japanese language education, daily life support, and retention support, he is committed to fostering international talent exchange by serving as a bridge connecting Japan and the rest of the world.",
-        "jose":"Jose Lorenzo Escueta Beech (Joelo)",
+        "viceDesc":"Nobuaki Kawamichi, Representative, RW Group. He has been involved in the foreign workforce recruitment business since he was 19 years old and participated in launching the business as a founding member of a cross-industry cooperative. Since then, for over 20 years, he has been engaged in the foreign workforce recruitment business, including the Technical Intern Training Program. Currently, as Representative of the RW Group, he oversees foreign talent recruitment, Japanese language education, and various support services. Leveraging his many years of experience and his domestic and international networks, he supports both foreign workers and the companies that hire them. Through the training of foreign workers, Japanese language education, daily life support, and retention support, he is committed to fostering international talent exchange by serving as a bridge connecting Japan and the rest of the world.",
         "president":"President",
         "presidentDesc":"Joelo is a licensed attorney and a JLPT N1 passer. He obtained his degree in International Business from Pepperdine University and his Juris Doctor from Ateneo De Manila School of Law. He is also the President of Hashira Skills and Language Academy and Pro-Tech Skills Development Center Corporation. He has been with Placewell since 2018.",
         "misionVision":"Mission & Vision",
@@ -394,8 +393,10 @@
         "desc": "An introduction to our group companies",
         "item1": "Placewell International",
         "item1Desc": "Placewell International is a Filipino-owned, family-run manpower agency that has been sending Filipino workers overseas for more than 50 years. Headquartered in Makati, the company works with more than 15 branches nationwide to recruit, train, and deploy Filipino talent to companies around the world. Placewell is committed to providing reliable talent and efficient, organized, and responsive services, while also creating opportunities for professional growth by connecting Filipino workers with companies that recognize and value their contributions.",
-        "item2": "Business Supply Aichi Cooperative",
-        "item2Desc": "Business Supply Aichi Cooperative has been a trusted partner of Hashira Skills since its establishment in 2019. As an authorized supervising organization in Japan, the cooperative has been involved in receiving and supporting Filipino talent for more than 20 years, building extensive experience and a strong track record. Its operations extend across Japan, with offices in Aichi, Tokyo, Kansai, Hokkaido, Kyushu, and Okinawa, connecting companies in each region with foreign talent.",
+        "item2": "Sky Innovation Manpower Inc.",
+        "item2Desc": "Sky Innovation is a recruitment agency specializing in services for Japanese clients. Our staff specializes in accompanying clients on business trips to the Philippines, providing interpretation and facilitating interviews, and preparing documents related to the MWO, OTIT, and immigration authorities.",
+        "item3": "Pro-tech Skills Development Corporation Center",
+        "item3Desc": "Like Hashira Skills, Protec Skills is a TESDA-accredited vocational and language training center. At Protec, you can study courses in the fields of nursing care, housekeeping, and the foodservice industry. We used to offer Japanese language classes as well, but since our group transitioned to a shared-living system, we no longer offer them.",
         "button": "Visit Website →"
     }
 }

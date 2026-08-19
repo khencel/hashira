@@ -6,6 +6,7 @@ interface Props {
   description: string;
   image: string;
   link: string;
+  haveBtn?:boolean;
   txtButton?: string;
 }
 
@@ -14,6 +15,7 @@ export default function CompanyCard({
   description,
   image,
   link,
+  haveBtn = true,
   txtButton,
 }: Props) {
   return (
@@ -29,16 +31,21 @@ export default function CompanyCard({
 
           <p>{description}</p>
 
-          <Link href={link} target="_blank" className={styles.button}>
-            {txtButton}
-          </Link>
+          {
+            haveBtn &&(
+              <Link href={link} target="_blank" className={styles.button}>
+                {txtButton}
+              </Link>
+            )
+          }
+          
 
         </div>
 
         <div className="col-lg-6">
 
           <div className={styles.logoCard}>
-            <img src={image} alt="" />
+            <img src={image} className={styles.logStyle} alt="" />
           </div>
 
         </div>
