@@ -6,7 +6,7 @@ import { useTranslations } from "next-intl";
 
 
 export default function ContactUs(){
-    const t = useTranslations("contactUs");
+    const t = useTranslations("infoPartnership");
     return (
         <>
             <Banner
@@ -21,8 +21,8 @@ export default function ContactUs(){
                 <div className="row justify-content-center m-0 mb-5">
                     <div className="col-md-10">
                         <div className="header">
-                        <h2 className="title">提携のご案内</h2>
-                            <p className="subtitle">提携までの流れをステップごとにご案内します</p>
+                        <h2 className="title">{t('header')}</h2>
+                            <p className="subtitle">{t('subHeader')}</p>
                         </div>
 
                         <div className="row">
@@ -31,7 +31,7 @@ export default function ContactUs(){
                                     <img src="/logoPlacewell.png" style={{width:"60%"}} alt="" />
                                 </div>
                                 <div className="w-100 mt-2 text-center">
-                                    <span className={s.logoText}>50年の経験と実績を誇る送り出し機関</span>
+                                    <span className={s.logoText}>{t('placewellSub')}</span>
                                 </div>
                             </div>
                             <div className="col-md-6">
@@ -39,7 +39,7 @@ export default function ContactUs(){
                                     <img src="/sky.png" style={{width:"50%"}} alt="" />
                                 </div>
                                 <div className="w-100 mt-2 text-center">
-                                    <span className={s.logoText}>日本事業専門送り出し機関</span>
+                                    <span className={s.logoText}>{t('skySub')}</span>
                                 </div>
                             </div>
                         </div>
@@ -52,8 +52,7 @@ export default function ContactUs(){
                                     </div>
                                     <div className="d-flex align-items-center ms-3" style={{width:"85%"}}>
                                         <span style={{fontWeight:"600", color:"#104675"}}>
-                                            Hashira Skillsと合わせると、20名以上の日本語対応可能な
-                                            スタッフが在籍しております。
+                                            {t('hashira')}
                                         </span>
                                     </div>
                                 </div>
@@ -64,8 +63,7 @@ export default function ContactUs(){
                                     </div>
                                     <div className="d-flex align-items-center ms-3" style={{width:"85%"}}>
                                         <span style={{fontWeight:"600", color:"#104675"}}>
-                                            弊社スタッフは、MWO、OTIT、入管関連書類の作成を
-                                            得意としております。
+                                            {t('afterHashira')}
                                         </span>
                                     </div>
                                 </div>
@@ -76,8 +74,7 @@ export default function ContactUs(){
                                     </div>
                                     <div className="d-flex align-items-center ms-3" style={{width:"85%"}}>
                                         <span style={{fontWeight:"600", color:"#104675"}}>
-                                            LINEグループチャットとメールの両方を活用し、
-                                            迅速かつ効率的なコミュニケーションを実現しています。
+                                            {t('line')}
                                         </span>
                                     </div>
                                 </div>
@@ -89,7 +86,7 @@ export default function ContactUs(){
                                             <div className="d-flex">
                                                 <div style={{width:"70%"}}>
                                                     <span style={{fontWeight:"600",color:"#A20E15"}}>
-                                                        Hashira Skills 概要書
+                                                        {t('hashiraProfile')}
                                                     </span>
                                                 </div>
                                                 <div className=" text-end" style={{width:"30%"}}>
@@ -100,7 +97,7 @@ export default function ContactUs(){
                                                         width:"100%",
                                                         background:"#104675",
                                                         color:"white"
-                                                    }}>Download</button>
+                                                    }}>{t('download')}</button>
                                                 </div>
                                             </div>
                                             
@@ -110,7 +107,7 @@ export default function ContactUs(){
                                             <div className="d-flex">
                                                 <div style={{width:"70%"}}>
                                                     <span style={{fontWeight:"600",color:"#A20E15"}}>
-                                                        Placewell International 概要書
+                                                        {t('placewellProfile')}
                                                     </span>
                                                 </div>
                                                 <div className=" text-end" style={{width:"30%"}}>
@@ -121,7 +118,7 @@ export default function ContactUs(){
                                                         width:"100%",
                                                         background:"#104675",
                                                         color:"white"
-                                                    }}>Download</button>
+                                                    }}>{t('download')}</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -139,7 +136,7 @@ export default function ContactUs(){
                                             </div>
                                             <div className="d-flex flex-column  ms-3" style={{width:"85%"}}>
                                                 <span style={{fontWeight:"700", color:"#104675", fontSize:"20px"}}>
-                                                    メール
+                                                    {t('email')}
                                                 </span>
                                                 <div>
                                                     angono@hashiraskils.com <br />
@@ -155,12 +152,12 @@ export default function ContactUs(){
                                             </div>
                                             <div className="d-flex flex-column  ms-3" style={{width:"85%"}}>
                                                 <span style={{fontWeight:"700", color:"#104675", fontSize:"20px"}}>
-                                                    メール
+                                                    {t('address')}
                                                 </span>
                                                 <div>
-                                                    angono@hashiraskils.com <br />
-                                                    japan@placewellinternational.com <br />
-                                                    marketing@skyinnovationph.com 
+                                                    Blk. 21 Lot 5 DOMSA, Mahabang Parang,
+                                                    <br />
+                                                    Angono, 1930 Rizal, Philippines 
                                                 </div>
                                             </div>
                                         </div>
@@ -171,12 +168,12 @@ export default function ContactUs(){
                                             </div>
                                             <div className="d-flex flex-column  ms-3" style={{width:"85%"}}>
                                                 <span style={{fontWeight:"700", color:"#104675", fontSize:"20px"}}>
-                                                    メール
+                                                    {t('website')}
                                                 </span>
                                                 <div>
-                                                    angono@hashiraskils.com <br />
-                                                    japan@placewellinternational.com <br />
-                                                    marketing@skyinnovationph.com 
+                                                    hashiraskills.net
+                                                    <br />
+                                                    placewellinternational.net
                                                 </div>
                                             </div>
                                         </div>

@@ -399,6 +399,24 @@
         "item3":"プロテック・スキルズ・デベロップメント・センター",
         "item3Desc":"プロテック・スキルズは、Hashira Skillsと同様、TESDA認定の技能・語学研修センターです。プロテックでは、介護、ハウスキーピング、外食分野を学ぶことができます。以前は⽇本語授業も実施しておりましたが、弊社グループが共同⽣活制度へ移行したことに伴い、現在は実施しておりません",
         "button":"ホームページ →"
+    },
+    "infoPartnership":{
+        "title": "提携のご案内",
+        "subtitle": "私たちは皆様のお役に立てるよう尽力いたします",
+        "desc": "",
+        "header":"提携のご案内",
+        "subHeader":"提携までの流れをステップごとにご案内します",
+        "placewellSub":"50年の経験と実績を誇る送り出し機関",
+        "skySub":"日本事業専門送り出し機関",
+        "hashira":"Hashira Skillsと合わせると、20名以上の日本語対応可能な スタッフが在籍しております。",
+        "afterHashira":"弊社スタッフは、MWO、OTIT、入管関連書類の作成を 得意としております。",
+        "line":"LINEグループチャットとメールの両方を活用し、 迅速かつ効率的なコミュニケーションを実現しています。",
+        "hashiraProfile":"Hashira Skills 概要書",
+        "placewellProfile":"Placewell International 概要書",
+        "download":"ダウンロード",
+        "email":"メール",
+        "address":"住所",
+        "website":"ホームページ"
     }
 
 }

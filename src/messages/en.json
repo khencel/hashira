@@ -398,5 +398,24 @@
         "item3": "Pro-tech Skills Development Corporation Center",
         "item3Desc": "Like Hashira Skills, Protec Skills is a TESDA-accredited vocational and language training center. At Protec, you can study courses in the fields of nursing care, housekeeping, and the foodservice industry. We used to offer Japanese language classes as well, but since our group transitioned to a shared-living system, we no longer offer them.",
         "button": "Visit Website →"
+    },
+    "infoPartnership":{
+        "title":"Information on Partnerships",
+        "subtitle": "We are committed to serving you",
+        "desc": "",
+        "header": "Information on Partnerships",
+        "subHeader": "A step-by-step guide to establishing a partnership",
+        "placewellSub": "A recruitment agency with 50 years of experience and a proven track record",
+        "skySub": "A recruitment agency specializing in Japan-bound programs",
+        "hashira": "Combined with Hashira Skills, we have over 20 staff members who can communicate in Japanese. ",
+        "afterHashira": "Our staff specializes in preparing MWO, OTIT, and immigration-related documents.",
+        "line": "We utilize both LINE group chats and email to ensure swift and efficient communication. ",
+        "hashiraProfile": "Hashira company profile",
+        "placewellProfile": "Placewell company profile",
+        "download": "Download",
+        "email": "Email",
+        "address": "Address",
+        "website": "Website"
     }
+    
 }
