@@ -596,8 +596,19 @@
     background: #d90000;
 }
 
+.mobile-lang-picker {
+    display: none;
+}
 /* Mobile */
 @media (max-width: 768px) {
+  .mobile-lang-picker {
+        display: flex;
+        justify-content: center;
+        padding: 10px 0 15px;
+        border-bottom: 1px solid #CCCCCC;
+        position: relative;
+        z-index: 9999; /* nasa ibabaw ng lahat */
+    }
 
     .youtube-subscribe-btn {
         border: none;

@@ -12,6 +12,7 @@ import NavForMobile from "./NavForMobile";
 import NavForDesktop from "./NavForDesktop";
 import { useLocale } from "@/i18n/LocaleContext";
 import Link from "next/link";
+import { LanguagePicker } from "./langSelector";
 
 export default function Navigation() {
   const [open, setOpen] = useState(false);
@@ -24,7 +25,9 @@ export default function Navigation() {
         {/* TOP BAR */}
         <div className="nav-top">
           <div className="logo">
-            <img src="/logo3.jpg" alt="logo" />
+            <Link href={"/"}>
+              <img src="/logo3.jpg" alt="logo" />
+            </Link>
           </div>
 
           {/* BURGER */}
@@ -52,13 +55,14 @@ export default function Navigation() {
             <span><FaTiktok className="social-icon" /></span>
             </Link>
             <span>
-              <select
+              {/* <select
                 value={locale}
                 onChange={(e) => setLocale(e.target.value as "en" | "ja")}
               >
                 <option value="en">English</option>
                 <option value="ja">Japanese</option>
-              </select>
+              </select> */}
+              <LanguagePicker />
             </span>
           </div>
         </div>
@@ -80,6 +84,13 @@ export default function Navigation() {
           <NavForDesktop />
           <NavForMobile onLinkClick={() => setOpen(false)} />
         </ul>
+
+        {/* LANGUAGE PICKER — mobile only, outside nav-menu */}
+          {open && (
+              <div className="mobile-lang-picker">
+                  <LanguagePicker />
+              </div>
+          )}
       </nav>
     </div>
   );

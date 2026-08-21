@@ -10,6 +10,7 @@ import {
     FaTiktok 
 } from "react-icons/fa6";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function Footer() {
   const t = useTranslations("footer");
@@ -25,16 +26,47 @@ export default function Footer() {
         {/* Links */}
         <div className={s.links}>
           <div>
-            <p>{t('home')}</p>
-            <p>{t('about')}</p>
-            <p>{t('system')}</p>
-            <p>{t('skill')}</p>
+            <p>
+              <Link href={"/"} style={{textDecoration:"none",color:"white"}}>
+                {t('home')}
+              </Link>
+              
+            </p>
+            <p>
+              <Link href={"/about/corporate-identity"} style={{textDecoration:"none",color:"white"}}>
+                {t('about')}
+              </Link>
+              
+            </p>
+            <p>
+              <Link href={"/system/overall"} style={{textDecoration:"none",color:"white"}}>
+                {t('system')}
+              </Link>
+              
+            </p>
+            <p>
+              <Link href={"/skill-training/construction"} style={{textDecoration:"none",color:"white"}}>
+                {t('skill')}
+              </Link>
+            </p>
           </div>
 
           <div>
-            <p>{t('testimonial')}</p>
-            <p>{t('gallery')}</p>
-            <p>{t('contact')}</p>
+            <p>
+              <Link href={"/testimonials/client-testimonials"} style={{textDecoration:"none",color:"white"}}>
+                {t('testimonial')}
+              </Link>
+            </p>
+            <p>
+              <Link href={"/gallery"} style={{textDecoration:"none",color:"white"}}>
+              {t('gallery')}
+              </Link>
+            </p>
+            <p>
+              <Link href={"/contact-us"} style={{textDecoration:"none",color:"white"}}>
+                {t('contact')}
+              </Link>
+            </p>
             <p>{t('faq')}</p>
           </div>
         </div>
