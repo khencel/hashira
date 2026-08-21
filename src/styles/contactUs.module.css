@@ -83,6 +83,33 @@
   border-radius: 12px;
 }
 
+.logoStyle{
+  width: 50%;
+}
+
+.logoCont{
+  height: 220px;
+}
+.logoText{
+  font-weight: 700;
+  color: #CC121B;
+}
+
+.iconStyle{
+  width: 65px;
+  height: 65px;
+}
+
+.bottomCard{
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.20) !important;
+}
+
+.iconStyleBottom{
+  width: 55px;
+  height: 55px;
+}
 /* MOBILE */
 @media (max-width: 768px) {
   .map {

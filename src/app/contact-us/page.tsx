@@ -2,9 +2,8 @@
 
 import Banner from "@/components/Banner"
 import s from "@/styles/contactUs.module.css"
-import { FaFacebookF } from "react-icons/fa6";
 import { useTranslations } from "next-intl";
-import Link from "next/link";
+
 
 export default function ContactUs(){
     const t = useTranslations("contactUs");
@@ -18,79 +17,183 @@ export default function ContactUs(){
                 customFontSize={true}
             />
 
-            <section  className={`${s.testimonialSection} `}>
-                <div className="row m-0 justify-content-center">
+            <section>
+                <div className="row justify-content-center m-0 mb-5">
                     <div className="col-md-10">
-                        <div >
-                        
                         <div className="header">
-                            <h2 className="title">{t('connect')}</h2>
-                            {/* <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> */}
+                        <h2 className="title">提携のご案内</h2>
+                            <p className="subtitle">提携までの流れをステップごとにご案内します</p>
                         </div>
 
-                        {/* MAIN */}
-                        <section className={` container`}>
-                            <div className="row">
-                                <div className="col-md-6">
-                                    <div >
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30892.52672393006!2d121.15724164692706!3d14.566802681197766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c1e9d1ddc9b5%3A0xfc095f21b3b019!2sHashira%20Skills%20%26%20Language%20Academy!5e0!3m2!1sen!2sph!4v1784434116956!5m2!1sen!2sph" width="600" height="450" style={{border:"0"}} allowFullScreen={true} loading="lazy" referrerPolicy="strict-origin-when-cross-origin"></iframe>
-                                    </div>
-                                    
+                        <div className="row">
+                            <div className="col-md-6 border-end">
+                                <div className={`${s.logoCont} w-100 d-flex justify-content-center align-items-center`}>
+                                    <img src="/logoPlacewell.png" style={{width:"60%"}} alt="" />
                                 </div>
-                                <div className="col-md-6">
-                                    <div className={`${s.contactCard} ${s.card}`}>
-                                        <h4>Contact Information</h4>
+                                <div className="w-100 mt-2 text-center">
+                                    <span className={s.logoText}>50年の経験と実績を誇る送り出し機関</span>
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className={`${s.logoCont} w-100 d-flex justify-content-center align-items-center`}>
+                                    <img src="/sky.png" style={{width:"50%"}} alt="" />
+                                </div>
+                                <div className="w-100 mt-2 text-center">
+                                    <span className={s.logoText}>日本事業専門送り出し機関</span>
+                                </div>
+                            </div>
+                        </div>
 
-                                        <div className={s.infoItem}>
-                                            <span>📍</span>
-                                            <div>
-                                            <strong>Address</strong>
-                                            <p>G5XM+R85, Don Mariano Santos Ave, Angono, Rizal</p>
+                        <div className="row mt-5 justify-content-center">
+                            <div className="col-md-10">
+                                <div className={`${s.bottomCard} d-flex`} >
+                                    <div className="border-end d-flex justify-content-center align-items-center" style={{width:"15%"}}>
+                                        <img src="/star.png" className={s.iconStyle} alt="" />
+                                    </div>
+                                    <div className="d-flex align-items-center ms-3" style={{width:"85%"}}>
+                                        <span style={{fontWeight:"600", color:"#104675"}}>
+                                            Hashira Skillsと合わせると、20名以上の日本語対応可能な
+                                            スタッフが在籍しております。
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div className={`${s.bottomCard} d-flex mt-4`} >
+                                    <div className="border-end d-flex justify-content-center align-items-center" style={{width:"15%"}}>
+                                        <img src="/users.png" className={s.iconStyle} alt="" />
+                                    </div>
+                                    <div className="d-flex align-items-center ms-3" style={{width:"85%"}}>
+                                        <span style={{fontWeight:"600", color:"#104675"}}>
+                                            弊社スタッフは、MWO、OTIT、入管関連書類の作成を
+                                            得意としております。
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div className={`${s.bottomCard} d-flex mt-4`} >
+                                    <div className="border-end d-flex justify-content-center align-items-center" style={{width:"15%"}}>
+                                        <img src="/message.png" className={s.iconStyle} alt="" />
+                                    </div>
+                                    <div className="d-flex align-items-center ms-3" style={{width:"85%"}}>
+                                        <span style={{fontWeight:"600", color:"#104675"}}>
+                                            LINEグループチャットとメールの両方を活用し、
+                                            迅速かつ効率的なコミュニケーションを実現しています。
+                                        </span>
+                                    </div>
+                                </div>
+
+
+                                <div className={`${s.bottomCard} mt-4`}>
+                                    <div className="row">
+                                        <div className="col border-end">
+                                            <div className="d-flex">
+                                                <div style={{width:"70%"}}>
+                                                    <span style={{fontWeight:"600",color:"#A20E15"}}>
+                                                        Hashira Skills 概要書
+                                                    </span>
+                                                </div>
+                                                <div className=" text-end" style={{width:"30%"}}>
+                                                    <button
+                                                    onClick={()=> window.open("/docs/Hashira Skills 概要書.pdf","_blank")}
+                                                    className="btn"
+                                                    style={{
+                                                        width:"100%",
+                                                        background:"#104675",
+                                                        color:"white"
+                                                    }}>Download</button>
+                                                </div>
+                                            </div>
+                                            
+                                            
+                                        </div>
+                                        <div className="col">
+                                            <div className="d-flex">
+                                                <div style={{width:"70%"}}>
+                                                    <span style={{fontWeight:"600",color:"#A20E15"}}>
+                                                        Placewell International 概要書
+                                                    </span>
+                                                </div>
+                                                <div className=" text-end" style={{width:"30%"}}>
+                                                    <button
+                                                    onClick={() => window.open("/docs/PISCO概要書.pdf","_blank")}
+                                                    className="btn"
+                                                    style={{
+                                                        width:"100%",
+                                                        background:"#104675",
+                                                        color:"white"
+                                                    }}>Download</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                                <hr className="mt-5" style={{height:"3px", background:"#A20E15"}} />
+
+                                <div className="row">
+                                    <div className="col-md-8 ">
+                                        <div className={`d-flex mt-4`} >
+                                            <div className="border-end d-flex justify-content-center align-items-center" style={{width:"15%"}}>
+                                                <img src="/envelop.png" className={s.iconStyleBottom} alt="" />
+                                            </div>
+                                            <div className="d-flex flex-column  ms-3" style={{width:"85%"}}>
+                                                <span style={{fontWeight:"700", color:"#104675", fontSize:"20px"}}>
+                                                    メール
+                                                </span>
+                                                <div>
+                                                    angono@hashiraskils.com <br />
+                                                    japan@placewellinternational.com <br />
+                                                    marketing@skyinnovationph.com 
+                                                </div>
                                             </div>
                                         </div>
 
-                                        <div className={s.infoItem}>
-                                            <span>📞</span>
-                                            <div>
-                                            <strong>Phone</strong>
-                                            <p>+639175672721</p>
+                                        <div className={`d-flex mt-4`} >
+                                            <div className="border-end d-flex justify-content-center align-items-center" style={{width:"15%"}}>
+                                                <img src="/location.png" className={s.iconStyleBottom} alt="" />
+                                            </div>
+                                            <div className="d-flex flex-column  ms-3" style={{width:"85%"}}>
+                                                <span style={{fontWeight:"700", color:"#104675", fontSize:"20px"}}>
+                                                    メール
+                                                </span>
+                                                <div>
+                                                    angono@hashiraskils.com <br />
+                                                    japan@placewellinternational.com <br />
+                                                    marketing@skyinnovationph.com 
+                                                </div>
                                             </div>
                                         </div>
 
-                                        <div className={s.infoItem}>
-                                            <span>📧</span>
-                                            <div>
-                                            <strong>Email</strong>
-                                            <p>angono@hashiraskills.com</p>
+                                        <div className={`d-flex mt-4`} >
+                                            <div className="border-end d-flex justify-content-center align-items-center" style={{width:"15%"}}>
+                                                <img src="/global.png" className={s.iconStyleBottom} alt="" />
+                                            </div>
+                                            <div className="d-flex flex-column  ms-3" style={{width:"85%"}}>
+                                                <span style={{fontWeight:"700", color:"#104675", fontSize:"20px"}}>
+                                                    メール
+                                                </span>
+                                                <div>
+                                                    angono@hashiraskils.com <br />
+                                                    japan@placewellinternational.com <br />
+                                                    marketing@skyinnovationph.com 
+                                                </div>
                                             </div>
                                         </div>
-
-                                        <div className={s.infoItem}>
-                                            <span><FaFacebookF /></span>
+                                    </div>
+                                    <div className="col-md-4 position-relative">
+                                        <div className="text-center position-absolute bottom-0 start-50 translate-middle-x">
                                             <div>
-                                            <strong>Facebook</strong>
-                                            <Link
-                                                href="https://www.facebook.com/profile.php?id=61590683485492&mibextid=wwXIfr&rdid=CXKHSSTSFfbU1fr9&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18t4vLYP9w%2F%3Fmibextid%3DwwXIfr#"
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-
-                                                style={{
-                                                    // textDecoration:"none",
-                                                    color:"#104675",
-                                                    fontWeight:"600"
-                                                
-                                                }}
-                                                >
-                                                <p>Hashira Skills and Language Academy</p>
-                                            </Link>
+                                                <img src="/line.png" style={{width:"150px"}} alt="" />
+                                            </div>
+                                            <div>
+                                                <img src="/qr.png" style={{width:"170px"}} alt="" />
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 
                             </div>
-                        </section>
-
                         </div>
                     </div>
                 </div>
