@@ -135,9 +135,9 @@ export default function CorporateIdentity() {
           </div>
         </section>
 
-        <section className="mt-md-5 mt-0 mb-5">
+        <section className="mt-md-5 mt-0 ">
           <div className="row m-0 justify-content-center">
-            <div className="col-md-10 p-4">
+            <div className="col-md-10 p-4 p-md-0">
               <div className="header">
                 <h2 className="title">{t('message')}</h2>
                 {/* <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> */}
@@ -168,8 +168,8 @@ export default function CorporateIdentity() {
                   </div>
                 </div>
 
-                <div className="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
-                  <div className={s.presidentImageWrapper}>
+                {/* <div className="col-md-6 order-1 order-md-2 mb-4 mb-md-0"> */}
+                  <div className={`${s.presidentImageWrapper} col-md-6 order-1 order-md-2 mb-4 mb-md-0`}>
                     <div className={s.blueBg}></div>
 
                     <img
@@ -180,7 +180,7 @@ export default function CorporateIdentity() {
 
                     <div className={s.dotPattern}></div>
                   </div>
-                </div>
+                {/* </div> */}
               </div>
             </div>
           </div>

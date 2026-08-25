@@ -179,7 +179,7 @@
 }
 
 .presMessage{
-    height: 530px;
+    min-height: auto;
 }
 
 /* 📱 mobile fix */
