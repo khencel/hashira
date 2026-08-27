@@ -40,7 +40,7 @@ export default function Construction() {
                                     {t('Japanese')}
                                 </span>
                                 <p className="subtitle" style={{fontSize:"14px"}}>
-                                    日本独自の「おもてなし」の精神を学び、相手を思いやる心や気配り、礼儀を身につけます。利用者やお客様に満足していただけるサービスの提供を目指します。
+                                    {t('JapaneseDesc')}
                                 </p>
                             </div>
                             <div className="col-lg-5 col-md-8 col-12" style={{paddingTop:"10px"}}>
@@ -85,7 +85,7 @@ export default function Construction() {
                                     {t('Technical')}
                                 </span>
                                 <p className="subtitle" style={{fontSize:"14px"}}>
-                                    接客業で使用される敬語や専門用語を学び、お客様や利用者に対して適切で丁寧な対応ができるコミュニケーション能力を養います。
+                                    {t('TechnicalDesc')}
                                 </p>
                             </div>
                             <div className="col-md-5" style={{paddingTop:"10px"}}>
