@@ -150,7 +150,7 @@ export default function Home() {
           </p>
 
           <div className="position-absolute"  style={{top:"0px",right:"0px",height:"100%",width:"30%"}}>
-             <a href="https://www.youtube.com/channel/UCE9mVgF3EqaZefDfjo0SQCA"
+             <a href="https://www.youtube.com/watch?v=JAdDRmPSRJY"
                 target="_blank"
                 className="youtube-subscribe-btn">
 
@@ -171,7 +171,7 @@ export default function Home() {
         
         <div style={styles.videoCard} className={s.videoCard}>
             <YouTube
-              videoId="aAOoxl6C0yU"
+              videoId="JAdDRmPSRJY"
               opts={{
                 width: "100%",
                 height: "100%",
@@ -180,7 +180,7 @@ export default function Home() {
                   controls: 1,
                   mute: 1,
                   loop: 1,
-                  playlist: "aAOoxl6C0yU",
+                  playlist: "JAdDRmPSRJY",
                 },
               }}
               style={styles.youtube}
