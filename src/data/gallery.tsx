@@ -69,6 +69,7 @@ export function getGallery(){
         { id: 59, category: "interview", imageUrl:"/img/gallery/interview/45.jpg" },
         { id: 60, category: "interview", imageUrl:"/img/gallery/interview/46.jpg" },
         { id: 61, category: "interview", imageUrl:"/img/gallery/interview/47.jpg" },
+        { id: 115, category: "interview", imageUrl:"/img/gallery/interview/48.jpg" },
 
 
         { id: 62, category: "tradetest", imageUrl:"/img/gallery/tradeTests/1.jpg" },
@@ -94,6 +95,7 @@ export function getGallery(){
         { id: 81, category: "tradetest", imageUrl:"/img/gallery/tradeTests/20.jpg" },
         { id: 82, category: "tradetest", imageUrl:"/img/gallery/tradeTests/21.jpg" },
         { id: 83, category: "tradetest", imageUrl:"/img/gallery/tradeTests/22.jpg" },
+        { id: 114, category: "tradetest", imageUrl:"/img/gallery/tradeTests/23.jpg" },
 
 
 
